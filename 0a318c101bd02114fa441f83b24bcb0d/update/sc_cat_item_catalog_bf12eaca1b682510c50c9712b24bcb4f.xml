@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Federal Land Use">ea5a20221b946910bd2feac6624bcb4b</sc_cat_item>
+        <sc_catalog display_value="Agreements">76f166c61b682150bd2feac6624bcba4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>kelton.keener</sys_created_by>
+        <sys_created_on>2023-01-24 01:32:56</sys_created_on>
+        <sys_id>bf12eaca1b682510c50c9712b24bcb4f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Agreements.Federal Land Use</sys_name>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_bf12eaca1b682510c50c9712b24bcb4f</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-01-24 01:33:21</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>
