@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="agreement_type" table="x_epiu2_ncc_prot_0_agreements" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>agreement_type</element>
+            <name>x_epiu2_ncc_prot_0_agreements</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>fouad.chehime</sys_created_by>
+            <sys_created_on>2023-01-05 17:44:48</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>agreement_type</sys_name>
+            <sys_package display_value="NCC Prototype Test" source="x_epiu2_ncc_prot_0">0a318c101bd02114fa441f83b24bcb0d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+            <sys_update_name>sys_choice_x_epiu2_ncc_prot_0_agreements_agreement_type</sys_update_name>
+            <sys_updated_by>fouad.chehime</sys_updated_by>
+            <sys_updated_on>2023-01-05 17:44:48</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>agreement_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Event permit</label>
+            <language>en</language>
+            <name>x_epiu2_ncc_prot_0_agreements</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>fouad.chehime</sys_created_by>
+            <sys_created_on>2023-01-11 17:02:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>corbin.keener</sys_updated_by>
+            <sys_updated_on>2023-01-12 16:07:49</sys_updated_on>
+            <value>event_permit</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>agreement_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Real estate</label>
+            <language>en</language>
+            <name>x_epiu2_ncc_prot_0_agreements</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>fouad.chehime</sys_created_by>
+            <sys_created_on>2023-01-05 17:44:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>corbin.keener</sys_updated_by>
+            <sys_updated_on>2023-01-12 16:07:56</sys_updated_on>
+            <value>real_estate</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>agreement_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Land access permit</label>
+            <language>en</language>
+            <name>x_epiu2_ncc_prot_0_agreements</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>fouad.chehime</sys_created_by>
+            <sys_created_on>2023-01-05 17:44:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>corbin.keener</sys_updated_by>
+            <sys_updated_on>2023-01-12 16:08:20</sys_updated_on>
+            <value>land_access_permit</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>agreement_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Drone use permit</label>
+            <language>en</language>
+            <name>x_epiu2_ncc_prot_0_agreements</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>fouad.chehime</sys_created_by>
+            <sys_created_on>2023-01-12 16:05:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>fouad.chehime</sys_updated_by>
+            <sys_updated_on>2023-01-12 16:05:29</sys_updated_on>
+            <value>drone_use_permit</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>agreement_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Federal land use</label>
+            <language>en</language>
+            <name>x_epiu2_ncc_prot_0_agreements</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>fouad.chehime</sys_created_by>
+            <sys_created_on>2023-01-12 16:05:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>fouad.chehime</sys_updated_by>
+            <sys_updated_on>2023-01-12 16:05:30</sys_updated_on>
+            <value>federal_land_use</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>agreement_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Wedding ceremonies</label>
+            <language>en</language>
+            <name>x_epiu2_ncc_prot_0_agreements</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>fouad.chehime</sys_created_by>
+            <sys_created_on>2023-01-12 16:05:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>fouad.chehime</sys_updated_by>
+            <sys_updated_on>2023-01-12 16:05:30</sys_updated_on>
+            <value>wedding_ceremonies</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>agreement_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Partnerships &amp; collaborations</label>
+            <language>en</language>
+            <name>x_epiu2_ncc_prot_0_agreements</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>fouad.chehime</sys_created_by>
+            <sys_created_on>2023-01-12 16:05:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>fouad.chehime</sys_updated_by>
+            <sys_updated_on>2023-01-12 16:05:30</sys_updated_on>
+            <value>partner_collab</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

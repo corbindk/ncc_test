@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_type">
+    <sys_ux_screen_type action="INSERT_OR_UPDATE">
+        <description/>
+        <name>Order success</name>
+        <sys_class_name>sys_ux_screen_type</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-01-05 17:12:10</sys_created_on>
+        <sys_id>c0e2005411d0211457094e6fe672ece2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Order success</sys_name>
+        <sys_package display_value="NCC Prototype Test" source="x_epiu2_ncc_prot_0">0a318c101bd02114fa441f83b24bcb0d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_update_name>sys_ux_screen_type_c0e2005411d0211457094e6fe672ece2</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-01-05 17:12:10</sys_updated_on>
+    </sys_ux_screen_type>
+    <sys_translated_text action="delete_multiple" query="documentkey=c0e2005411d0211457094e6fe672ece2"/>
+</record_update>

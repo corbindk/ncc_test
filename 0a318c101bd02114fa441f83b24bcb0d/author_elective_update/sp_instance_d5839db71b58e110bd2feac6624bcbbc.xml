@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">f77391f71b58e110bd2feac6624bcb87</sp_column>
+        <sp_widget display_value="EC - Popular Topics">f213d3381b0a781012985240604bcb90</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-16 20:03:12</sys_created_on>
+        <sys_id>d5839db71b58e110bd2feac6624bcbbc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NCC Prototype Test" source="x_epiu2_ncc_prot_0">0a318c101bd02114fa441f83b24bcb0d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_update_name>sp_instance_d5839db71b58e110bd2feac6624bcbbc</sys_update_name>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-16 20:03:12</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=d5839db71b58e110bd2feac6624bcbbc"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</application>
+        <file_path/>
+        <instance_id>b11511a6dbae9458d5c911f8489619dc</instance_id>
+        <instance_name>epiusesystemsltddemo5</instance_name>
+        <name>sp_instance_d5839db71b58e110bd2feac6624bcbbc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">f77391f71b58e110bd2feac6624bcb87</sp_column><sp_widget display_value="EC - Popular Topics">f213d3381b0a781012985240604bcb90</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>corbin.keener</sys_created_by><sys_created_on>2023-01-16 20:03:12</sys_created_on><sys_id>d5839db71b58e110bd2feac6624bcbbc</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="NCC Prototype Test" source="x_epiu2_ncc_prot_0">0a318c101bd02114fa441f83b24bcb0d</sys_package><sys_policy/><sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope><sys_update_name>sp_instance_d5839db71b58e110bd2feac6624bcbbc</sys_update_name><sys_updated_by>corbin.keener</sys_updated_by><sys_updated_on>2023-01-16 20:03:12</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=d5839db71b58e110bd2feac6624bcbbc"/></record_update>]]></payload>
+        <payload_hash>530858414</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>86318c101bd02114fa441f83b24bcb0f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-16 20:03:12</sys_created_on>
+        <sys_id>e9839db71b58e110bd2feac6624bcbbe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>185bc2dbf230000001</sys_recorded_at>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-16 20:03:12</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>e1839db75158e1100d8d24bc2747c3be</update_guid>
+        <update_guid_history>e1839db75158e1100d8d24bc2747c3be:530858414</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">e9c3d9f71b58e110bd2feac6624bcb6e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-16 20:04:18</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>2e9ce988a0f747319b7fa9d673bdb309</sys_id>
+        <sys_metadata>d5839db71b58e110bd2feac6624bcbbc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NCC Prototype Test" source="x_epiu2_ncc_prot_0">0a318c101bd02114fa441f83b24bcb0d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_scope_delete display_value="">6631e1eea7c748a8800af1afbbaa7c40</sys_scope_delete>
+        <sys_update_name>sp_instance_d5839db71b58e110bd2feac6624bcbbc</sys_update_name>
+        <sys_update_version display_value="sp_instance_d5839db71b58e110bd2feac6624bcbbc">e9839db71b58e110bd2feac6624bcbbe</sys_update_version>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-16 20:04:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

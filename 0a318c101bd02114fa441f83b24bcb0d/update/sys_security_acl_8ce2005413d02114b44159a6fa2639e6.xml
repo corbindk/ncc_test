@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>ACL for Data broker: Content set evam broker - My Tasks</description>
+        <name>08e200540ad021142e5aa061991de4e6</name>
+        <operation display_value="execute">execute</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-01-05 17:12:09</sys_created_on>
+        <sys_id>8ce2005413d02114b44159a6fa2639e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>08e200540ad021142e5aa061991de4e6</sys_name>
+        <sys_package display_value="NCC Prototype Test" source="x_epiu2_ncc_prot_0">0a318c101bd02114fa441f83b24bcb0d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_update_name>sys_security_acl_8ce2005413d02114b44159a6fa2639e6</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-01-05 17:12:09</sys_updated_on>
+        <type display_value="ux_data_broker">6d9c40e9531210101cb3ddeeff7b12f6</type>
+    </sys_security_acl>
+</record_update>

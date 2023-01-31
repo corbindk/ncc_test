@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>listConfigId</name>
+        <page display_value="Initiating Division Workspace">df08e0614d1025101c691208a9acd205</page>
+        <required_translations>[]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>kelton.keener</sys_created_by>
+        <sys_created_on>2023-01-09 17:06:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>1708e061a310251020a2bb7a41905d03</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>listConfigId</sys_name>
+        <sys_package display_value="NCC Prototype Test" source="x_epiu2_ncc_prot_0">0a318c101bd02114fa441f83b24bcb0d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_update_name>sys_ux_page_property_1708e061a310251020a2bb7a41905d03</sys_update_name>
+        <sys_updated_by>kelton.keener</sys_updated_by>
+        <sys_updated_on>2023-01-09 17:07:00</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_epiu2_ncc_prot_0.df08e0614d1025101c691208a9acd205.root.listConfigId</unique_name>
+        <value>c018e0611b102510bd2feac6624bcbe6</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=1708e061a310251020a2bb7a41905d03"/>
+</record_update>

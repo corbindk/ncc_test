@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom">
+    <sc_cat_item_user_criteria_no_mtom action="DELETE">
+        <sc_cat_item display_value="Land Access Permit">2366006e1b906910bd2feac6624bcb78</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name>
+        <sys_created_by>fouad.chehime</sys_created_by>
+        <sys_created_on>2023-01-12 17:13:58</sys_created_on>
+        <sys_id>a366006e1b906910bd2feac6624bcbe9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Land Access Permit.SNC External</sys_name>
+        <sys_package display_value="NCC Prototype Test" source="x_epiu2_ncc_prot_0">0a318c101bd02114fa441f83b24bcb0d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_a366006e1b906910bd2feac6624bcbe9</sys_update_name>
+        <sys_updated_by>fouad.chehime</sys_updated_by>
+        <sys_updated_on>2023-01-12 17:13:58</sys_updated_on>
+        <user_criteria display_value="SNC External">66c1b50e730333009508738234f6a7c9</user_criteria>
+    </sc_cat_item_user_criteria_no_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</application>
+        <file_path/>
+        <instance_id>b11511a6dbae9458d5c911f8489619dc</instance_id>
+        <instance_name>epiusesystemsltddemo5</instance_name>
+        <name>sc_cat_item_user_criteria_no_mtom_a366006e1b906910bd2feac6624bcbe9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom"><sc_cat_item_user_criteria_no_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="Land Access Permit">2366006e1b906910bd2feac6624bcb78</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name><sys_created_by>fouad.chehime</sys_created_by><sys_created_on>2023-01-12 17:13:58</sys_created_on><sys_id>a366006e1b906910bd2feac6624bcbe9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Land Access Permit.SNC External</sys_name><sys_package display_value="NCC Prototype Test" source="x_epiu2_ncc_prot_0">0a318c101bd02114fa441f83b24bcb0d</sys_package><sys_policy/><sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope><sys_update_name>sc_cat_item_user_criteria_no_mtom_a366006e1b906910bd2feac6624bcbe9</sys_update_name><sys_updated_by>fouad.chehime</sys_updated_by><sys_updated_on>2023-01-12 17:13:58</sys_updated_on><user_criteria display_value="SNC External">66c1b50e730333009508738234f6a7c9</user_criteria></sc_cat_item_user_criteria_no_mtom></record_update>]]></payload>
+        <payload_hash>76483184</payload_hash>
+        <record_name>Land Access Permit.SNC External</record_name>
+        <reverted_from/>
+        <source>b0a0a8301b102110fa441f83b24bcb0c</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2023-01-07 08:39:06</sys_created_on>
+        <sys_id>36f607421b6c2510c50c9712b24bcbf7</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>1858b6230100000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Catalog Item Not Available for</type>
+        <update_guid>f2f607428e6c251017dc7757d3d0d9f7</update_guid>
+        <update_guid_history>f2f607428e6c251017dc7757d3d0d9f7:76483184</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Land Access Permit.SNC External">b6f6c7421b6c2510c50c9712b24bcb80</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kelton.keener</sys_created_by>
+        <sys_created_on>2023-01-24 04:13:59</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_no_mtom">sc_cat_item_user_criteria_no_mtom</sys_db_object>
+        <sys_id>5964daf393804b5b841b2a9e19799659</sys_id>
+        <sys_metadata>a366006e1b906910bd2feac6624bcbe9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Land Access Permit.SNC External</sys_name>
+        <sys_package display_value="NCC Prototype Test" source="x_epiu2_ncc_prot_0">0a318c101bd02114fa441f83b24bcb0d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_scope_delete display_value="">6631e1eea7c748a8800af1afbbaa7c40</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_a366006e1b906910bd2feac6624bcbe9</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_no_mtom_a366006e1b906910bd2feac6624bcbe9">36f607421b6c2510c50c9712b24bcbf7</sys_update_version>
+        <sys_updated_by>kelton.keener</sys_updated_by>
+        <sys_updated_on>2023-01-24 04:13:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

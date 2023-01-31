@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="Initiating Division v2 Config">e79f01d789a0e91042f67d78ec4d11ff</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon>graduation-cap-outline</icon>
+        <name>Agent assist</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Record">558adc930f0210107d20409dc4767e84</parent_macroponent>
+        <parent_macroponent_composition_element_id>contextual_sidebar</parent_macroponent_composition_element_id>
+        <route_type>agentassisttab</route_type>
+        <screen_type display_value="">d15fd4970f0210107d20409dc4767e08</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>kelton.keener</sys_created_by>
+        <sys_created_on>2023-01-27 16:44:53</sys_created_on>
+        <sys_id>ef9f01d7a3a0e91020c3bb042b3ec9fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Agent assist</sys_name>
+        <sys_package display_value="NCC Prototype Test" source="x_epiu2_ncc_prot_0">0a318c101bd02114fa441f83b24bcb0d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_update_name>sys_ux_app_route_ef9f01d7a3a0e91020c3bb042b3ec9fe</sys_update_name>
+        <sys_updated_by>kelton.keener</sys_updated_by>
+        <sys_updated_on>2023-01-27 16:44:53</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=ef9f01d7a3a0e91020c3bb042b3ec9fe"/>
+</record_update>

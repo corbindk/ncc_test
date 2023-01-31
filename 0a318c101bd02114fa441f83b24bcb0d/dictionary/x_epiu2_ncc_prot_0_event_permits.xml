@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0dc2a4e21b546910bd2feac6624bcb54" extends="x_epiu2_ncc_prot_0_agreements" label="Event Permits" max_length="40" name="x_epiu2_ncc_prot_0_event_permits" text_index="true" type="collection"/>
+</database>

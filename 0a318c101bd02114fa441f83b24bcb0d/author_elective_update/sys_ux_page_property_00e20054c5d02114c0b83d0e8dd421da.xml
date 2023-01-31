@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>global_search_configurations</name>
+        <page display_value="">84e2005439d02114219a450d29b4ced7</page>
+        <required_translations/>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-01-05 17:12:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>00e20054c5d02114c0b83d0e8dd421da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>global_search_configurations</sys_name>
+        <sys_package display_value="NCC Prototype Test" source="x_epiu2_ncc_prot_0">0a318c101bd02114fa441f83b24bcb0d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_update_name>sys_ux_page_property_00e20054c5d02114c0b83d0e8dd421da</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-01-05 17:12:08</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_epiu2_ncc_prot_0.84e2005439d02114219a450d29b4ced7.root.global_search_configurations</unique_name>
+        <value>{&#13;
+  "globalSearchContextConfigId": "00731b9d5b231010d9a5ce1a8581c7dd"&#13;
+}</value>
+    </sys_ux_page_property>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</application>
+        <file_path/>
+        <instance_id>b11511a6dbae9458d5c911f8489619dc</instance_id>
+        <instance_name>epiusesystemsltddemo5</instance_name>
+        <name>sys_ux_page_property_00e20054c5d02114c0b83d0e8dd421da</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name>global_search_configurations</name><page display_value="">84e2005439d02114219a450d29b4ced7</page><required_translations/><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2023-01-05 17:12:08</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>00e20054c5d02114c0b83d0e8dd421da</sys_id><sys_mod_count>0</sys_mod_count><sys_name>global_search_configurations</sys_name><sys_package display_value="NCC Prototype Test" source="x_epiu2_ncc_prot_0">0a318c101bd02114fa441f83b24bcb0d</sys_package><sys_policy/><sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope><sys_update_name>sys_ux_page_property_00e20054c5d02114c0b83d0e8dd421da</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2023-01-05 17:12:08</sys_updated_on><type>json</type><unique_name>x_epiu2_ncc_prot_0.84e2005439d02114219a450d29b4ced7.root.global_search_configurations</unique_name><value>{&#13;
+  "globalSearchContextConfigId": "00731b9d5b231010d9a5ce1a8581c7dd"&#13;
+}</value></sys_ux_page_property></record_update>]]></payload>
+        <payload_hash>-1969647906</payload_hash>
+        <record_name>global_search_configurations</record_name>
+        <reverted_from/>
+        <source>b0a0a8301b102110fa441f83b24bcb0c</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2023-01-07 08:39:06</sys_created_on>
+        <sys_id>9b9e71391b1c6510bd2feac6624bcba1</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>1858b6230100000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Page Property</type>
+        <update_guid>5b9e7139f11c6510f562cbf3eb9b46a1</update_guid>
+        <update_guid_history>5b9e7139f11c6510f562cbf3eb9b46a1:-1969647906</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>fouad.chehime</sys_created_by>
+        <sys_created_on>2023-01-10 18:03:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>04abf6a832b244c884259a0863d31a01</sys_id>
+        <sys_metadata>00e20054c5d02114c0b83d0e8dd421da</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>global_search_configurations</sys_name>
+        <sys_package display_value="NCC Prototype Test" source="x_epiu2_ncc_prot_0">0a318c101bd02114fa441f83b24bcb0d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_scope_delete display_value="">6631e1eea7c748a8800af1afbbaa7c40</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_00e20054c5d02114c0b83d0e8dd421da</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_00e20054c5d02114c0b83d0e8dd421da">9b9e71391b1c6510bd2feac6624bcba1</sys_update_version>
+        <sys_updated_by>fouad.chehime</sys_updated_by>
+        <sys_updated_on>2023-01-10 18:03:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

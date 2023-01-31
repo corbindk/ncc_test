@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="FLUDTA Application Form">ea5a20221b946910bd2feac6624bcb4b</catalog_item>
+        <catalog_variable>IO:190fdc761b242550bd2feac6624bcb4a</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>fouad.chehime</sys_created_by>
+        <sys_created_on>2023-01-25 23:58:43</sys_created_on>
+        <sys_id>83bf54f61b242550bd2feac6624bcbae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>postal_code_lo</sys_name>
+        <sys_package display_value="NCC Prototype Test" source="x_epiu2_ncc_prot_0">0a318c101bd02114fa441f83b24bcb0d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_83bf54f61b242550bd2feac6624bcbae</sys_update_name>
+        <sys_updated_by>fouad.chehime</sys_updated_by>
+        <sys_updated_on>2023-01-25 23:58:43</sys_updated_on>
+        <table/>
+        <ui_policy display_value="FLUDTA Application Form UI policy">c8bfd0f61b242550bd2feac6624bcbfa</ui_policy>
+        <variable>postal_code_lo</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</application>
+        <file_path/>
+        <instance_id>b11511a6dbae9458d5c911f8489619dc</instance_id>
+        <instance_name>epiusesystemsltddemo5</instance_name>
+        <name>catalog_ui_policy_action_83bf54f61b242550bd2feac6624bcbae</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="FLUDTA Application Form">ea5a20221b946910bd2feac6624bcb4b</catalog_item><catalog_variable>IO:190fdc761b242550bd2feac6624bcb4a</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><mandatory>true</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>fouad.chehime</sys_created_by><sys_created_on>2023-01-25 23:58:43</sys_created_on><sys_id>83bf54f61b242550bd2feac6624bcbae</sys_id><sys_mod_count>0</sys_mod_count><sys_name>postal_code_lo</sys_name><sys_package display_value="NCC Prototype Test" source="x_epiu2_ncc_prot_0">0a318c101bd02114fa441f83b24bcb0d</sys_package><sys_policy/><sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope><sys_update_name>catalog_ui_policy_action_83bf54f61b242550bd2feac6624bcbae</sys_update_name><sys_updated_by>fouad.chehime</sys_updated_by><sys_updated_on>2023-01-25 23:58:43</sys_updated_on><table/><ui_policy display_value="FLUDTA Application Form UI policy">c8bfd0f61b242550bd2feac6624bcbfa</ui_policy><variable>postal_code_lo</variable><variable_set/><visible>ignore</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>881758267</payload_hash>
+        <record_name>postal_code_lo</record_name>
+        <reverted_from/>
+        <source>86318c101bd02114fa441f83b24bcb0f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>fouad.chehime</sys_created_by>
+        <sys_created_on>2023-01-25 23:58:43</sys_created_on>
+        <sys_id>8bbf54f61b242550bd2feac6624bcbb1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>185eb5e996b0000001</sys_recorded_at>
+        <sys_updated_by>fouad.chehime</sys_updated_by>
+        <sys_updated_on>2023-01-25 23:58:43</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>cfbf54f68b2425503fc792d14068fab0</update_guid>
+        <update_guid_history>cfbf54f68b2425503fc792d14068fab0:881758267</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="postal_code_lo">2ddf18f61b242550bd2feac6624bcb1d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>fouad.chehime</sys_created_by>
+        <sys_created_on>2023-01-25 23:59:09</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>22feee479f93403092e322fe6d505a40</sys_id>
+        <sys_metadata>83bf54f61b242550bd2feac6624bcbae</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>postal_code_lo</sys_name>
+        <sys_package display_value="NCC Prototype Test" source="x_epiu2_ncc_prot_0">0a318c101bd02114fa441f83b24bcb0d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_scope_delete display_value="">6631e1eea7c748a8800af1afbbaa7c40</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_83bf54f61b242550bd2feac6624bcbae</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_83bf54f61b242550bd2feac6624bcbae">8bbf54f61b242550bd2feac6624bcbb1</sys_update_version>
+        <sys_updated_by>fouad.chehime</sys_updated_by>
+        <sys_updated_on>2023-01-25 23:59:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

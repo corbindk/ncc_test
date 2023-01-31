@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="32488c981b5469d0c50c9712b24bcb80" label="Agreements" max_length="40" name="x_epiu2_ncc_prot_0_agreements" text_index="true" type="collection">
+        <element label="Additional DOC" max_length="40" name="additional_doc" type="file_attachment"/>
+        <element label="Agreement DOC" max_length="40" name="agreement_doc" type="file_attachment"/>
+        <element attributes="edge_encryption_enabled=true" label="Agreement number" max_length="40" name="agreement_number" read_only="true" type="string"/>
+        <element active="false" attributes="edge_encryption_enabled=true" choice="3" default="--" label="Type of Opportunities" mandatory="true" max_length="40" name="agreement_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Event permit" sequence="0" value="event_permit"/>
+                <element inactive_on_update="false" label="Real estate" sequence="1" value="real_estate"/>
+                <element inactive_on_update="false" label="Land access permit" sequence="2" value="land_access_permit"/>
+                <element inactive_on_update="false" label="Drone use permit" sequence="3" value="drone_use_permit"/>
+                <element inactive_on_update="false" label="Federal land use" sequence="4" value="federal_land_use"/>
+                <element inactive_on_update="false" label="Wedding ceremonies" sequence="5" value="wedding_ceremonies"/>
+                <element inactive_on_update="false" label="Partnerships &amp; collaborations" sequence="6" value="partner_collab"/>
+            </choice>
+        </element>
+        <element label="Assignment Group" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
+        <element label="Client" max_length="32" name="client" reference="x_epiu2_ncc_prot_0_ncc_client" type="reference"/>
+        <element active="false" attributes="encode_utf8=false" choice="3" label="Client" mandatory="true" max_length="32" name="customer_name" read_only="true" reference="x_epiu2_ncc_prot_0_ncc_client" type="reference">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="300" name="description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Email Address" max_length="40" name="email_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="End date" mandatory="true" max_length="40" name="end_date" type="glide_date"/>
+        <element label="Location" max_length="32" name="location" reference="cmn_location" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="NCC Asset Number" max_length="40" name="ncc_asset_number" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Paid" max_length="40" name="paid" type="boolean"/>
+        <element label="Payable" max_length="40" name="payable" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" label="Project Category" max_length="40" name="project_category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="New Project" sequence="0" value="new_project"/>
+                <element inactive_on_update="false" label="Long Range Plan" sequence="1" value="long_range_plan"/>
+                <element inactive_on_update="false" label="Site Master Plan" sequence="2" value="site_master_plan"/>
+            </choice>
+        </element>
+        <element label="Purchase REQ" max_length="40" name="purchase_req" type="file_attachment"/>
+        <element label="Receivable" max_length="40" name="receivable" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Start date" mandatory="true" max_length="40" name="start_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" label="State" max_length="40" name="state" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Add Legal Stamp" value="add_legal_stamp"/>
+                <element inactive_on_update="false" label="Reviewing/Updating Agreement" value="review_update"/>
+                <element inactive_on_update="false" label="Seek Approval Required" value="seek_approval_required"/>
+                <element inactive_on_update="false" label="Request Submitted" sequence="0" value="initiate"/>
+                <element inactive_on_update="false" label="Documents Requested" sequence="1" value="documents_requested"/>
+                <element inactive_on_update="false" label="Client Validation" sequence="2" value="in_review"/>
+                <element inactive_on_update="false" label="Proceed w/ Agreement" sequence="3" value="in_progress"/>
+                <element inactive_on_update="false" label="Awaiting Signature" sequence="4" value="on_hold"/>
+                <element inactive_on_update="false" label="Closed" sequence="5" value="closed"/>
+                <element inactive_on_update="false" label="Review, Provide comments &amp; Sign" sequence="6" value="review_update_sign_comments"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="7" value="cancelled"/>
+            </choice>
+        </element>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" label="Type of Project" max_length="40" name="type_of_project" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Temporary" sequence="0" value="temporary"/>
+                <element inactive_on_update="false" label="Permanent" sequence="1" value="permanent"/>
+                <element inactive_on_update="false" label="Land Use Change" sequence="2" value="land_use_change"/>
+                <element inactive_on_update="false" label="Approval Amendment" sequence="3" value="approval_amendment"/>
+            </choice>
+        </element>
+        <element label="Value" max_length="40" name="value" type="currency2"/>
+        <index name="index">
+            <element name="assignment_group"/>
+        </index>
+        <index name="index2">
+            <element name="client"/>
+        </index>
+        <index name="index3">
+            <element name="customer_name"/>
+        </index>
+        <index name="index4">
+            <element name="location"/>
+        </index>
+        <index name="index5">
+            <element name="sys_class_name"/>
+        </index>
+        <index name="index6">
+            <element name="value"/>
+        </index>
+    </element>
+</database>

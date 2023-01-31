@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Contact Details" section_id="1e06f6821be82150bd2feac6624bcbc3" sys_domain="global" table="x_epiu2_ncc_prot_0_ncc_client" version="3" view="human_resources">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>corbin.keener</sys_created_by>
+            <sys_created_on>2023-01-24 02:59:56</sys_created_on>
+            <sys_id>9a06f6821be82150bd2feac6624bcbc4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contact Details" display_value="Contact Details" name="x_epiu2_ncc_prot_0_ncc_client" sys_domain="global" view="3e5370019f22120047a2d126c42e705b">1e06f6821be82150bd2feac6624bcbc3</sys_ui_section>
+            <sys_updated_by>corbin.keener</sys_updated_by>
+            <sys_updated_on>2023-01-24 02:59:56</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>building</element>
+            <position>1</position>
+            <sys_created_by>corbin.keener</sys_created_by>
+            <sys_created_on>2023-01-24 02:59:56</sys_created_on>
+            <sys_id>9e06f6821be82150bd2feac6624bcbc4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contact Details" display_value="Contact Details" name="x_epiu2_ncc_prot_0_ncc_client" sys_domain="global" view="3e5370019f22120047a2d126c42e705b">1e06f6821be82150bd2feac6624bcbc3</sys_ui_section>
+            <sys_updated_by>corbin.keener</sys_updated_by>
+            <sys_updated_on>2023-01-24 02:59:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>street</element>
+            <position>2</position>
+            <sys_created_by>corbin.keener</sys_created_by>
+            <sys_created_on>2023-01-24 02:59:56</sys_created_on>
+            <sys_id>9206f6821be82150bd2feac6624bcbc5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contact Details" display_value="Contact Details" name="x_epiu2_ncc_prot_0_ncc_client" sys_domain="global" view="3e5370019f22120047a2d126c42e705b">1e06f6821be82150bd2feac6624bcbc3</sys_ui_section>
+            <sys_updated_by>corbin.keener</sys_updated_by>
+            <sys_updated_on>2023-01-24 02:59:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>city</element>
+            <position>3</position>
+            <sys_created_by>corbin.keener</sys_created_by>
+            <sys_created_on>2023-01-24 02:59:56</sys_created_on>
+            <sys_id>9606f6821be82150bd2feac6624bcbc5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contact Details" display_value="Contact Details" name="x_epiu2_ncc_prot_0_ncc_client" sys_domain="global" view="3e5370019f22120047a2d126c42e705b">1e06f6821be82150bd2feac6624bcbc3</sys_ui_section>
+            <sys_updated_by>corbin.keener</sys_updated_by>
+            <sys_updated_on>2023-01-24 02:59:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>4</position>
+            <sys_created_by>corbin.keener</sys_created_by>
+            <sys_created_on>2023-01-24 02:59:56</sys_created_on>
+            <sys_id>9a06f6821be82150bd2feac6624bcbc5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contact Details" display_value="Contact Details" name="x_epiu2_ncc_prot_0_ncc_client" sys_domain="global" view="3e5370019f22120047a2d126c42e705b">1e06f6821be82150bd2feac6624bcbc3</sys_ui_section>
+            <sys_updated_by>corbin.keener</sys_updated_by>
+            <sys_updated_on>2023-01-24 02:59:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>zip</element>
+            <position>5</position>
+            <sys_created_by>corbin.keener</sys_created_by>
+            <sys_created_on>2023-01-24 02:59:56</sys_created_on>
+            <sys_id>9e06f6821be82150bd2feac6624bcbc5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contact Details" display_value="Contact Details" name="x_epiu2_ncc_prot_0_ncc_client" sys_domain="global" view="3e5370019f22120047a2d126c42e705b">1e06f6821be82150bd2feac6624bcbc3</sys_ui_section>
+            <sys_updated_by>corbin.keener</sys_updated_by>
+            <sys_updated_on>2023-01-24 02:59:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>country</element>
+            <position>6</position>
+            <sys_created_by>corbin.keener</sys_created_by>
+            <sys_created_on>2023-01-24 02:59:56</sys_created_on>
+            <sys_id>9206f6821be82150bd2feac6624bcbc6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contact Details" display_value="Contact Details" name="x_epiu2_ncc_prot_0_ncc_client" sys_domain="global" view="3e5370019f22120047a2d126c42e705b">1e06f6821be82150bd2feac6624bcbc3</sys_ui_section>
+            <sys_updated_by>corbin.keener</sys_updated_by>
+            <sys_updated_on>2023-01-24 02:59:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>7</position>
+            <sys_created_by>corbin.keener</sys_created_by>
+            <sys_created_on>2023-01-24 02:59:56</sys_created_on>
+            <sys_id>9606f6821be82150bd2feac6624bcbc6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contact Details" display_value="Contact Details" name="x_epiu2_ncc_prot_0_ncc_client" sys_domain="global" view="3e5370019f22120047a2d126c42e705b">1e06f6821be82150bd2feac6624bcbc3</sys_ui_section>
+            <sys_updated_by>corbin.keener</sys_updated_by>
+            <sys_updated_on>2023-01-24 02:59:56</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>location</element>
+            <position>8</position>
+            <sys_created_by>corbin.keener</sys_created_by>
+            <sys_created_on>2023-01-24 02:59:56</sys_created_on>
+            <sys_id>9a06f6821be82150bd2feac6624bcbc6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contact Details" display_value="Contact Details" name="x_epiu2_ncc_prot_0_ncc_client" sys_domain="global" view="3e5370019f22120047a2d126c42e705b">1e06f6821be82150bd2feac6624bcbc3</sys_ui_section>
+            <sys_updated_by>corbin.keener</sys_updated_by>
+            <sys_updated_on>2023-01-24 02:59:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>email</element>
+            <position>9</position>
+            <sys_created_by>corbin.keener</sys_created_by>
+            <sys_created_on>2023-01-24 02:59:56</sys_created_on>
+            <sys_id>9e06f6821be82150bd2feac6624bcbc6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contact Details" display_value="Contact Details" name="x_epiu2_ncc_prot_0_ncc_client" sys_domain="global" view="3e5370019f22120047a2d126c42e705b">1e06f6821be82150bd2feac6624bcbc3</sys_ui_section>
+            <sys_updated_by>corbin.keener</sys_updated_by>
+            <sys_updated_on>2023-01-24 02:59:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>phone</element>
+            <position>10</position>
+            <sys_created_by>corbin.keener</sys_created_by>
+            <sys_created_on>2023-01-24 02:59:56</sys_created_on>
+            <sys_id>9206f6821be82150bd2feac6624bcbc7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contact Details" display_value="Contact Details" name="x_epiu2_ncc_prot_0_ncc_client" sys_domain="global" view="3e5370019f22120047a2d126c42e705b">1e06f6821be82150bd2feac6624bcbc3</sys_ui_section>
+            <sys_updated_by>corbin.keener</sys_updated_by>
+            <sys_updated_on>2023-01-24 02:59:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>mobile_phone</element>
+            <position>11</position>
+            <sys_created_by>corbin.keener</sys_created_by>
+            <sys_created_on>2023-01-24 02:59:56</sys_created_on>
+            <sys_id>9606f6821be82150bd2feac6624bcbc7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contact Details" display_value="Contact Details" name="x_epiu2_ncc_prot_0_ncc_client" sys_domain="global" view="3e5370019f22120047a2d126c42e705b">1e06f6821be82150bd2feac6624bcbc3</sys_ui_section>
+            <sys_updated_by>corbin.keener</sys_updated_by>
+            <sys_updated_on>2023-01-24 02:59:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>home_phone</element>
+            <position>12</position>
+            <sys_created_by>corbin.keener</sys_created_by>
+            <sys_created_on>2023-01-24 02:59:56</sys_created_on>
+            <sys_id>9a06f6821be82150bd2feac6624bcbc7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contact Details" display_value="Contact Details" name="x_epiu2_ncc_prot_0_ncc_client" sys_domain="global" view="3e5370019f22120047a2d126c42e705b">1e06f6821be82150bd2feac6624bcbc3</sys_ui_section>
+            <sys_updated_by>corbin.keener</sys_updated_by>
+            <sys_updated_on>2023-01-24 02:59:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>13</position>
+            <sys_created_by>corbin.keener</sys_created_by>
+            <sys_created_on>2023-01-24 02:59:56</sys_created_on>
+            <sys_id>9e06f6821be82150bd2feac6624bcbc7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contact Details" display_value="Contact Details" name="x_epiu2_ncc_prot_0_ncc_client" sys_domain="global" view="3e5370019f22120047a2d126c42e705b">1e06f6821be82150bd2feac6624bcbc3</sys_ui_section>
+            <sys_updated_by>corbin.keener</sys_updated_by>
+            <sys_updated_on>2023-01-24 02:59:56</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Contact Details</caption>
+            <header>false</header>
+            <name>x_epiu2_ncc_prot_0_ncc_client</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>corbin.keener</sys_created_by>
+            <sys_created_on>2023-01-24 02:59:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1e06f6821be82150bd2feac6624bcbc3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_epiu2_ncc_prot_0_ncc_client</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="NCC Prototype Test" source="x_epiu2_ncc_prot_0">0a318c101bd02114fa441f83b24bcb0d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+            <sys_update_name>sys_ui_section_1e06f6821be82150bd2feac6624bcbc3</sys_update_name>
+            <sys_updated_by>corbin.keener</sys_updated_by>
+            <sys_updated_on>2023-01-24 02:59:56</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Human Resources" name="human_resources">3e5370019f22120047a2d126c42e705b</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

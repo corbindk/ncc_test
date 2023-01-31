@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="FLUDTA Application Form">ea5a20221b946910bd2feac6624bcb4b</catalog_item>
+        <catalog_variable>IO:fc245cbe1ba02550bd2feac6624bcb0d</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>fouad.chehime</sys_created_by>
+        <sys_created_on>2023-01-25 23:37:49</sys_created_on>
+        <sys_id>41fad47e1be02550bd2feac6624bcbc1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>street_address_billing</sys_name>
+        <sys_package display_value="NCC Prototype Test" source="x_epiu2_ncc_prot_0">0a318c101bd02114fa441f83b24bcb0d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_41fad47e1be02550bd2feac6624bcbc1</sys_update_name>
+        <sys_updated_by>fouad.chehime</sys_updated_by>
+        <sys_updated_on>2023-01-25 23:37:49</sys_updated_on>
+        <table/>
+        <ui_policy display_value="FLUDTA Application Form UI policy">9fea547e1be02550bd2feac6624bcb71</ui_policy>
+        <variable>street_address_billing</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</application>
+        <file_path/>
+        <instance_id>b11511a6dbae9458d5c911f8489619dc</instance_id>
+        <instance_name>epiusesystemsltddemo5</instance_name>
+        <name>catalog_ui_policy_action_41fad47e1be02550bd2feac6624bcbc1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="FLUDTA Application Form">ea5a20221b946910bd2feac6624bcb4b</catalog_item><catalog_variable>IO:fc245cbe1ba02550bd2feac6624bcb0d</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><mandatory>ignore</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>fouad.chehime</sys_created_by><sys_created_on>2023-01-25 23:37:49</sys_created_on><sys_id>41fad47e1be02550bd2feac6624bcbc1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>street_address_billing</sys_name><sys_package display_value="NCC Prototype Test" source="x_epiu2_ncc_prot_0">0a318c101bd02114fa441f83b24bcb0d</sys_package><sys_policy/><sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope><sys_update_name>catalog_ui_policy_action_41fad47e1be02550bd2feac6624bcbc1</sys_update_name><sys_updated_by>fouad.chehime</sys_updated_by><sys_updated_on>2023-01-25 23:37:49</sys_updated_on><table/><ui_policy display_value="FLUDTA Application Form UI policy">9fea547e1be02550bd2feac6624bcb71</ui_policy><variable>street_address_billing</variable><variable_set/><visible>true</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-2067491420</payload_hash>
+        <record_name>street_address_billing</record_name>
+        <reverted_from/>
+        <source>86318c101bd02114fa441f83b24bcb0f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>fouad.chehime</sys_created_by>
+        <sys_created_on>2023-01-25 23:37:49</sys_created_on>
+        <sys_id>49fad47e1be02550bd2feac6624bcbc4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>185eb4b769f0000001</sys_recorded_at>
+        <sys_updated_by>fouad.chehime</sys_updated_by>
+        <sys_updated_on>2023-01-25 23:37:49</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>8dfad47e4ae025504098ba5cf24a70c3</update_guid>
+        <update_guid_history>8dfad47e4ae025504098ba5cf24a70c3:-2067491420</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="street_address_billing">458f5cb61b242550bd2feac6624bcbd0</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>fouad.chehime</sys_created_by>
+        <sys_created_on>2023-01-25 23:57:46</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>4827793fd8114fa8adeb844a09e4b9d9</sys_id>
+        <sys_metadata>41fad47e1be02550bd2feac6624bcbc1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>street_address_billing</sys_name>
+        <sys_package display_value="NCC Prototype Test" source="x_epiu2_ncc_prot_0">0a318c101bd02114fa441f83b24bcb0d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_scope_delete display_value="">6631e1eea7c748a8800af1afbbaa7c40</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_41fad47e1be02550bd2feac6624bcbc1</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_41fad47e1be02550bd2feac6624bcbc1">49fad47e1be02550bd2feac6624bcbc4</sys_update_version>
+        <sys_updated_by>fouad.chehime</sys_updated_by>
+        <sys_updated_on>2023-01-25 23:57:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

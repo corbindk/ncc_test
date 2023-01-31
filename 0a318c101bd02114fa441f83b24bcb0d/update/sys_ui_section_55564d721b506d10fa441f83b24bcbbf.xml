@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="55564d721b506d10fa441f83b24bcbbf" sys_domain="global" table="x_epiu2_ncc_prot_0_partnerships_collaborations" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>kelton.keener</sys_created_by>
+            <sys_created_on>2023-01-13 16:31:39</sys_created_on>
+            <sys_id>99564d721b506d10fa441f83b24bcbc0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epiu2_ncc_prot_0_partnerships_collaborations" sys_domain="global" view="Default view">55564d721b506d10fa441f83b24bcbbf</sys_ui_section>
+            <sys_updated_by>kelton.keener</sys_updated_by>
+            <sys_updated_on>2023-01-13 16:31:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>customer_name</element>
+            <position>1</position>
+            <sys_created_by>kelton.keener</sys_created_by>
+            <sys_created_on>2023-01-13 16:31:39</sys_created_on>
+            <sys_id>91564d721b506d10fa441f83b24bcbc1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epiu2_ncc_prot_0_partnerships_collaborations" sys_domain="global" view="Default view">55564d721b506d10fa441f83b24bcbbf</sys_ui_section>
+            <sys_updated_by>kelton.keener</sys_updated_by>
+            <sys_updated_on>2023-01-13 16:31:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_created_by</element>
+            <position>2</position>
+            <sys_created_by>kelton.keener</sys_created_by>
+            <sys_created_on>2023-01-13 16:31:39</sys_created_on>
+            <sys_id>95564d721b506d10fa441f83b24bcbc1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epiu2_ncc_prot_0_partnerships_collaborations" sys_domain="global" view="Default view">55564d721b506d10fa441f83b24bcbbf</sys_ui_section>
+            <sys_updated_by>kelton.keener</sys_updated_by>
+            <sys_updated_on>2023-01-13 16:31:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>value</element>
+            <position>3</position>
+            <sys_created_by>kelton.keener</sys_created_by>
+            <sys_created_on>2023-01-13 16:31:39</sys_created_on>
+            <sys_id>99564d721b506d10fa441f83b24bcbc1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epiu2_ncc_prot_0_partnerships_collaborations" sys_domain="global" view="Default view">55564d721b506d10fa441f83b24bcbbf</sys_ui_section>
+            <sys_updated_by>kelton.keener</sys_updated_by>
+            <sys_updated_on>2023-01-13 16:31:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>agreement_type</element>
+            <position>4</position>
+            <sys_created_by>kelton.keener</sys_created_by>
+            <sys_created_on>2023-01-13 16:31:39</sys_created_on>
+            <sys_id>9d564d721b506d10fa441f83b24bcbc1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epiu2_ncc_prot_0_partnerships_collaborations" sys_domain="global" view="Default view">55564d721b506d10fa441f83b24bcbbf</sys_ui_section>
+            <sys_updated_by>kelton.keener</sys_updated_by>
+            <sys_updated_on>2023-01-13 16:31:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>start_date</element>
+            <position>5</position>
+            <sys_created_by>kelton.keener</sys_created_by>
+            <sys_created_on>2023-01-13 16:31:39</sys_created_on>
+            <sys_id>91564d721b506d10fa441f83b24bcbc2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epiu2_ncc_prot_0_partnerships_collaborations" sys_domain="global" view="Default view">55564d721b506d10fa441f83b24bcbbf</sys_ui_section>
+            <sys_updated_by>kelton.keener</sys_updated_by>
+            <sys_updated_on>2023-01-13 16:31:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>end_date</element>
+            <position>6</position>
+            <sys_created_by>kelton.keener</sys_created_by>
+            <sys_created_on>2023-01-13 16:31:39</sys_created_on>
+            <sys_id>95564d721b506d10fa441f83b24bcbc2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epiu2_ncc_prot_0_partnerships_collaborations" sys_domain="global" view="Default view">55564d721b506d10fa441f83b24bcbbf</sys_ui_section>
+            <sys_updated_by>kelton.keener</sys_updated_by>
+            <sys_updated_on>2023-01-13 16:31:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>7</position>
+            <sys_created_by>kelton.keener</sys_created_by>
+            <sys_created_on>2023-01-13 16:31:39</sys_created_on>
+            <sys_id>99564d721b506d10fa441f83b24bcbc2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epiu2_ncc_prot_0_partnerships_collaborations" sys_domain="global" view="Default view">55564d721b506d10fa441f83b24bcbbf</sys_ui_section>
+            <sys_updated_by>kelton.keener</sys_updated_by>
+            <sys_updated_on>2023-01-13 16:31:39</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>8</position>
+            <sys_created_by>kelton.keener</sys_created_by>
+            <sys_created_on>2023-01-13 16:31:39</sys_created_on>
+            <sys_id>9d564d721b506d10fa441f83b24bcbc2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epiu2_ncc_prot_0_partnerships_collaborations" sys_domain="global" view="Default view">55564d721b506d10fa441f83b24bcbbf</sys_ui_section>
+            <sys_updated_by>kelton.keener</sys_updated_by>
+            <sys_updated_on>2023-01-13 16:31:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_updated_on</element>
+            <position>9</position>
+            <sys_created_by>kelton.keener</sys_created_by>
+            <sys_created_on>2023-01-13 16:31:39</sys_created_on>
+            <sys_id>91564d721b506d10fa441f83b24bcbc3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epiu2_ncc_prot_0_partnerships_collaborations" sys_domain="global" view="Default view">55564d721b506d10fa441f83b24bcbbf</sys_ui_section>
+            <sys_updated_by>kelton.keener</sys_updated_by>
+            <sys_updated_on>2023-01-13 16:31:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_created_on</element>
+            <position>10</position>
+            <sys_created_by>kelton.keener</sys_created_by>
+            <sys_created_on>2023-01-13 16:31:39</sys_created_on>
+            <sys_id>95564d721b506d10fa441f83b24bcbc3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epiu2_ncc_prot_0_partnerships_collaborations" sys_domain="global" view="Default view">55564d721b506d10fa441f83b24bcbbf</sys_ui_section>
+            <sys_updated_by>kelton.keener</sys_updated_by>
+            <sys_updated_on>2023-01-13 16:31:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assignment_group</element>
+            <position>11</position>
+            <sys_created_by>kelton.keener</sys_created_by>
+            <sys_created_on>2023-01-13 16:31:39</sys_created_on>
+            <sys_id>99564d721b506d10fa441f83b24bcbc3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epiu2_ncc_prot_0_partnerships_collaborations" sys_domain="global" view="Default view">55564d721b506d10fa441f83b24bcbbf</sys_ui_section>
+            <sys_updated_by>kelton.keener</sys_updated_by>
+            <sys_updated_on>2023-01-13 16:31:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ncc_asset_number</element>
+            <position>12</position>
+            <sys_created_by>kelton.keener</sys_created_by>
+            <sys_created_on>2023-01-13 16:31:39</sys_created_on>
+            <sys_id>9d564d721b506d10fa441f83b24bcbc3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epiu2_ncc_prot_0_partnerships_collaborations" sys_domain="global" view="Default view">55564d721b506d10fa441f83b24bcbbf</sys_ui_section>
+            <sys_updated_by>kelton.keener</sys_updated_by>
+            <sys_updated_on>2023-01-13 16:31:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>13</position>
+            <sys_created_by>kelton.keener</sys_created_by>
+            <sys_created_on>2023-01-13 16:31:39</sys_created_on>
+            <sys_id>91564d721b506d10fa441f83b24bcbc4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epiu2_ncc_prot_0_partnerships_collaborations" sys_domain="global" view="Default view">55564d721b506d10fa441f83b24bcbbf</sys_ui_section>
+            <sys_updated_by>kelton.keener</sys_updated_by>
+            <sys_updated_on>2023-01-13 16:31:39</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>14</position>
+            <sys_created_by>kelton.keener</sys_created_by>
+            <sys_created_on>2023-01-13 16:31:39</sys_created_on>
+            <sys_id>95564d721b506d10fa441f83b24bcbc4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epiu2_ncc_prot_0_partnerships_collaborations" sys_domain="global" view="Default view">55564d721b506d10fa441f83b24bcbbf</sys_ui_section>
+            <sys_updated_by>kelton.keener</sys_updated_by>
+            <sys_updated_on>2023-01-13 16:31:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_epiu2_ncc_prot_0_partnerships_collaborations</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>kelton.keener</sys_created_by>
+            <sys_created_on>2023-01-13 16:31:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>55564d721b506d10fa441f83b24bcbbf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_epiu2_ncc_prot_0_partnerships_collaborations</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="NCC Prototype Test" source="x_epiu2_ncc_prot_0">0a318c101bd02114fa441f83b24bcb0d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+            <sys_update_name>sys_ui_section_55564d721b506d10fa441f83b24bcbbf</sys_update_name>
+            <sys_updated_by>kelton.keener</sys_updated_by>
+            <sys_updated_on>2023-01-13 16:31:39</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

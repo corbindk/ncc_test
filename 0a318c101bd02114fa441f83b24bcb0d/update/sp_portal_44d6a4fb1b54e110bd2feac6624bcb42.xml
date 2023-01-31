@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal">
+    <sp_portal action="INSERT_OR_UPDATE">
+        <css_variables/>
+        <default>false</default>
+        <enable_ais>true</enable_ais>
+        <enable_favorites>false</enable_favorites>
+        <hide_portal_name>false</hide_portal_name>
+        <homepage display_value="nccagree">459b68731b94e110bd2feac6624bcb6c</homepage>
+        <icon/>
+        <kb_knowledge_base/>
+        <kb_knowledge_page/>
+        <login_page display_value="login">6995a144cb11120000f8d856634c9c25</login_page>
+        <logo/>
+        <notfound_page display_value="404">3c2c9063cb11020000f8d856634c9c1f</notfound_page>
+        <quick_start_config/>
+        <sc_catalog/>
+        <sc_catalog_page/>
+        <sc_category_page/>
+        <search_application display_value="Service Portal Default Search Application">00731b9d5b231010d9a5ce1a8581c7dd</search_application>
+        <search_results_configuration display_value="Service Portal Search">80eb579d53671010968addeeff7b1215</search_results_configuration>
+        <sp_chat_queue/>
+        <sp_rectangle_menu display_value="SP Header Menu">d150fd31cb10020000f8d856634c9ce6</sp_rectangle_menu>
+        <sys_class_name>sp_portal</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-16 16:50:21</sys_created_on>
+        <sys_id>44d6a4fb1b54e110bd2feac6624bcb42</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>NCC Portal</sys_name>
+        <sys_package display_value="NCC Prototype Test" source="x_epiu2_ncc_prot_0">0a318c101bd02114fa441f83b24bcb0d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_update_name>sp_portal_44d6a4fb1b54e110bd2feac6624bcb42</sys_update_name>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-16 21:17:26</sys_updated_on>
+        <theme display_value="La Jolla">a7a6e78277002300a6e592718a10617a</theme>
+        <title>NCC Portal</title>
+        <ts_index_group/>
+        <url_suffix>ncc_agreements</url_suffix>
+        <user_registration_config display_value="Client Registration">ddaac1b61bdca910bd2feac6624bcba5</user_registration_config>
+    </sp_portal>
+    <sys_translated_text action="delete_multiple" query="documentkey=44d6a4fb1b54e110bd2feac6624bcb42"/>
+</record_update>

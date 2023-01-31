@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_source">
+    <sys_search_source action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <condition table="sn_ex_sp_pro_customers">active=true</condition>
+        <group/>
+        <name>Legal Services Workspace - sn_ex_sp_pro_customers</name>
+        <roles/>
+        <source_table>sn_ex_sp_pro_customers</source_table>
+        <sys_class_name>sys_search_source</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-09 20:40:04</sys_created_on>
+        <sys_id>59d89da91b146510fa441f83b24bcb80</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Legal Services Workspace - sn_ex_sp_pro_customers</sys_name>
+        <sys_package display_value="NCC Prototype Test" source="x_epiu2_ncc_prot_0">0a318c101bd02114fa441f83b24bcb0d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_update_name>sys_search_source_59d89da91b146510fa441f83b24bcb80</sys_update_name>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-09 20:40:04</sys_updated_on>
+    </sys_search_source>
+    <sys_translated_text action="delete_multiple" query="documentkey=59d89da91b146510fa441f83b24bcb80"/>
+</record_update>

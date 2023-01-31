@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="type_of_project" table="x_epiu2_ncc_prot_0_federal_land_use_agreements" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>type_of_project</element>
+            <name>x_epiu2_ncc_prot_0_federal_land_use_agreements</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>corbin.keener</sys_created_by>
+            <sys_created_on>2023-01-12 20:00:05</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>type_of_project</sys_name>
+            <sys_package display_value="NCC Prototype Test" source="x_epiu2_ncc_prot_0">0a318c101bd02114fa441f83b24bcb0d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+            <sys_update_name>sys_choice_x_epiu2_ncc_prot_0_federal_land_use_agreements_type_of_project</sys_update_name>
+            <sys_updated_by>corbin.keener</sys_updated_by>
+            <sys_updated_on>2023-01-12 20:00:05</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_project</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Temporary</label>
+            <language>en</language>
+            <name>x_epiu2_ncc_prot_0_federal_land_use_agreements</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>corbin.keener</sys_created_by>
+            <sys_created_on>2023-01-12 20:00:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>corbin.keener</sys_updated_by>
+            <sys_updated_on>2023-01-12 20:00:05</sys_updated_on>
+            <value>temporary</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_project</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Permanent</label>
+            <language>en</language>
+            <name>x_epiu2_ncc_prot_0_federal_land_use_agreements</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>corbin.keener</sys_created_by>
+            <sys_created_on>2023-01-12 20:00:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>corbin.keener</sys_updated_by>
+            <sys_updated_on>2023-01-12 20:00:05</sys_updated_on>
+            <value>permanent</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_project</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Land Use Change</label>
+            <language>en</language>
+            <name>x_epiu2_ncc_prot_0_federal_land_use_agreements</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>corbin.keener</sys_created_by>
+            <sys_created_on>2023-01-12 20:00:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>corbin.keener</sys_updated_by>
+            <sys_updated_on>2023-01-12 20:00:05</sys_updated_on>
+            <value>land_use_change</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_project</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Approval Amendment</label>
+            <language>en</language>
+            <name>x_epiu2_ncc_prot_0_federal_land_use_agreements</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>corbin.keener</sys_created_by>
+            <sys_created_on>2023-01-12 20:00:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>corbin.keener</sys_updated_by>
+            <sys_updated_on>2023-01-12 20:00:05</sys_updated_on>
+            <value>approval_amendment</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

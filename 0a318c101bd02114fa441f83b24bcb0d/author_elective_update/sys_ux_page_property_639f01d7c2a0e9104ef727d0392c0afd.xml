@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>globalSearchDataConfigId</name>
+        <page display_value="">6f9f01d7bba0e9105f82fd666b23d9ff</page>
+        <required_translations>[]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>kelton.keener</sys_created_by>
+        <sys_created_on>2023-01-27 16:44:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>639f01d7c2a0e9104ef727d0392c0afd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>globalSearchDataConfigId</sys_name>
+        <sys_package display_value="NCC Prototype Test" source="x_epiu2_ncc_prot_0">0a318c101bd02114fa441f83b24bcb0d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_update_name>sys_ux_page_property_639f01d7c2a0e9104ef727d0392c0afd</sys_update_name>
+        <sys_updated_by>kelton.keener</sys_updated_by>
+        <sys_updated_on>2023-01-27 16:44:53</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_epiu2_ncc_prot_0.6f9f01d7bba0e9105f82fd666b23d9ff.root.globalSearchDataConfigId</unique_name>
+        <value>6f9f01d782a0e91039978f1e2601e0fb</value>
+    </sys_ux_page_property>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</application>
+        <file_path/>
+        <instance_id>b11511a6dbae9458d5c911f8489619dc</instance_id>
+        <instance_name>epiusesystemsltddemo5</instance_name>
+        <name>sys_ux_page_property_639f01d7c2a0e9104ef727d0392c0afd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name>globalSearchDataConfigId</name><page display_value="">6f9f01d7bba0e9105f82fd666b23d9ff</page><required_translations>[]</required_translations><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>kelton.keener</sys_created_by><sys_created_on>2023-01-27 16:44:53</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>639f01d7c2a0e9104ef727d0392c0afd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>globalSearchDataConfigId</sys_name><sys_package display_value="NCC Prototype Test" source="x_epiu2_ncc_prot_0">0a318c101bd02114fa441f83b24bcb0d</sys_package><sys_policy/><sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope><sys_update_name>sys_ux_page_property_639f01d7c2a0e9104ef727d0392c0afd</sys_update_name><sys_updated_by>kelton.keener</sys_updated_by><sys_updated_on>2023-01-27 16:44:53</sys_updated_on><type>string</type><unique_name>x_epiu2_ncc_prot_0.6f9f01d7bba0e9105f82fd666b23d9ff.root.globalSearchDataConfigId</unique_name><value>6f9f01d782a0e91039978f1e2601e0fb</value></sys_ux_page_property></record_update>]]></payload>
+        <payload_hash>-1995372176</payload_hash>
+        <record_name>globalSearchDataConfigId</record_name>
+        <reverted_from/>
+        <source>b0a0a8301b102110fa441f83b24bcb0c</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2023-01-07 08:39:06</sys_created_on>
+        <sys_id>51c29ddb1ba0e910c50c9712b24bcbfa</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>1858b6230100000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Page Property</type>
+        <update_guid>11c29ddb56a0e910a547a39c7b2c40fa</update_guid>
+        <update_guid_history>11c29ddb56a0e910a547a39c7b2c40fa:-1995372176</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kelton.keener</sys_created_by>
+        <sys_created_on>2023-01-27 16:58:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>32f3ad3c0d8742069831135d016fde51</sys_id>
+        <sys_metadata>639f01d7c2a0e9104ef727d0392c0afd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>globalSearchDataConfigId</sys_name>
+        <sys_package display_value="NCC Prototype Test" source="x_epiu2_ncc_prot_0">0a318c101bd02114fa441f83b24bcb0d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_scope_delete display_value="">6631e1eea7c748a8800af1afbbaa7c40</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_639f01d7c2a0e9104ef727d0392c0afd</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_639f01d7c2a0e9104ef727d0392c0afd">51c29ddb1ba0e910c50c9712b24bcbfa</sys_update_version>
+        <sys_updated_by>kelton.keener</sys_updated_by>
+        <sys_updated_on>2023-01-27 16:58:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

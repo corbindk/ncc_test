@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="canvas_user" name="canvas_user">8536f54bc713330072b211d4d8c26080</contains>
+        <role display_value="x_epiu2_ncc_prot_0.ncc_client_user" name="x_epiu2_ncc_prot_0.ncc_client_user">e6186a821ba82510c50c9712b24bcb26</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>kelton.keener</sys_created_by>
+        <sys_created_on>2023-01-26 17:40:59</sys_created_on>
+        <sys_id>27d2d0871be46910c50c9712b24bcb05</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>canvas_user.x_epiu2_ncc_prot_0.ncc_client_user</sys_name>
+        <sys_package display_value="NCC Prototype Test" source="x_epiu2_ncc_prot_0">0a318c101bd02114fa441f83b24bcb0d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_update_name>sys_user_role_contains_27d2d0871be46910c50c9712b24bcb05</sys_update_name>
+        <sys_updated_by>kelton.keener</sys_updated_by>
+        <sys_updated_on>2023-01-26 17:40:59</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>

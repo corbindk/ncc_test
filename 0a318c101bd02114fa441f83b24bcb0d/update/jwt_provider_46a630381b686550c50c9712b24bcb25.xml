@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="jwt_provider">
+    <jwt_provider action="INSERT_OR_UPDATE">
+        <expiry_interval>180</expiry_interval>
+        <jwt_api_script/>
+        <jwt_keystore_alias display_value="Docusign JWT Keys">1dbe6cf81b286550c50c9712b24bcba8</jwt_keystore_alias>
+        <name>Docusign</name>
+        <sys_class_name>jwt_provider</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-19 20:31:37</sys_created_on>
+        <sys_id>46a630381b686550c50c9712b24bcb25</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Docusign</sys_name>
+        <sys_package display_value="NCC Prototype Test" source="x_epiu2_ncc_prot_0">0a318c101bd02114fa441f83b24bcb0d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_update_name>jwt_provider_46a630381b686550c50c9712b24bcb25</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-19 20:31:37</sys_updated_on>
+    </jwt_provider>
+</record_update>

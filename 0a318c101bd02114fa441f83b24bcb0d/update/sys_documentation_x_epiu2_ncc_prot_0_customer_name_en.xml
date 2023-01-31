@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="name" label="Client name" language="en" table="x_epiu2_ncc_prot_0_customer">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <help/>
+            <hint/>
+            <label>Client name</label>
+            <language>en</language>
+            <name>x_epiu2_ncc_prot_0_customer</name>
+            <plural>Client names</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>corbin.keener</sys_created_by>
+            <sys_created_on>2023-01-05 18:06:38</sys_created_on>
+            <sys_mod_count>11</sys_mod_count>
+            <sys_name>Client name</sys_name>
+            <sys_package display_value="NCC Prototype Test" source="x_epiu2_ncc_prot_0">0a318c101bd02114fa441f83b24bcb0d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+            <sys_update_name>sys_documentation_x_epiu2_ncc_prot_0_customer_name_en</sys_update_name>
+            <sys_updated_by>fouad.chehime</sys_updated_by>
+            <sys_updated_on>2023-01-11 17:11:20</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

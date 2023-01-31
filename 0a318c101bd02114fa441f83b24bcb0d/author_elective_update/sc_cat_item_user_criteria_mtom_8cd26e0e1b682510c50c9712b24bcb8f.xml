@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="DELETE">
+        <sc_cat_item display_value="Federal Land Use">ea5a20221b946910bd2feac6624bcb4b</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>kelton.keener</sys_created_by>
+        <sys_created_on>2023-01-24 01:35:57</sys_created_on>
+        <sys_id>8cd26e0e1b682510c50c9712b24bcb8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Federal Land Use.SNC External</sys_name>
+        <sys_package display_value="NCC Prototype Test" source="x_epiu2_ncc_prot_0">0a318c101bd02114fa441f83b24bcb0d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_8cd26e0e1b682510c50c9712b24bcb8f</sys_update_name>
+        <sys_updated_by>kelton.keener</sys_updated_by>
+        <sys_updated_on>2023-01-24 01:35:57</sys_updated_on>
+        <user_criteria display_value="SNC External">66c1b50e730333009508738234f6a7c9</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</application>
+        <file_path/>
+        <instance_id>b11511a6dbae9458d5c911f8489619dc</instance_id>
+        <instance_name>epiusesystemsltddemo5</instance_name>
+        <name>sc_cat_item_user_criteria_mtom_8cd26e0e1b682510c50c9712b24bcb8f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom"><sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="Federal Land Use">ea5a20221b946910bd2feac6624bcb4b</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name><sys_created_by>kelton.keener</sys_created_by><sys_created_on>2023-01-24 01:35:57</sys_created_on><sys_id>8cd26e0e1b682510c50c9712b24bcb8f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Federal Land Use.SNC External</sys_name><sys_package display_value="NCC Prototype Test" source="x_epiu2_ncc_prot_0">0a318c101bd02114fa441f83b24bcb0d</sys_package><sys_policy/><sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope><sys_update_name>sc_cat_item_user_criteria_mtom_8cd26e0e1b682510c50c9712b24bcb8f</sys_update_name><sys_updated_by>kelton.keener</sys_updated_by><sys_updated_on>2023-01-24 01:35:57</sys_updated_on><user_criteria display_value="SNC External">66c1b50e730333009508738234f6a7c9</user_criteria></sc_cat_item_user_criteria_mtom></record_update>]]></payload>
+        <payload_hash>-247209479</payload_hash>
+        <record_name>Federal Land Use.SNC External</record_name>
+        <reverted_from/>
+        <source>86318c101bd02114fa441f83b24bcb0f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>kelton.keener</sys_created_by>
+        <sys_created_on>2023-01-24 01:35:57</sys_created_on>
+        <sys_id>ccd26e0e1b682510c50c9712b24bcb92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>185e16ae5aa0000001</sys_recorded_at>
+        <sys_updated_by>kelton.keener</sys_updated_by>
+        <sys_updated_on>2023-01-24 01:35:57</sys_updated_on>
+        <type>Catalog Item Available for</type>
+        <update_guid>c4d26e0ed068251032553b9e1d95a892</update_guid>
+        <update_guid_history>c4d26e0ed068251032553b9e1d95a892:-247209479</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Federal Land Use.SNC External">e7677e8a1be82510c50c9712b24bcb1b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kelton.keener</sys_created_by>
+        <sys_created_on>2023-01-24 03:06:02</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_mtom">sc_cat_item_user_criteria_mtom</sys_db_object>
+        <sys_id>1291eb44f5a2431f9c652eb2cfc906c1</sys_id>
+        <sys_metadata>8cd26e0e1b682510c50c9712b24bcb8f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Federal Land Use.SNC External</sys_name>
+        <sys_package display_value="NCC Prototype Test" source="x_epiu2_ncc_prot_0">0a318c101bd02114fa441f83b24bcb0d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_scope_delete display_value="">6631e1eea7c748a8800af1afbbaa7c40</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_8cd26e0e1b682510c50c9712b24bcb8f</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_mtom_8cd26e0e1b682510c50c9712b24bcb8f">ccd26e0e1b682510c50c9712b24bcb92</sys_update_version>
+        <sys_updated_by>kelton.keener</sys_updated_by>
+        <sys_updated_on>2023-01-24 03:06:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

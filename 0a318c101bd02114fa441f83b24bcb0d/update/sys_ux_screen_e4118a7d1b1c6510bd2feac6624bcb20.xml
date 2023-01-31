@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="Customer Portal Config">134a79711b50e510fa441f83b24bcb7b</app_config>
+        <description/>
+        <event_mappings/>
+        <macroponent display_value="Record Producers default">e8118a7d1b1c6510bd2feac6624bcb1d</macroponent>
+        <macroponent_config>{ }</macroponent_config>
+        <name>Record Producers default</name>
+        <order>0</order>
+        <parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="Record Producers">ac118a7d1b1c6510bd2feac6624bcb1a</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>fouad.chehime</sys_created_by>
+        <sys_created_on>2023-01-10 18:14:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e4118a7d1b1c6510bd2feac6624bcb20</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record Producers default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NCC Prototype Test" source="x_epiu2_ncc_prot_0">0a318c101bd02114fa441f83b24bcb0d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_update_name>sys_ux_screen_e4118a7d1b1c6510bd2feac6624bcb20</sys_update_name>
+        <sys_updated_by>fouad.chehime</sys_updated_by>
+        <sys_updated_on>2023-01-10 18:14:22</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=e4118a7d1b1c6510bd2feac6624bcb20"/>
+</record_update>

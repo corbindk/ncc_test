@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability">
+    <sys_ux_applicability action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <api_name>x_epiu2_ncc_prot_0.Audience for appNCC Prototype Test</api_name>
+        <description/>
+        <name>Audience for appNCC Prototype Test</name>
+        <roles>96318c101bd02114fa441f83b24bcb13,8a61e1de1b686510c50c9712b24bcba9,027b88dc1b5469d0c50c9712b24bcbb5,e6186a821ba82510c50c9712b24bcb26,c7b5e82a1b546910bd2feac6624bcb3a,96318c101bd02114fa441f83b24bcb23,8fe5a06a1b546910bd2feac6624bcbd2</roles>
+        <sys_class_name>sys_ux_applicability</sys_class_name>
+        <sys_created_by>kelton.keener</sys_created_by>
+        <sys_created_on>2023-01-26 17:40:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>03d290871be46910c50c9712b24bcb01</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Audience for appNCC Prototype Test</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NCC Prototype Test" source="x_epiu2_ncc_prot_0">0a318c101bd02114fa441f83b24bcb0d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_update_name>sys_ux_applicability_03d290871be46910c50c9712b24bcb01</sys_update_name>
+        <sys_updated_by>kelton.keener</sys_updated_by>
+        <sys_updated_on>2023-01-26 17:40:56</sys_updated_on>
+    </sys_ux_applicability>
+</record_update>

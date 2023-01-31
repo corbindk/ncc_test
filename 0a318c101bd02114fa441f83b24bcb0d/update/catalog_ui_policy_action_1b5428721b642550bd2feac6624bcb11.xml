@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item/>
+        <catalog_variable>IO:40db98be1be02550bd2feac6624bcb44</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>fouad.chehime</sys_created_by>
+        <sys_created_on>2023-01-26 00:18:56</sys_created_on>
+        <sys_id>1b5428721b642550bd2feac6624bcb11</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>section_1_4_lead_consultant_if_applicable</sys_name>
+        <sys_package display_value="NCC Prototype Test" source="x_epiu2_ncc_prot_0">0a318c101bd02114fa441f83b24bcb0d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_1b5428721b642550bd2feac6624bcb11</sys_update_name>
+        <sys_updated_by>fouad.chehime</sys_updated_by>
+        <sys_updated_on>2023-01-26 00:18:56</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Make 'section_1_4_lead_consultant_if_applicable' hidden depending on 'do_you_have_a_lead_consultant'">ad54e4721b642550bd2feac6624bcb0e</ui_policy>
+        <variable>section_1_4_lead_consultant_if_applicable</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+</record_update>

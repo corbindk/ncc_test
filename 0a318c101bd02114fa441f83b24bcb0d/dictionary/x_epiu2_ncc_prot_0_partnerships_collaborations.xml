@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="6395a82a1b546910bd2feac6624bcbb0" extends="x_epiu2_ncc_prot_0_agreements" label="Partnerships &amp; Collaborations" max_length="40" name="x_epiu2_ncc_prot_0_partnerships_collaborations" text_index="true" type="collection"/>
+</database>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity">
+    <oauth_entity action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <access_token_lifespan>1800</access_token_lifespan>
+        <active>true</active>
+        <auth_code_lifespan>60</auth_code_lifespan>
+        <auth_url>https://account-d.docusign.com/oauth/auth</auth_url>
+        <certificate_url/>
+        <client_id>c8d0fcd4-1311-44bb-b84f-a33e0c6ecf4b</client_id>
+        <client_secret>﷞﷟﷒9bc3d0b81b2c2910bd2feac6624bcb51﷬﷔1﷬﷭s_stfLXXIEBSuBXZMI9LOA==7YlqekBaVhbpfirMm92Hiq6jSm5cZfQ9M_m3UEOLAJWGEauLEk2jw0EgVF-xeAgrNRtQHg==﷮﷯</client_secret>
+        <client_uuid>57c3d0b81b2c2910bd2feac6624bcb57</client_uuid>
+        <code_challenge_method>S256</code_challenge_method>
+        <comments/>
+        <default_grant_type>authorization_code</default_grant_type>
+        <id_token_lifespan>86400</id_token_lifespan>
+        <logo_url/>
+        <message_signature_lifespan>60</message_signature_lifespan>
+        <name>DocuSign Spoke OAuth</name>
+        <oauth_api_script display_value="OAuthUtil">3e3a3a11c333210016194ffe5bba8f70</oauth_api_script>
+        <protocol_name/>
+        <public_client>false</public_client>
+        <redirect_url>https://epiusesystemsltddemo5.service-now.com/oauth_redirect.do</redirect_url>
+        <refresh_token_lifespan>8640000</refresh_token_lifespan>
+        <refresh_token_url>https://account-d.docusign.com/oauth/token</refresh_token_url>
+        <restricted_binding>false</restricted_binding>
+        <revoke_token_url/>
+        <salt/>
+        <send_client_credentials_as>request_body_parameter</send_client_credentials_as>
+        <skip_authorize>false</skip_authorize>
+        <sys_class_name>oauth_entity</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-19 17:58:43</sys_created_on>
+        <sys_id>17c3d0b81b2c2910bd2feac6624bcb57</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>DocuSign Spoke OAuth</sys_name>
+        <sys_package display_value="NCC Prototype Test" source="x_epiu2_ncc_prot_0">0a318c101bd02114fa441f83b24bcb0d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_update_name>oauth_entity_17c3d0b81b2c2910bd2feac6624bcb57</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-20 03:42:32</sys_updated_on>
+        <token_url>https://account-d.docusign.com/oauth/token</token_url>
+        <type>oauth_provider</type>
+        <use_mutual_auth>false</use_mutual_auth>
+        <user/>
+    </oauth_entity>
+</record_update>

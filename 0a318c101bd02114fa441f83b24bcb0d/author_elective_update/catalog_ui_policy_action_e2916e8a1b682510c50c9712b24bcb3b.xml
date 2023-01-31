@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Federal Land Use">ea5a20221b946910bd2feac6624bcb4b</catalog_item>
+        <catalog_variable>IO:9167b4661bd46910bd2feac6624bcbba</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>kelton.keener</sys_created_by>
+        <sys_created_on>2023-01-24 01:30:39</sys_created_on>
+        <sys_id>e2916e8a1b682510c50c9712b24bcb3b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>is_billing_different_than_above</sys_name>
+        <sys_package display_value="NCC Prototype Test" source="x_epiu2_ncc_prot_0">0a318c101bd02114fa441f83b24bcb0d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_e2916e8a1b682510c50c9712b24bcb3b</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-01-24 01:33:21</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Federal Land Use UI Policy">2a916e8a1b682510c50c9712b24bcb38</ui_policy>
+        <variable>is_billing_different_than_above</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</application>
+        <file_path/>
+        <instance_id>b11511a6dbae9458d5c911f8489619dc</instance_id>
+        <instance_name>epiusesystemsltddemo5</instance_name>
+        <name>catalog_ui_policy_action_e2916e8a1b682510c50c9712b24bcb3b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Federal Land Use">ea5a20221b946910bd2feac6624bcb4b</catalog_item><catalog_variable>IO:9167b4661bd46910bd2feac6624bcbba</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><mandatory>ignore</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>kelton.keener</sys_created_by><sys_created_on>2023-01-24 01:30:39</sys_created_on><sys_id>e2916e8a1b682510c50c9712b24bcb3b</sys_id><sys_mod_count>1</sys_mod_count><sys_name>is_billing_different_than_above</sys_name><sys_package display_value="NCC Prototype Test" source="x_epiu2_ncc_prot_0">0a318c101bd02114fa441f83b24bcb0d</sys_package><sys_policy/><sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope><sys_update_name>catalog_ui_policy_action_e2916e8a1b682510c50c9712b24bcb3b</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2023-01-24 01:33:21</sys_updated_on><table/><ui_policy display_value="Federal Land Use UI Policy">2a916e8a1b682510c50c9712b24bcb38</ui_policy><variable>is_billing_different_than_above</variable><variable_set/><visible>ignore</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-2142449239</payload_hash>
+        <record_name>is_billing_different_than_above</record_name>
+        <reverted_from/>
+        <source>d53266821ba02150fa441f83b24bcbdc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-01-24 01:33:21</sys_created_on>
+        <sys_id>7532a6821ba02150fa441f83b24bcb37</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>185e16884040000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-01-24 01:33:21</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>b932a68249a02150edb6d4e92858b036</update_guid>
+        <update_guid_history>b932a68249a02150edb6d4e92858b036:-2142449239,3932a68273a02150e8e3e6f8b5ac8d33:-1795081341</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="is_billing_different_than_above">29ca194b1ba0a550fa441f83b24bcb0c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-01-26 22:55:08</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>8279199c7fcb498097091b07eb635dd1</sys_id>
+        <sys_metadata>e2916e8a1b682510c50c9712b24bcb3b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>is_billing_different_than_above</sys_name>
+        <sys_package display_value="NCC Prototype Test" source="x_epiu2_ncc_prot_0">0a318c101bd02114fa441f83b24bcb0d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_scope_delete display_value="">6631e1eea7c748a8800af1afbbaa7c40</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_e2916e8a1b682510c50c9712b24bcb3b</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_e2916e8a1b682510c50c9712b24bcb3b">7532a6821ba02150fa441f83b24bcb37</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-01-26 22:55:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

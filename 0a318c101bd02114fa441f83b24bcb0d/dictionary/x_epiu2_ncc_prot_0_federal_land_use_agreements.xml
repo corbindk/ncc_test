@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="5aed3fd21b50e910fa441f83b24bcb09" extends="x_epiu2_ncc_prot_0_agreements" label="Federal Land Use Agreements" max_length="40" name="x_epiu2_ncc_prot_0_federal_land_use_agreements" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="City" max_length="40" name="city" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="First name" max_length="40" name="first_name" type="string"/>
+        <element label="Language" max_length="32" name="language" reference="sys_language" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Last name" max_length="40" name="last_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Phone" max_length="40" name="phone" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Postal Code" max_length="40" name="postal_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Province" max_length="40" name="province" type="string"/>
+        <element label="Purchase REQ Created" max_length="40" name="purchase_req_created" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Street Address" max_length="40" name="street_address" type="string"/>
+        <index name="index">
+            <element name="language"/>
+        </index>
+    </element>
+</database>

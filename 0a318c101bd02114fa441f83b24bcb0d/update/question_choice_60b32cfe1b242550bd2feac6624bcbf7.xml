@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>200</order>
+        <published_ref/>
+        <question display_value="Province">a923ecbe1b242550bd2feac6624bcb1c</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>fouad.chehime</sys_created_by>
+        <sys_created_on>2023-01-26 00:16:01</sys_created_on>
+        <sys_id>60b32cfe1b242550bd2feac6624bcbf7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>BC</sys_name>
+        <sys_package display_value="NCC Prototype Test" source="x_epiu2_ncc_prot_0">0a318c101bd02114fa441f83b24bcb0d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_update_name>question_choice_60b32cfe1b242550bd2feac6624bcbf7</sys_update_name>
+        <sys_updated_by>fouad.chehime</sys_updated_by>
+        <sys_updated_on>2023-01-26 00:16:01</sys_updated_on>
+        <text>BC</text>
+        <value>bc</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=60b32cfe1b242550bd2feac6624bcbf7"/>
+</record_update>

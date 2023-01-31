@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_epiu2_ncc_prot_0_customer" version="2" view="sys_ref_list">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_id</element>
+            <list_id display_value="x_epiu2_ncc_prot_0_customer" element="NULL" name="x_epiu2_ncc_prot_0_customer" parent="NULL" relationship="NULL" sys_domain="global" view="2f76f1731b031110fa441f83b24bcb2f">e64e4c181b142114fa441f83b24bcb2f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>corbin.keener</sys_created_by>
+            <sys_created_on>2023-01-05 18:01:58</sys_created_on>
+            <sys_id>ea4e4c181b142114fa441f83b24bcb30</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>corbin.keener</sys_updated_by>
+            <sys_updated_on>2023-01-05 18:01:58</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_epiu2_ncc_prot_0_customer</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>corbin.keener</sys_created_by>
+            <sys_created_on>2023-01-05 18:01:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e64e4c181b142114fa441f83b24bcb2f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_epiu2_ncc_prot_0_customer</sys_name>
+            <sys_package display_value="NCC Prototype Test" source="x_epiu2_ncc_prot_0">0a318c101bd02114fa441f83b24bcb0d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+            <sys_update_name>sys_ui_list_x_epiu2_ncc_prot_0_customer_sys_ref_list</sys_update_name>
+            <sys_updated_by>corbin.keener</sys_updated_by>
+            <sys_updated_on>2023-01-05 18:01:58</sys_updated_on>
+            <sys_user/>
+            <view display_value="Reference List" name="sys_ref_list">2f76f1731b031110fa441f83b24bcb2f</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

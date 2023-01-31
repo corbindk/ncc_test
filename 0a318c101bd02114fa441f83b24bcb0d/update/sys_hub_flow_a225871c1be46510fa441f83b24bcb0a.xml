@@ -1,0 +1,1170 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
+        <copied_from_name>FlowTemplate_Empty</copied_from_name>
+        <description/>
+        <internal_name>value_mid_flow</internal_name>
+        <label_cache>[{"name":"Created or Updated_1.current.description","label":"Trigger - Record Created or Updated➛Agreements Record➛Description","reference":"","reference_display":"Description","type":"string","base_type":"string","parent_table_name":"x_epiu2_ncc_prot_0_agreements","column_name":"description"},{"name":"e8055722-a738-48a7-9d8b-9f97be77a8fa.__dont_treat_as_error__","label":"11 - Attach DocuSign Document to ServiceNow Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e8055722-a738-48a7-9d8b-9f97be77a8fa.__action_status__","label":"11 - Attach DocuSign Document to ServiceNow Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e8055722-a738-48a7-9d8b-9f97be77a8fa.attachment","label":"11 - Attach DocuSign Document to ServiceNow Record➛Attachment","reference":"sys_attachment","reference_display":"Attachment","type":"reference","base_type":"reference","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"eeba00c8-f07c-4148-83f7-7752955b9506"}},{"name":"e8055722-a738-48a7-9d8b-9f97be77a8fa.error_message","label":"11 - Attach DocuSign Document to ServiceNow Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"34726299-1da9-48d4-bc6e-e3623e386c91"}},{"name":"e8055722-a738-48a7-9d8b-9f97be77a8fa.status","label":"11 - Attach DocuSign Document to ServiceNow Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"Error","order":0.0},{"label":"Success","value":"Success","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"4c8e1fb1-cf5d-4c2a-86ea-eab71ba0e884"}},{"name":"27843d81-fe87-47f0-8626-18e50462d100.__dont_treat_as_error__","label":"13 - Get Attachments on Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"27843d81-fe87-47f0-8626-18e50462d100.__action_status__","label":"13 - Get Attachments on Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"27843d81-fe87-47f0-8626-18e50462d100.parameter1","label":"13 - Get Attachments on Record➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer"}},{"name":"27843d81-fe87-47f0-8626-18e50462d100.parameter","label":"13 - Get Attachments on Record➛Attachment Records","reference":"sys_attachment","reference_display":"Attachment","type":"records","base_type":"records","attributes":{"uiTypeLabel":"Records","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"records"}},{"name":"54a025f6-662c-4aaa-adff-266cc5689d27.__dont_treat_as_error__","label":"5 - Update Record➛6➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"54a025f6-662c-4aaa-adff-266cc5689d27.__action_status__","label":"5 - Update Record➛6➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"54a025f6-662c-4aaa-adff-266cc5689d27.table_name","label":"5 - Update Record➛6➛Agreements Table","reference":"x_epiu2_ncc_prot_0_agreements","reference_display":"Agreements","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"54a025f6-662c-4aaa-adff-266cc5689d27.record","label":"5 - Update Record➛6➛Agreements Record","reference":"x_epiu2_ncc_prot_0_agreements","reference_display":"Agreements","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"15e143f3-b605-4c0f-b481-2685e53e892b.envelope_id12.sys_id","label":"3 - Send Adhoc Signature Request to User➛4➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛8➛Envelope➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sn_docusign_spoke_envelopes","column_name":"sys_id"},{"name":"54d6094e-9af9-46ad-8d96-e6f36c6f171d.__dont_treat_as_error__","label":"10 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"54d6094e-9af9-46ad-8d96-e6f36c6f171d.__action_status__","label":"10 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"54d6094e-9af9-46ad-8d96-e6f36c6f171d.table_name","label":"10 - Update Record➛Agreements Table","reference":"x_epiu2_ncc_prot_0_agreements","reference_display":"Agreements","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"54d6094e-9af9-46ad-8d96-e6f36c6f171d.record","label":"10 - Update Record➛Agreements Record","reference":"x_epiu2_ncc_prot_0_agreements","reference_display":"Agreements","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1e415f11-60d6-46de-8f85-1e9a74446365.__dont_treat_as_error__","label":"9 - Wait for Signature from DocuSign➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1e415f11-60d6-46de-8f85-1e9a74446365.__action_status__","label":"9 - Wait for Signature from DocuSign➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1e415f11-60d6-46de-8f85-1e9a74446365.status","label":"9 - Wait for Signature from DocuSign➛Status","reference_display":"Status","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.email_address","label":"Trigger - Record Created or Updated➛Agreements Record➛Email Address","reference":"","reference_display":"Email Address","type":"string","base_type":"string","parent_table_name":"x_epiu2_ncc_prot_0_agreements","column_name":"email_address"},{"name":"Created or Updated_1.current.customer_name","label":"Trigger - Record Created or Updated➛Agreements Record➛Customer Name","reference":"","reference_display":"Customer Name","type":"string","base_type":"string","parent_table_name":"x_epiu2_ncc_prot_0_agreements","column_name":"customer_name"},{"name":"15e143f3-b605-4c0f-b481-2685e53e892b.__dont_treat_as_error__","label":"3 - Send Adhoc Signature Request to User➛4➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"e17451e0-c0d2-4f7b-a56b-c53d3bbf2b27"}},{"name":"15e143f3-b605-4c0f-b481-2685e53e892b.__action_status__","label":"3 - Send Adhoc Signature Request to User➛4➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD79aa71b37c72011093b73ecd43d555b2","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"e3c9c04b-437d-49ad-b1ff-716cebf927aa"}},{"name":"15e143f3-b605-4c0f-b481-2685e53e892b.recipient_email","label":"3 - Send Adhoc Signature Request to User➛4➛Recipient Email","reference_display":"Recipient Email","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"b3d46bf9-db1f-4401-94e2-2ec83611746f"}},{"name":"15e143f3-b605-4c0f-b481-2685e53e892b.recipient_name","label":"3 - Send Adhoc Signature Request to User➛4➛Recipient Name","reference_display":"Recipient Name","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"9ed169f6-5412-46e9-920b-ec7eee69ccc3"}},{"name":"15e143f3-b605-4c0f-b481-2685e53e892b.envelope_uri12","label":"3 - Send Adhoc Signature Request to User➛4➛Envelope URI","reference_display":"Envelope URI","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"b7a5aadf-1548-4043-87b8-0765f299e270"}},{"name":"15e143f3-b605-4c0f-b481-2685e53e892b.envelope_id12","label":"3 - Send Adhoc Signature Request to User➛4➛Envelope","reference":"sn_docusign_spoke_envelopes","reference_display":"Envelopes","type":"reference","base_type":"reference","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"ca6e9eeb-47e9-4719-9ca6-7f27b719b620"}},{"name":"15e143f3-b605-4c0f-b481-2685e53e892b.error_message12","label":"3 - Send Adhoc Signature Request to User➛4➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"8837f9a7-3ab9-4437-83da-9f5aa5b67924"}},{"name":"15e143f3-b605-4c0f-b481-2685e53e892b.status12","label":"3 - Send Adhoc Signature Request to User➛4➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"Error","order":0.0},{"label":"Success","value":"Success","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"3afd5958-d372-4875-bf0b-a5f5fda4e3c3"}},{"name":"55275ca7-0e8c-42cf-b36f-9add2203161c.__dont_treat_as_error__","label":"3 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"55275ca7-0e8c-42cf-b36f-9add2203161c.__action_status__","label":"3 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"55275ca7-0e8c-42cf-b36f-9add2203161c.table_name","label":"3 - Update Record➛Agreements Table","reference":"x_epiu2_ncc_prot_0_agreements","reference_display":"Agreements","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"55275ca7-0e8c-42cf-b36f-9add2203161c.record","label":"3 - Update Record➛Agreements Record","reference":"x_epiu2_ncc_prot_0_agreements","reference_display":"Agreements","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"29e62828-0470-4ac2-b2ac-f848f6715bd8.scheduled_end_date_time","label":"2 - Wait for a duration of time➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"29e62828-0470-4ac2-b2ac-f848f6715bd8.total_duration","label":"2 - Wait for a duration of time➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"c89a442f-6888-47fd-b3f8-2eb26811f610.__dont_treat_as_error__","label":"1 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c89a442f-6888-47fd-b3f8-2eb26811f610.__action_status__","label":"1 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c89a442f-6888-47fd-b3f8-2eb26811f610.table_name","label":"1 - Update Record➛Agreements Table","reference":"x_epiu2_ncc_prot_0_agreements","reference_display":"Agreements","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c89a442f-6888-47fd-b3f8-2eb26811f610.record","label":"1 - Update Record➛Agreements Record","reference":"x_epiu2_ncc_prot_0_agreements","reference_display":"Agreements","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Agreements Record","reference":"x_epiu2_ncc_prot_0_agreements","reference_display":"Agreements","type":"reference","base_type":"reference","attributes":{}},{"name":"cad70596-37e4-4170-8bc2-32b796fb3620.__dont_treat_as_error__","label":"1 - Ask For Approval➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"cad70596-37e4-4170-8bc2-32b796fb3620.__action_status__","label":"1 - Ask For Approval➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"cad70596-37e4-4170-8bc2-32b796fb3620.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.value","label":"Trigger - Record Created or Updated➛Agreements Record➛Value","reference":"fx_currency2_instance","reference_display":"FX Currency","type":"currency2","base_type":"currency2","parent_table_name":"x_epiu2_ncc_prot_0_agreements","column_name":"value"},{"name":"15e143f3-b605-4c0f-b481-2685e53e892b.envelope_id12.account.id","label":"3 - Send Adhoc Signature Request to User➛4➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Account➛Account ID","reference":"","reference_display":"Account ID","type":"string","base_type":"string","parent_table_name":"sn_docusign_spoke_accounts","column_name":"id"},{"name":"15e143f3-b605-4c0f-b481-2685e53e892b.envelope_id12.account","label":"3 - Send Adhoc Signature Request to User➛4➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Account","reference":"sn_docusign_spoke_accounts","reference_display":"Accounts","type":"reference","base_type":"reference","parent_table_name":"sn_docusign_spoke_envelopes","column_name":"account"}]</label_cache>
+        <master_snapshot>3e038dc51ba4a910bd2feac6624bcb2e</master_snapshot>
+        <name>Value Mid Flow &gt;$10k</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>58d817661b6ce150bd2feac6624bcb43</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>fouad.chehime</sys_created_by>
+        <sys_created_on>2023-01-18 17:36:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a225871c1be46510fa441f83b24bcb0a</sys_id>
+        <sys_mod_count>51</sys_mod_count>
+        <sys_name>Value Mid Flow &gt;$10k</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NCC Prototype Test" source="x_epiu2_ncc_prot_0">0a318c101bd02114fa441f83b24bcb0d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_update_name>sys_hub_flow_a225871c1be46510fa441f83b24bcb0a</sys_update_name>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 18:48:53</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=a225871c1be46510fa441f83b24bcb0a"/>
+    <sys_variable_value action="delete_multiple" query="document_key=a225871c1be46510fa441f83b24bcb0a"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_epiu2_ncc_prot_0_agreements">value&gt;USD,9999.99^agreement_docVALCHANGES^payable=false<item endquery="false" field="value" goto="false" newquery="false" operator="&gt;" or="false" value="USD,9999.99"/>
+            <item endquery="false" field="agreement_doc" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="false" field="payable" goto="false" newquery="false" operator="=" or="false" value="false"/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>true</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>true</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-25 18:48:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>58d817661b6ce150bd2feac6624bcb43</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 18:48:52</sys_updated_on>
+        <table>x_epiu2_ncc_prot_0_agreements</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"true"}</data>
+        <identifier>a225871c1be46510fa441f83b24bcb0a</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-25 18:48:52</sys_created_on>
+        <sys_id>14d817661b6ce150bd2feac6624bcb44</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 18:48:52</sys_updated_on>
+        <trigger display_value="">58d817661b6ce150bd2feac6624bcb43</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=a225871c1be46510fa441f83b24bcb0a^sys_idNOT IN14d817661b6ce150bd2feac6624bcb44"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=a225871c1be46510fa441f83b24bcb0a^sys_idNOT INd31c43181b286510fa441f83b24bcbf4"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Value Mid Flow &gt;$10k">a225871c1be46510fa441f83b24bcb0a</flow>
+        <name>Created or Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>fouad.chehime</sys_created_by>
+        <sys_created_on>2023-01-18 18:07:02</sys_created_on>
+        <sys_id>d31c43181b286510fa441f83b24bcbf4</sys_id>
+        <sys_mod_count>51</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 18:48:53</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d31c43181b286510fa441f83b24bcbf4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>d31c43181b286510fa441f83b24bcbf4</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>fouad.chehime</sys_created_by>
+        <sys_created_on>2023-01-20 16:36:21</sys_created_on>
+        <sys_id>928acd451be4a910bd2feac6624bcbe6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fouad.chehime</sys_updated_by>
+        <sys_updated_on>2023-01-20 16:36:21</sys_updated_on>
+        <value>unique_changes</value>
+        <variable display_value="Run Trigger">2b9def50c31132002841b63b12d3ae5b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>d31c43181b286510fa441f83b24bcbf4</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>fouad.chehime</sys_created_by>
+        <sys_created_on>2023-01-18 18:07:02</sys_created_on>
+        <sys_id>d31c43181b286510fa441f83b24bcbf5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>kelton.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:06:33</sys_updated_on>
+        <value>value&gt;USD,9999.99^agreement_docVALCHANGES^payable=false</value>
+        <variable display_value="Condition">707dd180c32222002841b63b12d3aecb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>d31c43181b286510fa441f83b24bcbf4</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-25 18:48:40</sys_created_on>
+        <sys_id>d9c813661b6ce150bd2feac6624bcb0e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 18:48:40</sys_updated_on>
+        <value>true</value>
+        <variable display_value="Run On Extended Tables">1c4203b6072200103bf10705afd300b8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>d31c43181b286510fa441f83b24bcbf4</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>fouad.chehime</sys_created_by>
+        <sys_created_on>2023-01-18 18:07:02</sys_created_on>
+        <sys_id>db1c43181b286510fa441f83b24bcbf5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fouad.chehime</sys_updated_by>
+        <sys_updated_on>2023-01-18 18:07:02</sys_updated_on>
+        <value>x_epiu2_ncc_prot_0_agreements</value>
+        <variable display_value="Table">cf1e1980c32222002841b63b12d3aea0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_a45d9180c32222002841b63b12d3aea7^id=d31c43181b286510fa441f83b24bcbf4"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=a225871c1be46510fa441f83b24bcb0a"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=a225871c1be46510fa441f83b24bcb0a^sys_idNOT INee25871c1be46510fa441f83b24bcb0a"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>a225871c1be46510fa441f83b24bcb0a</id>
+        <name>Value Mid Flow</name>
+        <sys_created_by>fouad.chehime</sys_created_by>
+        <sys_created_on>2023-01-18 17:36:40</sys_created_on>
+        <sys_id>ee25871c1be46510fa441f83b24bcb0a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>fouad.chehime</sys_updated_by>
+        <sys_updated_on>2023-01-18 17:36:40</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=ee25871c1be46510fa441f83b24bcb0a"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=a225871c1be46510fa441f83b24bcb0a^sys_idNOT IN5b1c43181b286510fa441f83b24bcbed,971c43181b286510fa441f83b24bcbdd,db1c43181b286510fa441f83b24bcbd8"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Value Mid Flow &gt;$10k">a225871c1be46510fa441f83b24bcb0a</model>
+        <model_id>a225871c1be46510fa441f83b24bcb0a</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_a225871c1be46510fa441f83b24bcb0a</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>fouad.chehime</sys_created_by>
+        <sys_created_on>2023-01-18 18:07:02</sys_created_on>
+        <sys_id>5b1c43181b286510fa441f83b24bcbed</sys_id>
+        <sys_mod_count>27</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 18:48:52</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Value Mid Flow &gt;$10k">a225871c1be46510fa441f83b24bcb0a</model>
+        <model_id>a225871c1be46510fa441f83b24bcb0a</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_a225871c1be46510fa441f83b24bcb0a</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>fouad.chehime</sys_created_by>
+        <sys_created_on>2023-01-18 18:07:02</sys_created_on>
+        <sys_id>971c43181b286510fa441f83b24bcbdd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>fouad.chehime</sys_updated_by>
+        <sys_updated_on>2023-01-18 18:07:02</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Value Mid Flow &gt;$10k">a225871c1be46510fa441f83b24bcb0a</model>
+        <model_id>a225871c1be46510fa441f83b24bcb0a</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_a225871c1be46510fa441f83b24bcb0a</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>fouad.chehime</sys_created_by>
+        <sys_created_on>2023-01-18 18:07:02</sys_created_on>
+        <sys_id>db1c43181b286510fa441f83b24bcbd8</sys_id>
+        <sys_mod_count>27</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 18:48:52</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=a225871c1be46510fa441f83b24bcb0a"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a225871c1be46510fa441f83b24bcb0a"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=a225871c1be46510fa441f83b24bcb0a^sys_idNOT IN531c83181b286510fa441f83b24bcb07"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Value Mid Flow &gt;$10k">a225871c1be46510fa441f83b24bcb0a</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>fouad.chehime</sys_created_by>
+        <sys_created_on>2023-01-18 18:07:03</sys_created_on>
+        <sys_id>531c83181b286510fa441f83b24bcb07</sys_id>
+        <sys_mod_count>100</sys_mod_count>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 18:48:53</sys_updated_on>
+        <ui_id>c89a442f-6888-47fd-b3f8-2eb26811f610</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=531c83181b286510fa441f83b24bcb07"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>531c83181b286510fa441f83b24bcb07</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>fouad.chehime</sys_created_by>
+        <sys_created_on>2023-01-18 18:07:03</sys_created_on>
+        <sys_id>531c83181b286510fa441f83b24bcb0a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fouad.chehime</sys_updated_by>
+        <sys_updated_on>2023-01-18 18:07:03</sys_updated_on>
+        <value>x_epiu2_ncc_prot_0_agreements</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>531c83181b286510fa441f83b24bcb07</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>fouad.chehime</sys_created_by>
+        <sys_created_on>2023-01-18 18:07:03</sys_created_on>
+        <sys_id>9f1c83181b286510fa441f83b24bcb09</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>kelton.keener</sys_updated_by>
+        <sys_updated_on>2023-01-23 20:02:26</sys_updated_on>
+        <value>assignment_group={"display":"Legal Service","value":"fffdb0601b90e9d0c50c9712b24bcb5b","sys_id":"fffdb0601b90e9d0c50c9712b24bcb5b"}^state=review_update</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=531c83181b286510fa441f83b24bcb07"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>531c83181b286510fa441f83b24bcb07</id>
+        <sys_created_by>fouad.chehime</sys_created_by>
+        <sys_created_on>2023-01-18 18:07:03</sys_created_on>
+        <sys_id>1f1c83181b286510fa441f83b24bcb09</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fouad.chehime</sys_updated_by>
+        <sys_updated_on>2023-01-18 18:07:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>531c83181b286510fa441f83b24bcb07</id>
+        <sys_created_by>fouad.chehime</sys_created_by>
+        <sys_created_on>2023-01-18 18:07:03</sys_created_on>
+        <sys_id>931c83181b286510fa441f83b24bcb09</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fouad.chehime</sys_updated_by>
+        <sys_updated_on>2023-01-18 18:07:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>531c83181b286510fa441f83b24bcb07</id>
+        <sys_created_by>fouad.chehime</sys_created_by>
+        <sys_created_on>2023-01-18 18:07:03</sys_created_on>
+        <sys_id>5b1c83181b286510fa441f83b24bcb09</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fouad.chehime</sys_updated_by>
+        <sys_updated_on>2023-01-18 18:07:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=531c83181b286510fa441f83b24bcb07"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=531c83181b286510fa441f83b24bcb07"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=a225871c1be46510fa441f83b24bcb0a"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=a225871c1be46510fa441f83b24bcb0a"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=a225871c1be46510fa441f83b24bcb0a"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=a225871c1be46510fa441f83b24bcb0a"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_a225871c1be46510fa441f83b24bcb0a^sys_idNOT IN131c43181b286510fa441f83b24bcbf0,5b1c43181b286510fa441f83b24bcbec,971c43181b286510fa441f83b24bcbdc"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_a225871c1be46510fa441f83b24bcb0a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>fouad.chehime</sys_created_by>
+        <sys_created_on>2023-01-18 18:07:02</sys_created_on>
+        <sys_id>131c43181b286510fa441f83b24bcbf0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NCC Prototype Test" source="x_epiu2_ncc_prot_0">0a318c101bd02114fa441f83b24bcb0d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>fouad.chehime</sys_updated_by>
+        <sys_updated_on>2023-01-18 18:07:02</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_a225871c1be46510fa441f83b24bcb0a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>fouad.chehime</sys_created_by>
+        <sys_created_on>2023-01-18 18:07:02</sys_created_on>
+        <sys_id>5b1c43181b286510fa441f83b24bcbec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NCC Prototype Test" source="x_epiu2_ncc_prot_0">0a318c101bd02114fa441f83b24bcb0d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>fouad.chehime</sys_updated_by>
+        <sys_updated_on>2023-01-18 18:07:02</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_a225871c1be46510fa441f83b24bcb0a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>fouad.chehime</sys_created_by>
+        <sys_created_on>2023-01-18 18:07:02</sys_created_on>
+        <sys_id>971c43181b286510fa441f83b24bcbdc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NCC Prototype Test" source="x_epiu2_ncc_prot_0">0a318c101bd02114fa441f83b24bcb0d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>fouad.chehime</sys_updated_by>
+        <sys_updated_on>2023-01-18 18:07:02</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_a225871c1be46510fa441f83b24bcb0a"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_a225871c1be46510fa441f83b24bcb0a"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_a225871c1be46510fa441f83b24bcb0a"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=a225871c1be46510fa441f83b24bcb0a^sys_idNOT IN401301091ba4a910bd2feac6624bcbbc"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerUniqueChange</binding_strategy>
+        <plan/>
+        <plan_id>a225871c1be46510fa441f83b24bcb0a</plan_id>
+        <snapshot>3e038dc51ba4a910bd2feac6624bcb2e</snapshot>
+        <sys_created_by>fouad.chehime</sys_created_by>
+        <sys_created_on>2023-01-20 16:03:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>401301091ba4a910bd2feac6624bcbbc</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 18:48:52</sys_updated_on>
+        <trigger display_value="">58d817661b6ce150bd2feac6624bcb43</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=a225871c1be46510fa441f83b24bcb0a"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>value_mid_flow_10k</internal_name>
+        <label_cache>[{"name":"Created or Updated_1.current.description","label":"Trigger - Record Created or Updated➛Agreements Record➛Description","reference":"","reference_display":"Description","type":"string","base_type":"string","parent_table_name":"x_epiu2_ncc_prot_0_agreements","column_name":"description"},{"name":"e8055722-a738-48a7-9d8b-9f97be77a8fa.__dont_treat_as_error__","label":"11 - Attach DocuSign Document to ServiceNow Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e8055722-a738-48a7-9d8b-9f97be77a8fa.__action_status__","label":"11 - Attach DocuSign Document to ServiceNow Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e8055722-a738-48a7-9d8b-9f97be77a8fa.attachment","label":"11 - Attach DocuSign Document to ServiceNow Record➛Attachment","reference":"sys_attachment","reference_display":"Attachment","type":"reference","base_type":"reference","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"eeba00c8-f07c-4148-83f7-7752955b9506"}},{"name":"e8055722-a738-48a7-9d8b-9f97be77a8fa.error_message","label":"11 - Attach DocuSign Document to ServiceNow Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"34726299-1da9-48d4-bc6e-e3623e386c91"}},{"name":"e8055722-a738-48a7-9d8b-9f97be77a8fa.status","label":"11 - Attach DocuSign Document to ServiceNow Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"Error","order":0.0},{"label":"Success","value":"Success","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"4c8e1fb1-cf5d-4c2a-86ea-eab71ba0e884"}},{"name":"27843d81-fe87-47f0-8626-18e50462d100.__dont_treat_as_error__","label":"13 - Get Attachments on Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"27843d81-fe87-47f0-8626-18e50462d100.__action_status__","label":"13 - Get Attachments on Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"27843d81-fe87-47f0-8626-18e50462d100.parameter1","label":"13 - Get Attachments on Record➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer"}},{"name":"27843d81-fe87-47f0-8626-18e50462d100.parameter","label":"13 - Get Attachments on Record➛Attachment Records","reference":"sys_attachment","reference_display":"Attachment","type":"records","base_type":"records","attributes":{"uiTypeLabel":"Records","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"records"}},{"name":"54a025f6-662c-4aaa-adff-266cc5689d27.__dont_treat_as_error__","label":"5 - Update Record➛6➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"54a025f6-662c-4aaa-adff-266cc5689d27.__action_status__","label":"5 - Update Record➛6➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"54a025f6-662c-4aaa-adff-266cc5689d27.table_name","label":"5 - Update Record➛6➛Agreements Table","reference":"x_epiu2_ncc_prot_0_agreements","reference_display":"Agreements","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"54a025f6-662c-4aaa-adff-266cc5689d27.record","label":"5 - Update Record➛6➛Agreements Record","reference":"x_epiu2_ncc_prot_0_agreements","reference_display":"Agreements","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"15e143f3-b605-4c0f-b481-2685e53e892b.envelope_id12.sys_id","label":"3 - Send Adhoc Signature Request to User➛4➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛8➛Envelope➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sn_docusign_spoke_envelopes","column_name":"sys_id"},{"name":"54d6094e-9af9-46ad-8d96-e6f36c6f171d.__dont_treat_as_error__","label":"10 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"54d6094e-9af9-46ad-8d96-e6f36c6f171d.__action_status__","label":"10 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"54d6094e-9af9-46ad-8d96-e6f36c6f171d.table_name","label":"10 - Update Record➛Agreements Table","reference":"x_epiu2_ncc_prot_0_agreements","reference_display":"Agreements","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"54d6094e-9af9-46ad-8d96-e6f36c6f171d.record","label":"10 - Update Record➛Agreements Record","reference":"x_epiu2_ncc_prot_0_agreements","reference_display":"Agreements","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1e415f11-60d6-46de-8f85-1e9a74446365.__dont_treat_as_error__","label":"9 - Wait for Signature from DocuSign➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1e415f11-60d6-46de-8f85-1e9a74446365.__action_status__","label":"9 - Wait for Signature from DocuSign➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1e415f11-60d6-46de-8f85-1e9a74446365.status","label":"9 - Wait for Signature from DocuSign➛Status","reference_display":"Status","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.email_address","label":"Trigger - Record Created or Updated➛Agreements Record➛Email Address","reference":"","reference_display":"Email Address","type":"string","base_type":"string","parent_table_name":"x_epiu2_ncc_prot_0_agreements","column_name":"email_address"},{"name":"Created or Updated_1.current.customer_name","label":"Trigger - Record Created or Updated➛Agreements Record➛Customer Name","reference":"","reference_display":"Customer Name","type":"string","base_type":"string","parent_table_name":"x_epiu2_ncc_prot_0_agreements","column_name":"customer_name"},{"name":"15e143f3-b605-4c0f-b481-2685e53e892b.__dont_treat_as_error__","label":"3 - Send Adhoc Signature Request to User➛4➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"e17451e0-c0d2-4f7b-a56b-c53d3bbf2b27"}},{"name":"15e143f3-b605-4c0f-b481-2685e53e892b.__action_status__","label":"3 - Send Adhoc Signature Request to User➛4➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD79aa71b37c72011093b73ecd43d555b2","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"e3c9c04b-437d-49ad-b1ff-716cebf927aa"}},{"name":"15e143f3-b605-4c0f-b481-2685e53e892b.recipient_email","label":"3 - Send Adhoc Signature Request to User➛4➛Recipient Email","reference_display":"Recipient Email","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"b3d46bf9-db1f-4401-94e2-2ec83611746f"}},{"name":"15e143f3-b605-4c0f-b481-2685e53e892b.recipient_name","label":"3 - Send Adhoc Signature Request to User➛4➛Recipient Name","reference_display":"Recipient Name","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"9ed169f6-5412-46e9-920b-ec7eee69ccc3"}},{"name":"15e143f3-b605-4c0f-b481-2685e53e892b.envelope_uri12","label":"3 - Send Adhoc Signature Request to User➛4➛Envelope URI","reference_display":"Envelope URI","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"b7a5aadf-1548-4043-87b8-0765f299e270"}},{"name":"15e143f3-b605-4c0f-b481-2685e53e892b.envelope_id12","label":"3 - Send Adhoc Signature Request to User➛4➛Envelope","reference":"sn_docusign_spoke_envelopes","reference_display":"Envelopes","type":"reference","base_type":"reference","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"ca6e9eeb-47e9-4719-9ca6-7f27b719b620"}},{"name":"15e143f3-b605-4c0f-b481-2685e53e892b.error_message12","label":"3 - Send Adhoc Signature Request to User➛4➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"8837f9a7-3ab9-4437-83da-9f5aa5b67924"}},{"name":"15e143f3-b605-4c0f-b481-2685e53e892b.status12","label":"3 - Send Adhoc Signature Request to User➛4➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"Error","order":0.0},{"label":"Success","value":"Success","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"3afd5958-d372-4875-bf0b-a5f5fda4e3c3"}},{"name":"55275ca7-0e8c-42cf-b36f-9add2203161c.__dont_treat_as_error__","label":"3 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"55275ca7-0e8c-42cf-b36f-9add2203161c.__action_status__","label":"3 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"55275ca7-0e8c-42cf-b36f-9add2203161c.table_name","label":"3 - Update Record➛Agreements Table","reference":"x_epiu2_ncc_prot_0_agreements","reference_display":"Agreements","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"55275ca7-0e8c-42cf-b36f-9add2203161c.record","label":"3 - Update Record➛Agreements Record","reference":"x_epiu2_ncc_prot_0_agreements","reference_display":"Agreements","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"29e62828-0470-4ac2-b2ac-f848f6715bd8.scheduled_end_date_time","label":"2 - Wait for a duration of time➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"29e62828-0470-4ac2-b2ac-f848f6715bd8.total_duration","label":"2 - Wait for a duration of time➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"c89a442f-6888-47fd-b3f8-2eb26811f610.__dont_treat_as_error__","label":"1 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c89a442f-6888-47fd-b3f8-2eb26811f610.__action_status__","label":"1 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c89a442f-6888-47fd-b3f8-2eb26811f610.table_name","label":"1 - Update Record➛Agreements Table","reference":"x_epiu2_ncc_prot_0_agreements","reference_display":"Agreements","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c89a442f-6888-47fd-b3f8-2eb26811f610.record","label":"1 - Update Record➛Agreements Record","reference":"x_epiu2_ncc_prot_0_agreements","reference_display":"Agreements","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Agreements Record","reference":"x_epiu2_ncc_prot_0_agreements","reference_display":"Agreements","type":"reference","base_type":"reference","attributes":{}},{"name":"cad70596-37e4-4170-8bc2-32b796fb3620.__dont_treat_as_error__","label":"1 - Ask For Approval➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"cad70596-37e4-4170-8bc2-32b796fb3620.__action_status__","label":"1 - Ask For Approval➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"cad70596-37e4-4170-8bc2-32b796fb3620.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.value","label":"Trigger - Record Created or Updated➛Agreements Record➛Value","reference":"fx_currency2_instance","reference_display":"FX Currency","type":"currency2","base_type":"currency2","parent_table_name":"x_epiu2_ncc_prot_0_agreements","column_name":"value"},{"name":"15e143f3-b605-4c0f-b481-2685e53e892b.envelope_id12.account.id","label":"3 - Send Adhoc Signature Request to User➛4➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Account➛Account ID","reference":"","reference_display":"Account ID","type":"string","base_type":"string","parent_table_name":"sn_docusign_spoke_accounts","column_name":"id"},{"name":"15e143f3-b605-4c0f-b481-2685e53e892b.envelope_id12.account","label":"3 - Send Adhoc Signature Request to User➛4➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Envelope➛Account","reference":"sn_docusign_spoke_accounts","reference_display":"Accounts","type":"reference","base_type":"reference","parent_table_name":"sn_docusign_spoke_envelopes","column_name":"account"}]</label_cache>
+        <master>true</master>
+        <name>Value Mid Flow &gt;$10k</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Value Mid Flow &gt;$10k">a225871c1be46510fa441f83b24bcb0a</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>fouad.chehime</sys_created_by>
+        <sys_created_on>2023-01-20 16:03:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3e038dc51ba4a910bd2feac6624bcb2e</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 18:48:52</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=3e038dc51ba4a910bd2feac6624bcb2e"/>
+    <sys_variable_value action="delete_multiple" query="document_key=3e038dc51ba4a910bd2feac6624bcb2e"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=3e038dc51ba4a910bd2feac6624bcb2e^sys_idNOT INdb03cdc51ba4a910bd2feac6624bcb0e"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Value Mid Flow &gt;$10k">3e038dc51ba4a910bd2feac6624bcb2e</flow>
+        <name>Created or Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>fouad.chehime</sys_created_by>
+        <sys_created_on>2023-01-20 16:03:39</sys_created_on>
+        <sys_id>db03cdc51ba4a910bd2feac6624bcb0e</sys_id>
+        <sys_mod_count>42</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 18:48:52</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=db03cdc51ba4a910bd2feac6624bcb0e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>db03cdc51ba4a910bd2feac6624bcb0e</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>fouad.chehime</sys_created_by>
+        <sys_created_on>2023-01-20 16:36:37</sys_created_on>
+        <sys_id>129a85851be4a910bd2feac6624bcb29</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fouad.chehime</sys_updated_by>
+        <sys_updated_on>2023-01-20 16:36:37</sys_updated_on>
+        <value>unique_changes</value>
+        <variable display_value="Run Trigger">2b9def50c31132002841b63b12d3ae5b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>db03cdc51ba4a910bd2feac6624bcb0e</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>fouad.chehime</sys_created_by>
+        <sys_created_on>2023-01-20 16:03:39</sys_created_on>
+        <sys_id>5f03cdc51ba4a910bd2feac6624bcb10</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fouad.chehime</sys_updated_by>
+        <sys_updated_on>2023-01-20 16:03:39</sys_updated_on>
+        <value>x_epiu2_ncc_prot_0_agreements</value>
+        <variable display_value="Table">cf1e1980c32222002841b63b12d3aea0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>db03cdc51ba4a910bd2feac6624bcb0e</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>fouad.chehime</sys_created_by>
+        <sys_created_on>2023-01-20 16:03:39</sys_created_on>
+        <sys_id>9b03cdc51ba4a910bd2feac6624bcb10</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>kelton.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:06:38</sys_updated_on>
+        <value>value&gt;USD,9999.99^agreement_docVALCHANGES^payable=false</value>
+        <variable display_value="Condition">707dd180c32222002841b63b12d3aecb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>db03cdc51ba4a910bd2feac6624bcb0e</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-25 18:48:51</sys_created_on>
+        <sys_id>c4d8d3661b6ce150bd2feac6624bcbe0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 18:48:51</sys_updated_on>
+        <value>true</value>
+        <variable display_value="Run On Extended Tables">1c4203b6072200103bf10705afd300b8</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_a45d9180c32222002841b63b12d3aea7^id=db03cdc51ba4a910bd2feac6624bcb0e"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=3e038dc51ba4a910bd2feac6624bcb2e"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=3e038dc51ba4a910bd2feac6624bcb2e^sys_idNOT IN7e038dc51ba4a910bd2feac6624bcb2f"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>3e038dc51ba4a910bd2feac6624bcb2e</id>
+        <name>Value Mid Flow &gt;$10k</name>
+        <sys_created_by>fouad.chehime</sys_created_by>
+        <sys_created_on>2023-01-20 16:03:37</sys_created_on>
+        <sys_id>7e038dc51ba4a910bd2feac6624bcb2f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>fouad.chehime</sys_updated_by>
+        <sys_updated_on>2023-01-20 16:03:37</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=7e038dc51ba4a910bd2feac6624bcb2f"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=3e038dc51ba4a910bd2feac6624bcb2e^sys_idNOT IN76038dc51ba4a910bd2feac6624bcb46,b2038dc51ba4a910bd2feac6624bcb31,b6038dc51ba4a910bd2feac6624bcb5b"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Value Mid Flow &gt;$10k">3e038dc51ba4a910bd2feac6624bcb2e</model>
+        <model_id>3e038dc51ba4a910bd2feac6624bcb2e</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_3e038dc51ba4a910bd2feac6624bcb2e</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>fouad.chehime</sys_created_by>
+        <sys_created_on>2023-01-20 16:03:37</sys_created_on>
+        <sys_id>76038dc51ba4a910bd2feac6624bcb46</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>fouad.chehime</sys_updated_by>
+        <sys_updated_on>2023-01-20 16:18:19</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Value Mid Flow &gt;$10k">3e038dc51ba4a910bd2feac6624bcb2e</model>
+        <model_id>3e038dc51ba4a910bd2feac6624bcb2e</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_3e038dc51ba4a910bd2feac6624bcb2e</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>fouad.chehime</sys_created_by>
+        <sys_created_on>2023-01-20 16:03:37</sys_created_on>
+        <sys_id>b2038dc51ba4a910bd2feac6624bcb31</sys_id>
+        <sys_mod_count>25</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 18:48:51</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Value Mid Flow &gt;$10k">3e038dc51ba4a910bd2feac6624bcb2e</model>
+        <model_id>3e038dc51ba4a910bd2feac6624bcb2e</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_3e038dc51ba4a910bd2feac6624bcb2e</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>fouad.chehime</sys_created_by>
+        <sys_created_on>2023-01-20 16:03:37</sys_created_on>
+        <sys_id>b6038dc51ba4a910bd2feac6624bcb5b</sys_id>
+        <sys_mod_count>25</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 18:48:51</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=3e038dc51ba4a910bd2feac6624bcb2e"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=3e038dc51ba4a910bd2feac6624bcb2e"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=3e038dc51ba4a910bd2feac6624bcb2e^sys_idNOT IN8f038dc51ba4a910bd2feac6624bcb92"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Value Mid Flow &gt;$10k">3e038dc51ba4a910bd2feac6624bcb2e</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>fouad.chehime</sys_created_by>
+        <sys_created_on>2023-01-20 16:03:38</sys_created_on>
+        <sys_id>8f038dc51ba4a910bd2feac6624bcb92</sys_id>
+        <sys_mod_count>54</sys_mod_count>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 18:48:52</sys_updated_on>
+        <ui_id>c89a442f-6888-47fd-b3f8-2eb26811f610</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8f038dc51ba4a910bd2feac6624bcb92"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8f038dc51ba4a910bd2feac6624bcb92</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>fouad.chehime</sys_created_by>
+        <sys_created_on>2023-01-20 16:03:38</sys_created_on>
+        <sys_id>03038dc51ba4a910bd2feac6624bcb95</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>kelton.keener</sys_updated_by>
+        <sys_updated_on>2023-01-24 23:01:34</sys_updated_on>
+        <value>assignment_group={"display":"Legal Service","value":"fffdb0601b90e9d0c50c9712b24bcb5b","sys_id":"fffdb0601b90e9d0c50c9712b24bcb5b"}^state=review_update</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8f038dc51ba4a910bd2feac6624bcb92</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>fouad.chehime</sys_created_by>
+        <sys_created_on>2023-01-20 16:03:38</sys_created_on>
+        <sys_id>c3038dc51ba4a910bd2feac6624bcb95</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fouad.chehime</sys_updated_by>
+        <sys_updated_on>2023-01-20 16:03:38</sys_updated_on>
+        <value>x_epiu2_ncc_prot_0_agreements</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=8f038dc51ba4a910bd2feac6624bcb92"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>8f038dc51ba4a910bd2feac6624bcb92</id>
+        <sys_created_by>fouad.chehime</sys_created_by>
+        <sys_created_on>2023-01-20 16:03:38</sys_created_on>
+        <sys_id>8f038dc51ba4a910bd2feac6624bcb94</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fouad.chehime</sys_updated_by>
+        <sys_updated_on>2023-01-20 16:03:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>8f038dc51ba4a910bd2feac6624bcb92</id>
+        <sys_created_by>fouad.chehime</sys_created_by>
+        <sys_created_on>2023-01-20 16:03:38</sys_created_on>
+        <sys_id>0b038dc51ba4a910bd2feac6624bcb94</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fouad.chehime</sys_updated_by>
+        <sys_updated_on>2023-01-20 16:03:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>8f038dc51ba4a910bd2feac6624bcb92</id>
+        <sys_created_by>fouad.chehime</sys_created_by>
+        <sys_created_on>2023-01-20 16:03:38</sys_created_on>
+        <sys_id>cb038dc51ba4a910bd2feac6624bcb94</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fouad.chehime</sys_updated_by>
+        <sys_updated_on>2023-01-20 16:03:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=8f038dc51ba4a910bd2feac6624bcb92"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=8f038dc51ba4a910bd2feac6624bcb92"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=3e038dc51ba4a910bd2feac6624bcb2e"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=3e038dc51ba4a910bd2feac6624bcb2e"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=3e038dc51ba4a910bd2feac6624bcb2e"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=3e038dc51ba4a910bd2feac6624bcb2e"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_3e038dc51ba4a910bd2feac6624bcb2e^sys_idNOT IN3e038dc51ba4a910bd2feac6624bcb57,c3038dc51ba4a910bd2feac6624bcb60,fa038dc51ba4a910bd2feac6624bcb42"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_3e038dc51ba4a910bd2feac6624bcb2e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>fouad.chehime</sys_created_by>
+        <sys_created_on>2023-01-20 16:03:37</sys_created_on>
+        <sys_id>3e038dc51ba4a910bd2feac6624bcb57</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NCC Prototype Test" source="x_epiu2_ncc_prot_0">0a318c101bd02114fa441f83b24bcb0d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>fouad.chehime</sys_updated_by>
+        <sys_updated_on>2023-01-20 16:03:37</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_3e038dc51ba4a910bd2feac6624bcb2e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>fouad.chehime</sys_created_by>
+        <sys_created_on>2023-01-20 16:03:37</sys_created_on>
+        <sys_id>c3038dc51ba4a910bd2feac6624bcb60</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NCC Prototype Test" source="x_epiu2_ncc_prot_0">0a318c101bd02114fa441f83b24bcb0d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>fouad.chehime</sys_updated_by>
+        <sys_updated_on>2023-01-20 16:03:37</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_3e038dc51ba4a910bd2feac6624bcb2e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>fouad.chehime</sys_created_by>
+        <sys_created_on>2023-01-20 16:03:37</sys_created_on>
+        <sys_id>fa038dc51ba4a910bd2feac6624bcb42</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NCC Prototype Test" source="x_epiu2_ncc_prot_0">0a318c101bd02114fa441f83b24bcb0d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>fouad.chehime</sys_updated_by>
+        <sys_updated_on>2023-01-20 16:03:37</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_3e038dc51ba4a910bd2feac6624bcb2e"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_3e038dc51ba4a910bd2feac6624bcb2e"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_3e038dc51ba4a910bd2feac6624bcb2e"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>a225871c1be46510fa441f83b24bcb0a</sys_id>
+        <latest_snapshot>3e038dc51ba4a910bd2feac6624bcb2e</latest_snapshot>
+        <compiler_build/>
+    </sys_hub_flow>
+</record_update>

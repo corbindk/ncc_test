@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_analytics_bucket">
+    <sys_analytics_bucket action="INSERT_OR_UPDATE">
+        <analytics_channel display_value="web">6496ef61c7001010393d265c95c260b9</analytics_channel>
+        <application_name>NCC Portal</application_name>
+        <bucket_document_id>44d6a4fb1b54e110bd2feac6624bcb42</bucket_document_id>
+        <bucket_metadata/>
+        <bucket_table_name>sp_portal</bucket_table_name>
+        <bucket_type>service_portal</bucket_type>
+        <enable_unauthenticated_user_tracking>false</enable_unauthenticated_user_tracking>
+        <enabled>true</enabled>
+        <internal_name_for_index>x_epiu2_ncc_prot_0.sp_portal.44d6a4fb1b54e110bd2feac6624bcb42</internal_name_for_index>
+        <sys_class_name>sys_analytics_bucket</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-16 16:50:22</sys_created_on>
+        <sys_id>f867203f1b54e110bd2feac6624bcb6e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NCC Portal</sys_name>
+        <sys_package display_value="NCC Prototype Test" source="x_epiu2_ncc_prot_0">0a318c101bd02114fa441f83b24bcb0d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_update_name>sys_analytics_bucket_f867203f1b54e110bd2feac6624bcb6e</sys_update_name>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-16 16:50:22</sys_updated_on>
+    </sys_analytics_bucket>
+</record_update>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="all_tables.text_index_translations=true" db_object_id="df66f9331b031110fa441f83b24bcbe7" label="Location" max_length="40" name="cmn_location" text_index="true" type="collection">
+        <element choice="3" label="Province" max_length="4000" name="x_epiu2_ncc_prot_0_province" type="glide_list">
+            <choice>
+                <element inactive_on_update="false" label="AB" sequence="1"/>
+                <element inactive_on_update="false" label="BC" sequence="1"/>
+                <element inactive_on_update="false" label="MB" sequence="1"/>
+                <element inactive_on_update="false" label="NB" sequence="1"/>
+                <element inactive_on_update="false" label="NL" sequence="1"/>
+                <element inactive_on_update="false" label="NS" sequence="1"/>
+                <element inactive_on_update="false" label="NT" sequence="1"/>
+                <element inactive_on_update="false" label="NV" sequence="1"/>
+                <element inactive_on_update="false" label="ON" sequence="1"/>
+                <element inactive_on_update="false" label="PE" sequence="1"/>
+                <element inactive_on_update="false" label="QC" sequence="1"/>
+                <element inactive_on_update="false" label="SK" sequence="1"/>
+                <element inactive_on_update="false" label="YT" sequence="1"/>
+            </choice>
+        </element>
+    </element>
+</database>

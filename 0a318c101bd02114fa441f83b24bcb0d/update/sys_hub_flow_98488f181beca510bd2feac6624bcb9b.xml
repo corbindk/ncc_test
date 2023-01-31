@@ -1,0 +1,2621 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
+        <copied_from_name>FlowTemplate_Empty</copied_from_name>
+        <description/>
+        <internal_name>value_under_10k</internal_name>
+        <label_cache>[{"name":"6e61c722-32c5-4a09-accf-1a951e573c9d.__dont_treat_as_error__","label":"2 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6e61c722-32c5-4a09-accf-1a951e573c9d.__action_status__","label":"2 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6e61c722-32c5-4a09-accf-1a951e573c9d.table_name","label":"2 - Update Record➛Agreements Table","reference":"x_epiu2_ncc_prot_0_agreements","reference_display":"Agreements Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6e61c722-32c5-4a09-accf-1a951e573c9d.record","label":"2 - Update Record➛Agreements Record","reference":"x_epiu2_ncc_prot_0_agreements","reference_display":"Agreements Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"348af689-0cdf-4dd5-ba3d-18225befda58.__dont_treat_as_error__","label":"11 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"348af689-0cdf-4dd5-ba3d-18225befda58.__action_status__","label":"11 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"348af689-0cdf-4dd5-ba3d-18225befda58.table_name","label":"11 - Update Record➛Agreements Table","reference":"x_epiu2_ncc_prot_0_agreements","reference_display":"Agreements Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"348af689-0cdf-4dd5-ba3d-18225befda58.record","label":"11 - Update Record➛Agreements Record","reference":"x_epiu2_ncc_prot_0_agreements","reference_display":"Agreements Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"323823f4-55ef-436e-ab13-d28a433d60a8.scheduled_end_date_time","label":"10 - Wait for a duration of time➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"323823f4-55ef-436e-ab13-d28a433d60a8.total_duration","label":"10 - Wait for a duration of time➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"a92c8a23-4847-4fc7-a7a5-2723c6dd85fe.scheduled_end_date_time","label":"9 - Wait for a duration of time➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"a92c8a23-4847-4fc7-a7a5-2723c6dd85fe.total_duration","label":"9 - Wait for a duration of time➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"Updated_1.current.paid","label":"Trigger - Record Updated➛Agreements Record➛Paid","reference":"","reference_display":"Paid","type":"boolean","base_type":"boolean","parent_table_name":"x_epiu2_ncc_prot_0_agreements","column_name":"paid"},{"name":"9e506077-d60f-476c-b34a-5b6d36a28763.__dont_treat_as_error__","label":"7 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"9e506077-d60f-476c-b34a-5b6d36a28763.__action_status__","label":"7 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"9e506077-d60f-476c-b34a-5b6d36a28763.Table","label":"7 - Create Task➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9e506077-d60f-476c-b34a-5b6d36a28763.Record","label":"7 - Create Task➛Record","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"abc7daf5-9381-4269-91c7-65e2c0b7381d.__dont_treat_as_error__","label":"7 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"abc7daf5-9381-4269-91c7-65e2c0b7381d.__action_status__","label":"7 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"abc7daf5-9381-4269-91c7-65e2c0b7381d.Table","label":"7 - Create Task➛Agreement Task Table","reference":"x_epiu2_ncc_prot_0_agreement_task","reference_display":"Agreement Task Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"abc7daf5-9381-4269-91c7-65e2c0b7381d.Record","label":"7 - Create Task➛Agreement Task Record","reference":"x_epiu2_ncc_prot_0_agreement_task","reference_display":"Agreement Task Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0c23b13a-87ba-4a28-9cd0-4c510d6b88c9.__dont_treat_as_error__","label":"5 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0c23b13a-87ba-4a28-9cd0-4c510d6b88c9.__action_status__","label":"5 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0c23b13a-87ba-4a28-9cd0-4c510d6b88c9.Table","label":"5 - Create Task➛Agreement Task Table","reference":"x_epiu2_ncc_prot_0_agreement_task","reference_display":"Agreement Task Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0c23b13a-87ba-4a28-9cd0-4c510d6b88c9.Record","label":"5 - Create Task➛Agreement Task Record","reference":"x_epiu2_ncc_prot_0_agreement_task","reference_display":"Agreement Task Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"53619ccc-205b-478a-9902-fb9a0208f88c.__dont_treat_as_error__","label":"4 - Attach DocuSign Certificate to ServiceNow Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"53619ccc-205b-478a-9902-fb9a0208f88c.__action_status__","label":"4 - Attach DocuSign Certificate to ServiceNow Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"53619ccc-205b-478a-9902-fb9a0208f88c.error","label":"4 - Attach DocuSign Certificate to ServiceNow Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"a04b72c3-dbc4-4c20-9c9b-725f94a08223"}},{"name":"53619ccc-205b-478a-9902-fb9a0208f88c.status","label":"4 - Attach DocuSign Certificate to ServiceNow Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Success","value":"Success","order":0.0},{"label":"Error","value":"Error","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"67935390-5892-4fca-98a8-ed8d6bea0054"}},{"name":"a4da6b30-b6ab-4b1a-ac17-3f35b3dc8df4.__dont_treat_as_error__","label":"3 - Wait for Signature from DocuSign➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a4da6b30-b6ab-4b1a-ac17-3f35b3dc8df4.__action_status__","label":"3 - Wait for Signature from DocuSign➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a4da6b30-b6ab-4b1a-ac17-3f35b3dc8df4.status","label":"3 - Wait for Signature from DocuSign➛Status","reference_display":"Status","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current","label":"Trigger - Record Updated➛Agreements Record","reference":"x_epiu2_ncc_prot_0_agreements","reference_display":"Agreements","type":"reference","base_type":"reference","attributes":{}},{"name":"91bc6dcf-7f9b-4a23-b61a-5009901bb2c1.__dont_treat_as_error__","label":"2 - Attach DocuSign Document to ServiceNow Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"91bc6dcf-7f9b-4a23-b61a-5009901bb2c1.__action_status__","label":"2 - Attach DocuSign Document to ServiceNow Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"91bc6dcf-7f9b-4a23-b61a-5009901bb2c1.attachment","label":"2 - Attach DocuSign Document to ServiceNow Record➛Attachment","reference":"sys_attachment","reference_display":"Attachment","type":"reference","base_type":"reference","attributes":{"uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"reference","uiUniqueId":"eeba00c8-f07c-4148-83f7-7752955b9506"}},{"name":"91bc6dcf-7f9b-4a23-b61a-5009901bb2c1.error_message","label":"2 - Attach DocuSign Document to ServiceNow Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"34726299-1da9-48d4-bc6e-e3623e386c91"}},{"name":"91bc6dcf-7f9b-4a23-b61a-5009901bb2c1.status","label":"2 - Attach DocuSign Document to ServiceNow Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"Error","order":0.0},{"label":"Success","value":"Success","order":1.0}],"attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"4c8e1fb1-cf5d-4c2a-86ea-eab71ba0e884"}},{"name":"Updated_1.current.email_address","label":"Trigger - Record Updated➛Agreements Record➛Email Address","reference":"","reference_display":"Email Address","type":"string","base_type":"string","parent_table_name":"x_epiu2_ncc_prot_0_agreements","column_name":"email_address"},{"name":"Updated_1.current.customer_name","label":"Trigger - Record Updated➛Agreements Record➛Customer Name","reference":"","reference_display":"Customer Name","type":"string","base_type":"string","parent_table_name":"x_epiu2_ncc_prot_0_agreements","column_name":"customer_name"},{"name":"df5816fd-dc81-41ff-a93b-f14bbc4dc644.__dont_treat_as_error__","label":"1 - Send Adhoc Signature Request to User➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"e17451e0-c0d2-4f7b-a56b-c53d3bbf2b27"}},{"name":"df5816fd-dc81-41ff-a93b-f14bbc4dc644.__action_status__","label":"1 - Send Adhoc Signature Request to User➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD79aa71b37c72011093b73ecd43d555b2","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"e3c9c04b-437d-49ad-b1ff-716cebf927aa"}},{"name":"df5816fd-dc81-41ff-a93b-f14bbc4dc644.recipient_email","label":"1 - Send Adhoc Signature Request to User➛Recipient Email","reference_display":"Recipient Email","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"b3d46bf9-db1f-4401-94e2-2ec83611746f"}},{"name":"df5816fd-dc81-41ff-a93b-f14bbc4dc644.recipient_name","label":"1 - Send Adhoc Signature Request to User➛Recipient Name","reference_display":"Recipient Name","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"9ed169f6-5412-46e9-920b-ec7eee69ccc3"}},{"name":"df5816fd-dc81-41ff-a93b-f14bbc4dc644.envelope_uri12","label":"1 - Send Adhoc Signature Request to User➛Envelope URI","reference_display":"Envelope URI","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"b7a5aadf-1548-4043-87b8-0765f299e270"}},{"name":"df5816fd-dc81-41ff-a93b-f14bbc4dc644.envelope_id12","label":"1 - Send Adhoc Signature Request to User➛Envelope","reference":"sn_docusign_spoke_envelopes","reference_display":"Envelope","type":"reference","base_type":"reference","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"ca6e9eeb-47e9-4719-9ca6-7f27b719b620"}},{"name":"df5816fd-dc81-41ff-a93b-f14bbc4dc644.error_message12","label":"1 - Send Adhoc Signature Request to User➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"8837f9a7-3ab9-4437-83da-9f5aa5b67924"}},{"name":"df5816fd-dc81-41ff-a93b-f14bbc4dc644.status12","label":"1 - Send Adhoc Signature Request to User➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"Error","order":0.0},{"label":"Success","value":"Success","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"3afd5958-d372-4875-bf0b-a5f5fda4e3c3"}},{"name":"df5816fd-dc81-41ff-a93b-f14bbc4dc644.envelope_id12.id","label":"1 - Send Adhoc Signature Request to User➛Envelope➛ID","reference":"","reference_display":"ID","type":"string","base_type":"string","parent_table_name":"sn_docusign_spoke_envelopes","column_name":"id"},{"name":"Updated_1.current.client.name","label":"Trigger - Record Updated➛Agreements Record➛Client➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_epiu2_ncc_prot_0_ncc_client","column_name":"name"},{"name":"Updated_1.current.client.email","label":"Trigger - Record Updated➛Agreements Record➛Client➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"x_epiu2_ncc_prot_0_ncc_client","column_name":"email"},{"name":"Updated_1.current.receivable","label":"Trigger - Record Updated➛Agreements Record➛Receivable","reference":"","reference_display":"Receivable","type":"boolean","base_type":"boolean","parent_table_name":"x_epiu2_ncc_prot_0_agreements","column_name":"receivable"}]</label_cache>
+        <master_snapshot>e3e978091b64a910bd2feac6624bcb94</master_snapshot>
+        <name>Value Mid Flow &lt;$10k</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>f2aeb3d61b28a510c50c9712b24bcb51</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-18 17:50:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>98488f181beca510bd2feac6624bcb9b</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>Value Mid Flow &lt;$10k</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NCC Prototype Test" source="x_epiu2_ncc_prot_0">0a318c101bd02114fa441f83b24bcb0d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_update_name>sys_hub_flow_98488f181beca510bd2feac6624bcb9b</sys_update_name>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 19:38:50</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=98488f181beca510bd2feac6624bcb9b"/>
+    <sys_variable_value action="delete_multiple" query="document_key=98488f181beca510bd2feac6624bcb9b"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_epiu2_ncc_prot_0_agreements">value&lt;USD,10000^state=in_progress^agreement_docVALCHANGES^payable=false^NQstateCHANGESFROMadd_legal_stamp^state=in_progress<item endquery="false" field="value" goto="false" newquery="false" operator="&lt;" or="false" value="USD,10000"/>
+            <item display_value="Proceed w/ Agreement" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="in_progress"/>
+            <item endquery="false" field="agreement_doc" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="false" field="payable" goto="false" newquery="false" operator="=" or="false" value="false"/>
+            <item display_value="Add Legal Stamp" endquery="false" field="state" goto="false" newquery="true" operator="CHANGESFROM" or="false" value="add_legal_stamp"/>
+            <item display_value="Proceed w/ Agreement" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="in_progress"/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>false</on_insert>
+        <on_update>true</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>kelton.keener</sys_created_by>
+        <sys_created_on>2023-01-25 02:55:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f2aeb3d61b28a510c50c9712b24bcb51</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_updated_by>kelton.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:55:45</sys_updated_on>
+        <table>x_epiu2_ncc_prot_0_agreements</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>98488f181beca510bd2feac6624bcb9b</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>kelton.keener</sys_created_by>
+        <sys_created_on>2023-01-25 02:55:45</sys_created_on>
+        <sys_id>beaeb3d61b28a510c50c9712b24bcb51</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>kelton.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:55:45</sys_updated_on>
+        <trigger display_value="">f2aeb3d61b28a510c50c9712b24bcb51</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=98488f181beca510bd2feac6624bcb9b^sys_idNOT INbeaeb3d61b28a510c50c9712b24bcb51"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=98488f181beca510bd2feac6624bcb9b^sys_idNOT IN2e3c8bdc1beca510bd2feac6624bcb63"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment>for every unique change</comment>
+        <display_text/>
+        <flow display_value="Value Mid Flow &lt;$10k">98488f181beca510bd2feac6624bcb9b</flow>
+        <name>Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-18 18:07:32</sys_created_on>
+        <sys_id>2e3c8bdc1beca510bd2feac6624bcb63</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 19:38:49</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2e3c8bdc1beca510bd2feac6624bcb63"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>2e3c8bdc1beca510bd2feac6624bcb63</document_key>
+        <order>101</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-18 18:07:32</sys_created_on>
+        <sys_id>6e3c8bdc1beca510bd2feac6624bcb64</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-18 18:07:32</sys_updated_on>
+        <value>unique_changes</value>
+        <variable display_value="Run Trigger">c19523d8c31932002841b63b12d3aea1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>2e3c8bdc1beca510bd2feac6624bcb63</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-18 18:07:32</sys_created_on>
+        <sys_id>aa3c8bdc1beca510bd2feac6624bcb65</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-18 18:07:32</sys_updated_on>
+        <value>x_epiu2_ncc_prot_0_agreements</value>
+        <variable display_value="Table">1dda12e0c31322002841b63b12d3aea8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>2e3c8bdc1beca510bd2feac6624bcb63</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-18 18:07:32</sys_created_on>
+        <sys_id>e63c8bdc1beca510bd2feac6624bcb65</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>kelton.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:55:01</sys_updated_on>
+        <value>value&lt;USD,10000^state=in_progress^agreement_docVALCHANGES^payable=false^NQstateCHANGESFROMadd_legal_stamp^state=in_progress</value>
+        <variable display_value="Condition">bb9adea0c31322002841b63b12d3ae67</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_bb695e60c31322002841b63b12d3aea5^id=2e3c8bdc1beca510bd2feac6624bcb63"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=98488f181beca510bd2feac6624bcb9b"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=98488f181beca510bd2feac6624bcb9b^sys_idNOT IN18488f181beca510bd2feac6624bcb9c"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>98488f181beca510bd2feac6624bcb9b</id>
+        <name>Value under 10k</name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-18 17:50:10</sys_created_on>
+        <sys_id>18488f181beca510bd2feac6624bcb9c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-18 17:50:10</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=18488f181beca510bd2feac6624bcb9c"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=98488f181beca510bd2feac6624bcb9b^sys_idNOT IN263c8bdc1beca510bd2feac6624bcb54,a23c8bdc1beca510bd2feac6624bcb5d,a63c8bdc1beca510bd2feac6624bcb59"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Value Mid Flow &lt;$10k">98488f181beca510bd2feac6624bcb9b</model>
+        <model_id>98488f181beca510bd2feac6624bcb9b</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_98488f181beca510bd2feac6624bcb9b</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-18 18:07:32</sys_created_on>
+        <sys_id>263c8bdc1beca510bd2feac6624bcb54</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 19:38:49</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Value Mid Flow &lt;$10k">98488f181beca510bd2feac6624bcb9b</model>
+        <model_id>98488f181beca510bd2feac6624bcb9b</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_98488f181beca510bd2feac6624bcb9b</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-18 18:07:32</sys_created_on>
+        <sys_id>a23c8bdc1beca510bd2feac6624bcb5d</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 19:38:49</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Value Mid Flow &lt;$10k">98488f181beca510bd2feac6624bcb9b</model>
+        <model_id>98488f181beca510bd2feac6624bcb9b</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_98488f181beca510bd2feac6624bcb9b</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-18 18:07:32</sys_created_on>
+        <sys_id>a63c8bdc1beca510bd2feac6624bcb59</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-18 18:07:32</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=98488f181beca510bd2feac6624bcb9b"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=98488f181beca510bd2feac6624bcb9b"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=98488f181beca510bd2feac6624bcb9b^sys_idNOT IN18993f1a1ba8a150bd2feac6624bcb35,19b155451b28a910bd2feac6624bcbf2,2d0eb7de1ba8a150bd2feac6624bcbf1,b90ef7de1ba8a150bd2feac6624bcb07,bd0ef7de1ba8a150bd2feac6624bcb19,be3c8bdc1beca510bd2feac6624bcb83,c1b155451b28a910bd2feac6624bcbe0"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Value Mid Flow &lt;$10k">98488f181beca510bd2feac6624bcb9b</flow>
+        <order>5</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-25 02:33:29</sys_created_on>
+        <sys_id>18993f1a1ba8a150bd2feac6624bcb35</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 19:38:49</sys_updated_on>
+        <ui_id>0c23b13a-87ba-4a28-9cd0-4c510d6b88c9</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=18993f1a1ba8a150bd2feac6624bcb35"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>18993f1a1ba8a150bd2feac6624bcb35</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-25 02:33:29</sys_created_on>
+        <sys_id>98993f1a1ba8a150bd2feac6624bcb38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:33:29</sys_updated_on>
+        <value>short_description=Mark if Receivable or not</value>
+        <variable display_value="Field Values">273a6335531003003bf1d9109ec5876b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>18993f1a1ba8a150bd2feac6624bcb35</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-25 02:33:29</sys_created_on>
+        <sys_id>d4993f1a1ba8a150bd2feac6624bcb38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:33:29</sys_updated_on>
+        <value>x_epiu2_ncc_prot_0_agreement_task</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>18993f1a1ba8a150bd2feac6624bcb35</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-25 02:33:29</sys_created_on>
+        <sys_id>dc993f1a1ba8a150bd2feac6624bcb37</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:33:29</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Wait">ff3a6335531003003bf1d9109ec58777</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759^id=18993f1a1ba8a150bd2feac6624bcb35"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=18993f1a1ba8a150bd2feac6624bcb35"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=18993f1a1ba8a150bd2feac6624bcb35"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Attach DocuSign Certificate to ServiceNow Record">445d5f115b73101056b6534be281c720</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Value Mid Flow &lt;$10k">98488f181beca510bd2feac6624bcb9b</flow>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-20 17:07:40</sys_created_on>
+        <sys_id>19b155451b28a910bd2feac6624bcbf2</sys_id>
+        <sys_mod_count>30</sys_mod_count>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 19:38:49</sys_updated_on>
+        <ui_id>53619ccc-205b-478a-9902-fb9a0208f88c</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=19b155451b28a910bd2feac6624bcbf2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>19b155451b28a910bd2feac6624bcbf2</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-20 17:07:40</sys_created_on>
+        <sys_id>95b155451b28a910bd2feac6624bcbf4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-20 17:07:40</sys_updated_on>
+        <value>signeddocument.jpg</value>
+        <variable display_value="File Name">d05d5f115b73101056b6534be281c732</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=19b155451b28a910bd2feac6624bcbf2"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>envelope</field>
+        <id>19b155451b28a910bd2feac6624bcbf2</id>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-20 17:07:40</sys_created_on>
+        <sys_id>9db155451b28a910bd2feac6624bcbf3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-20 17:07:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_445d5f115b73101056b6534be281c720</table>
+        <value>{{df5816fd-dc81-41ff-a93b-f14bbc4dc644.envelope_id12}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>file_name</field>
+        <id>19b155451b28a910bd2feac6624bcbf2</id>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-20 17:07:40</sys_created_on>
+        <sys_id>51b155451b28a910bd2feac6624bcbf4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-20 17:07:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_445d5f115b73101056b6534be281c720</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_record</field>
+        <id>19b155451b28a910bd2feac6624bcbf2</id>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-20 17:07:40</sys_created_on>
+        <sys_id>15b155451b28a910bd2feac6624bcbf4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-20 17:07:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_445d5f115b73101056b6534be281c720</table>
+        <value>{{Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=19b155451b28a910bd2feac6624bcbf2"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=19b155451b28a910bd2feac6624bcbf2"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Value Mid Flow &lt;$10k">98488f181beca510bd2feac6624bcb9b</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-25 02:52:57</sys_created_on>
+        <sys_id>2d0eb7de1ba8a150bd2feac6624bcbf1</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 19:38:49</sys_updated_on>
+        <ui_id>6e61c722-32c5-4a09-accf-1a951e573c9d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2d0eb7de1ba8a150bd2feac6624bcbf1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2d0eb7de1ba8a150bd2feac6624bcbf1</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-25 02:52:57</sys_created_on>
+        <sys_id>e10eb7de1ba8a150bd2feac6624bcbf4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:52:57</sys_updated_on>
+        <value>state=on_hold</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2d0eb7de1ba8a150bd2feac6624bcbf1</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-25 02:52:57</sys_created_on>
+        <sys_id>e90eb7de1ba8a150bd2feac6624bcbf4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:52:57</sys_updated_on>
+        <value>x_epiu2_ncc_prot_0_agreements</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=2d0eb7de1ba8a150bd2feac6624bcbf1"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>2d0eb7de1ba8a150bd2feac6624bcbf1</id>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-25 02:52:57</sys_created_on>
+        <sys_id>610eb7de1ba8a150bd2feac6624bcbf4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:52:57</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>2d0eb7de1ba8a150bd2feac6624bcbf1</id>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-25 02:52:57</sys_created_on>
+        <sys_id>e50eb7de1ba8a150bd2feac6624bcbf3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:52:57</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>2d0eb7de1ba8a150bd2feac6624bcbf1</id>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-25 02:52:57</sys_created_on>
+        <sys_id>ad0eb7de1ba8a150bd2feac6624bcbf3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:52:57</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2d0eb7de1ba8a150bd2feac6624bcbf1"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=2d0eb7de1ba8a150bd2feac6624bcbf1"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Value Mid Flow &lt;$10k">98488f181beca510bd2feac6624bcb9b</flow>
+        <order>7</order>
+        <parent_ui_id>ac585066-262a-44c1-9615-6b99291f9e44</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-25 02:52:57</sys_created_on>
+        <sys_id>b90ef7de1ba8a150bd2feac6624bcb07</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 19:38:49</sys_updated_on>
+        <ui_id>abc7daf5-9381-4269-91c7-65e2c0b7381d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b90ef7de1ba8a150bd2feac6624bcb07"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b90ef7de1ba8a150bd2feac6624bcb07</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-25 02:52:57</sys_created_on>
+        <sys_id>7d0ef7de1ba8a150bd2feac6624bcb09</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:52:57</sys_updated_on>
+        <value>short_description=Create Invoice and Forward to Proponent</value>
+        <variable display_value="Field Values">273a6335531003003bf1d9109ec5876b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b90ef7de1ba8a150bd2feac6624bcb07</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-25 02:52:57</sys_created_on>
+        <sys_id>b90ef7de1ba8a150bd2feac6624bcb09</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:52:57</sys_updated_on>
+        <value>x_epiu2_ncc_prot_0_agreement_task</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b90ef7de1ba8a150bd2feac6624bcb07</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-25 02:52:57</sys_created_on>
+        <sys_id>f50ef7de1ba8a150bd2feac6624bcb09</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:52:57</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Wait">ff3a6335531003003bf1d9109ec58777</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759^id=b90ef7de1ba8a150bd2feac6624bcb07"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b90ef7de1ba8a150bd2feac6624bcb07"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b90ef7de1ba8a150bd2feac6624bcb07"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Value Mid Flow &lt;$10k">98488f181beca510bd2feac6624bcb9b</flow>
+        <order>11</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-25 02:52:58</sys_created_on>
+        <sys_id>bd0ef7de1ba8a150bd2feac6624bcb19</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 19:38:49</sys_updated_on>
+        <ui_id>348af689-0cdf-4dd5-ba3d-18225befda58</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=bd0ef7de1ba8a150bd2feac6624bcb19"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bd0ef7de1ba8a150bd2feac6624bcb19</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-25 02:52:58</sys_created_on>
+        <sys_id>b90ef7de1ba8a150bd2feac6624bcb1b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:52:58</sys_updated_on>
+        <value>x_epiu2_ncc_prot_0_agreements</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bd0ef7de1ba8a150bd2feac6624bcb19</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-25 02:52:58</sys_created_on>
+        <sys_id>f50ef7de1ba8a150bd2feac6624bcb1b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:52:58</sys_updated_on>
+        <value>state=closed</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=bd0ef7de1ba8a150bd2feac6624bcb19"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>bd0ef7de1ba8a150bd2feac6624bcb19</id>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-25 02:52:58</sys_created_on>
+        <sys_id>750ef7de1ba8a150bd2feac6624bcb1b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:52:58</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>bd0ef7de1ba8a150bd2feac6624bcb19</id>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-25 02:52:58</sys_created_on>
+        <sys_id>fd0ef7de1ba8a150bd2feac6624bcb1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:52:58</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>bd0ef7de1ba8a150bd2feac6624bcb19</id>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-25 02:52:58</sys_created_on>
+        <sys_id>b10ef7de1ba8a150bd2feac6624bcb1b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:52:58</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=bd0ef7de1ba8a150bd2feac6624bcb19"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=bd0ef7de1ba8a150bd2feac6624bcb19"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Adhoc Signature Request to User">03a9509cdb961300868f5404ce961954</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Value Mid Flow &lt;$10k">98488f181beca510bd2feac6624bcb9b</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-18 18:07:33</sys_created_on>
+        <sys_id>be3c8bdc1beca510bd2feac6624bcb83</sys_id>
+        <sys_mod_count>40</sys_mod_count>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 19:38:49</sys_updated_on>
+        <ui_id>df5816fd-dc81-41ff-a93b-f14bbc4dc644</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=be3c8bdc1beca510bd2feac6624bcb83"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>be3c8bdc1beca510bd2feac6624bcb83</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-20 15:23:41</sys_created_on>
+        <sys_id>0ee9f4091b64a910bd2feac6624bcb64</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-20 15:23:41</sys_updated_on>
+        <value>sign this</value>
+        <variable display_value="Email Subject">dba9509cdb961300868f5404ce961999</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>be3c8bdc1beca510bd2feac6624bcb83</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-20 15:23:41</sys_created_on>
+        <sys_id>82e9f4091b64a910bd2feac6624bcb63</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-20 15:23:41</sys_updated_on>
+        <value>sign your life away</value>
+        <variable display_value="Document Name">dfa9509cdb961300868f5404ce961983</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>be3c8bdc1beca510bd2feac6624bcb83</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-20 15:23:41</sys_created_on>
+        <sys_id>8ee9f4091b64a910bd2feac6624bcb63</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 19:38:49</sys_updated_on>
+        <value>e45dc1534ff1120031577d2ca310c7b0</value>
+        <variable display_value="Document">6ba3ce5fdb8bd700a9c7594e5e9619f5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>be3c8bdc1beca510bd2feac6624bcb83</document_key>
+        <order>11</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-18 18:07:33</sys_created_on>
+        <sys_id>ba3c8bdc1beca510bd2feac6624bcb87</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 19:38:49</sys_updated_on>
+        <value>{"complexObjectSchema":{"FlowDesigner:FD0b3fefc4529630102b3d823166b17c0f":{"$COCollectionField":[{"CC_User":{"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Name\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"email":"String","email.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Email\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"recipient_id":"String","recipient_id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Recipient ID\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"CC Users\",\"mandatory\":\"false\",\"child_name\":\"CC_User\",\"uiUniqueId\":\"3cfdb944-93c9-47ff-b1a0-cb48f8693cc8\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD0b3fefc4529630102b3d823166b17c0f\",\"child_label\":\"CC User\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"11\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"7c9a441d-bde1-4069-8dc2-eadb306d7c89\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD0b3fefc4529630102b3d823166b17c0f.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"CC Users\",\"mandatory\":\"false\",\"child_name\":\"CC_User\",\"uiUniqueId\":\"3cfdb944-93c9-47ff-b1a0-cb48f8693cc8\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD0b3fefc4529630102b3d823166b17c0f\",\"child_label\":\"CC User\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"11\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"7c9a441d-bde1-4069-8dc2-eadb306d7c89\"}"}},"version":"1.0","complexObject":{"name$":"FD0b3fefc4529630102b3d823166b17c0f","$COCollectionField":[{"name":{"$cv":{"$c":"java.lang.String","$v":""}},"email":{"$cv":{"$c":"java.lang.String","$v":""}},"recipient_id":{"$cv":{"$c":"java.lang.String","$v":""}}}]},"serializationFormat":"JSON"}</value>
+        <variable display_value="CC Users">8f3fefc4779630104b68b0fabe5a9926</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>be3c8bdc1beca510bd2feac6624bcb83</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-20 15:23:41</sys_created_on>
+        <sys_id>cae9f4091b64a910bd2feac6624bcb63</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-20 15:23:41</sys_updated_on>
+        <value>your doc to sign</value>
+        <variable display_value="Email Body">dfa9509cdb961300868f5404ce9619a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>be3c8bdc1beca510bd2feac6624bcb83</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-20 15:23:41</sys_created_on>
+        <sys_id>cee9f4091b64a910bd2feac6624bcb64</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-20 15:23:41</sys_updated_on>
+        <value>bf1930891b20e550c50c9712b24bcb3a</value>
+        <variable display_value="Account">b0e51c3adb4b9700dd14596e5e961936</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=be3c8bdc1beca510bd2feac6624bcb83"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>account</field>
+        <id>be3c8bdc1beca510bd2feac6624bcb83</id>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-20 15:23:41</sys_created_on>
+        <sys_id>02e9f4091b64a910bd2feac6624bcb63</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-20 15:23:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_03a9509cdb961300868f5404ce961954</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>cc_users</field>
+        <id>be3c8bdc1beca510bd2feac6624bcb83</id>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-18 18:07:33</sys_created_on>
+        <sys_id>f23c8bdc1beca510bd2feac6624bcb87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-18 18:07:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_03a9509cdb961300868f5404ce961954</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>document</field>
+        <id>be3c8bdc1beca510bd2feac6624bcb83</id>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-20 15:23:41</sys_created_on>
+        <sys_id>82e9f4091b64a910bd2feac6624bcb62</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-20 15:23:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_03a9509cdb961300868f5404ce961954</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>document_name</field>
+        <id>be3c8bdc1beca510bd2feac6624bcb83</id>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-20 15:23:41</sys_created_on>
+        <sys_id>0ae9f4091b64a910bd2feac6624bcb61</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-20 15:23:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_03a9509cdb961300868f5404ce961954</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>email_body</field>
+        <id>be3c8bdc1beca510bd2feac6624bcb83</id>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-20 15:23:41</sys_created_on>
+        <sys_id>cee9f4091b64a910bd2feac6624bcb61</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-20 15:23:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_03a9509cdb961300868f5404ce961954</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>email_subject</field>
+        <id>be3c8bdc1beca510bd2feac6624bcb83</id>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-20 15:23:41</sys_created_on>
+        <sys_id>4ee9f4091b64a910bd2feac6624bcb62</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-20 15:23:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_03a9509cdb961300868f5404ce961954</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>recipient_email</field>
+        <id>be3c8bdc1beca510bd2feac6624bcb83</id>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-20 15:23:41</sys_created_on>
+        <sys_id>46e9f4091b64a910bd2feac6624bcb62</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:01:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_03a9509cdb961300868f5404ce961954</table>
+        <value>{{Updated_1.current.client.email}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>recipient_name</field>
+        <id>be3c8bdc1beca510bd2feac6624bcb83</id>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-20 15:23:41</sys_created_on>
+        <sys_id>8ae9f4091b64a910bd2feac6624bcb62</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:01:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_03a9509cdb961300868f5404ce961954</table>
+        <value>{{Updated_1.current.client.name}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=be3c8bdc1beca510bd2feac6624bcb83"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=be3c8bdc1beca510bd2feac6624bcb83"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Wait for Signature from DocuSign">47fbdb76db7ce340bea7ff561d9619de</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Value Mid Flow &lt;$10k">98488f181beca510bd2feac6624bcb9b</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-20 17:07:40</sys_created_on>
+        <sys_id>c1b155451b28a910bd2feac6624bcbe0</sys_id>
+        <sys_mod_count>30</sys_mod_count>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 19:38:49</sys_updated_on>
+        <ui_id>a4da6b30-b6ab-4b1a-ac17-3f35b3dc8df4</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c1b155451b28a910bd2feac6624bcbe0"/>
+    <sys_element_mapping action="delete_multiple" query="id=c1b155451b28a910bd2feac6624bcbe0"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>envelope1</field>
+        <id>c1b155451b28a910bd2feac6624bcbe0</id>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-20 17:07:40</sys_created_on>
+        <sys_id>89b155451b28a910bd2feac6624bcbe1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-20 20:45:31</sys_updated_on>
+        <table>var__m_sys_hub_action_input_47fbdb76db7ce340bea7ff561d9619de</table>
+        <value>{{df5816fd-dc81-41ff-a93b-f14bbc4dc644.envelope_id12}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c1b155451b28a910bd2feac6624bcbe0^sys_idNOT IN94934a4d1b2ca910bd2feac6624bcb8b"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>envelope1</input_name>
+        <instance>c1b155451b28a910bd2feac6624bcbe0</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"envelope1":{"scriptActive":false}}</script>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-20 20:45:31</sys_created_on>
+        <sys_id>94934a4d1b2ca910bd2feac6624bcb8b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-20 20:45:31</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=c1b155451b28a910bd2feac6624bcbe0"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=98488f181beca510bd2feac6624bcb9b"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=98488f181beca510bd2feac6624bcb9b^sys_idNOT IN1c993f1a1ba8a150bd2feac6624bcb39,7d0ef7de1ba8a150bd2feac6624bcb0e,fd0ef7de1ba8a150bd2feac6624bcb0a"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">10993f1a1ba8a150bd2feac6624bcb39</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Value Mid Flow &lt;$10k">98488f181beca510bd2feac6624bcb9b</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-25 02:33:29</sys_created_on>
+        <sys_id>1c993f1a1ba8a150bd2feac6624bcb39</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 19:38:49</sys_updated_on>
+        <ui_id>ac585066-262a-44c1-9615-6b99291f9e44</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=1c993f1a1ba8a150bd2feac6624bcb39"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>1c993f1a1ba8a150bd2feac6624bcb39</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-25 02:33:29</sys_created_on>
+        <sys_id>28993f1a1ba8a150bd2feac6624bcb40</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:33:29</sys_updated_on>
+        <value>If Receivable</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=1c993f1a1ba8a150bd2feac6624bcb39"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>1c993f1a1ba8a150bd2feac6624bcb39</id>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-25 02:40:29</sys_created_on>
+        <sys_id>4f2bb3da1ba8a150bd2feac6624bcbf0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:40:29</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{Updated_1.current.receivable}}=true</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>1c993f1a1ba8a150bd2feac6624bcb39</id>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-25 02:33:29</sys_created_on>
+        <sys_id>a4993f1a1ba8a150bd2feac6624bcb40</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:33:29</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=1c993f1a1ba8a150bd2feac6624bcb39"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1c993f1a1ba8a150bd2feac6624bcb39"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">b50ef7de1ba8a150bd2feac6624bcb0e</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Value Mid Flow &lt;$10k">98488f181beca510bd2feac6624bcb9b</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>9</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>2f3fcd17-43ae-4797-bd40-fd78009e4e15</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-25 02:52:58</sys_created_on>
+        <sys_id>7d0ef7de1ba8a150bd2feac6624bcb0e</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 19:38:49</sys_updated_on>
+        <ui_id>a92c8a23-4847-4fc7-a7a5-2723c6dd85fe</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=7d0ef7de1ba8a150bd2feac6624bcb0e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>7d0ef7de1ba8a150bd2feac6624bcb0e</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-25 02:52:58</sys_created_on>
+        <sys_id>390ef7de1ba8a150bd2feac6624bcb15</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:52:58</sys_updated_on>
+        <value>1970-01-01 00:01:00</value>
+        <variable display_value="Duration">ef145c1473031300b61e66476bf6a7be</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>7d0ef7de1ba8a150bd2feac6624bcb0e</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-25 02:52:58</sys_created_on>
+        <sys_id>750ef7de1ba8a150bd2feac6624bcb15</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:52:58</sys_updated_on>
+        <value/>
+        <variable display_value="Timer relative duration operator">dca4105473031300b61e66476bf6a726</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>7d0ef7de1ba8a150bd2feac6624bcb0e</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-25 02:52:58</sys_created_on>
+        <sys_id>f90ef7de1ba8a150bd2feac6624bcb15</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:52:58</sys_updated_on>
+        <value>38fa64edc0a8016400f4a5724b0434b8</value>
+        <variable display_value="During the following schedule">fb55145473031300b61e66476bf6a762</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_logic_input_fdb2541473031300b61e66476bf6a70e^id=7d0ef7de1ba8a150bd2feac6624bcb0e"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=7d0ef7de1ba8a150bd2feac6624bcb0e"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7d0ef7de1ba8a150bd2feac6624bcb0e"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">f10ef7de1ba8a150bd2feac6624bcb0a</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Value Mid Flow &lt;$10k">98488f181beca510bd2feac6624bcb9b</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="Do the following until">eaeb040687210300e6c2c88fc0e3ec89</logic_definition>
+        <order>8</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>ac585066-262a-44c1-9615-6b99291f9e44</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-25 02:52:57</sys_created_on>
+        <sys_id>fd0ef7de1ba8a150bd2feac6624bcb0a</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 19:38:49</sys_updated_on>
+        <ui_id>2f3fcd17-43ae-4797-bd40-fd78009e4e15</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=fd0ef7de1ba8a150bd2feac6624bcb0a"/>
+    <sys_element_mapping action="delete_multiple" query="id=fd0ef7de1ba8a150bd2feac6624bcb0a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>fd0ef7de1ba8a150bd2feac6624bcb0a</id>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-25 02:52:57</sys_created_on>
+        <sys_id>710ef7de1ba8a150bd2feac6624bcb0e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:52:57</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_eaeb040687210300e6c2c88fc0e3ec89</table>
+        <value>{{Updated_1.current.paid}}=true</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=fd0ef7de1ba8a150bd2feac6624bcb0a"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=fd0ef7de1ba8a150bd2feac6624bcb0a"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=98488f181beca510bd2feac6624bcb9b"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=98488f181beca510bd2feac6624bcb9b"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_98488f181beca510bd2feac6624bcb9b^sys_idNOT IN6a3c8bdc1beca510bd2feac6624bcb5f,a23c8bdc1beca510bd2feac6624bcb5c,a63c8bdc1beca510bd2feac6624bcb58"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_98488f181beca510bd2feac6624bcb9b</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-18 18:07:32</sys_created_on>
+        <sys_id>6a3c8bdc1beca510bd2feac6624bcb5f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NCC Prototype Test" source="x_epiu2_ncc_prot_0">0a318c101bd02114fa441f83b24bcb0d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-18 18:07:32</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_98488f181beca510bd2feac6624bcb9b</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-18 18:07:32</sys_created_on>
+        <sys_id>a23c8bdc1beca510bd2feac6624bcb5c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NCC Prototype Test" source="x_epiu2_ncc_prot_0">0a318c101bd02114fa441f83b24bcb0d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-18 18:07:32</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_98488f181beca510bd2feac6624bcb9b</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-18 18:07:32</sys_created_on>
+        <sys_id>a63c8bdc1beca510bd2feac6624bcb58</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NCC Prototype Test" source="x_epiu2_ncc_prot_0">0a318c101bd02114fa441f83b24bcb0d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-18 18:07:32</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_98488f181beca510bd2feac6624bcb9b"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_98488f181beca510bd2feac6624bcb9b"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_98488f181beca510bd2feac6624bcb9b"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=98488f181beca510bd2feac6624bcb9b^sys_idNOT IN7cf9f8091b64a910bd2feac6624bcb5e"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerUniqueChange</binding_strategy>
+        <plan/>
+        <plan_id>98488f181beca510bd2feac6624bcb9b</plan_id>
+        <snapshot>e3e978091b64a910bd2feac6624bcb94</snapshot>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-20 15:23:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7cf9f8091b64a910bd2feac6624bcb5e</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>kelton.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:55:45</sys_updated_on>
+        <trigger display_value="">f2aeb3d61b28a510c50c9712b24bcb51</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=98488f181beca510bd2feac6624bcb9b"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>value_mid_flow_10k</internal_name>
+        <label_cache>[{"name":"Updated_1.current.receivable","label":"Trigger - Record Updated➛Agreements Record➛Receivable","reference":"","reference_display":"Receivable","type":"boolean","base_type":"boolean","parent_table_name":"x_epiu2_ncc_prot_0_agreements","column_name":"receivable"},{"name":"Updated_1.current.client.email","label":"Trigger - Record Updated➛Agreements Record➛Client➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"x_epiu2_ncc_prot_0_ncc_client","column_name":"email"},{"name":"Updated_1.current.client.name","label":"Trigger - Record Updated➛Agreements Record➛Client➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_epiu2_ncc_prot_0_ncc_client","column_name":"name"},{"name":"df5816fd-dc81-41ff-a93b-f14bbc4dc644.envelope_id12.id","label":"1 - Send Adhoc Signature Request to User➛Envelope➛ID","reference":"","reference_display":"ID","type":"string","base_type":"string","parent_table_name":"sn_docusign_spoke_envelopes","column_name":"id"},{"name":"df5816fd-dc81-41ff-a93b-f14bbc4dc644.status12","label":"1 - Send Adhoc Signature Request to User➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"Error","order":0.0},{"label":"Success","value":"Success","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"3afd5958-d372-4875-bf0b-a5f5fda4e3c3"}},{"name":"df5816fd-dc81-41ff-a93b-f14bbc4dc644.error_message12","label":"1 - Send Adhoc Signature Request to User➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"8837f9a7-3ab9-4437-83da-9f5aa5b67924"}},{"name":"df5816fd-dc81-41ff-a93b-f14bbc4dc644.envelope_id12","label":"1 - Send Adhoc Signature Request to User➛Envelope","reference":"sn_docusign_spoke_envelopes","reference_display":"Envelopes","type":"reference","base_type":"reference","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"ca6e9eeb-47e9-4719-9ca6-7f27b719b620"}},{"name":"df5816fd-dc81-41ff-a93b-f14bbc4dc644.envelope_uri12","label":"1 - Send Adhoc Signature Request to User➛Envelope URI","reference_display":"Envelope URI","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"b7a5aadf-1548-4043-87b8-0765f299e270"}},{"name":"df5816fd-dc81-41ff-a93b-f14bbc4dc644.recipient_name","label":"1 - Send Adhoc Signature Request to User➛Recipient Name","reference_display":"Recipient Name","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"9ed169f6-5412-46e9-920b-ec7eee69ccc3"}},{"name":"df5816fd-dc81-41ff-a93b-f14bbc4dc644.recipient_email","label":"1 - Send Adhoc Signature Request to User➛Recipient Email","reference_display":"Recipient Email","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"b3d46bf9-db1f-4401-94e2-2ec83611746f"}},{"name":"df5816fd-dc81-41ff-a93b-f14bbc4dc644.__action_status__","label":"1 - Send Adhoc Signature Request to User➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD79aa71b37c72011093b73ecd43d555b2","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"e3c9c04b-437d-49ad-b1ff-716cebf927aa"}},{"name":"df5816fd-dc81-41ff-a93b-f14bbc4dc644.__dont_treat_as_error__","label":"1 - Send Adhoc Signature Request to User➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"e17451e0-c0d2-4f7b-a56b-c53d3bbf2b27"}},{"name":"Updated_1.current.customer_name","label":"Trigger - Record Updated➛Agreements Record➛Customer Name","reference":"","reference_display":"Customer Name","type":"string","base_type":"string","parent_table_name":"x_epiu2_ncc_prot_0_agreements","column_name":"customer_name"},{"name":"Updated_1.current.email_address","label":"Trigger - Record Updated➛Agreements Record➛Email Address","reference":"","reference_display":"Email Address","type":"string","base_type":"string","parent_table_name":"x_epiu2_ncc_prot_0_agreements","column_name":"email_address"},{"name":"91bc6dcf-7f9b-4a23-b61a-5009901bb2c1.status","label":"2 - Attach DocuSign Document to ServiceNow Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"Error","order":0.0},{"label":"Success","value":"Success","order":1.0}],"attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"4c8e1fb1-cf5d-4c2a-86ea-eab71ba0e884"}},{"name":"91bc6dcf-7f9b-4a23-b61a-5009901bb2c1.error_message","label":"2 - Attach DocuSign Document to ServiceNow Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"34726299-1da9-48d4-bc6e-e3623e386c91"}},{"name":"91bc6dcf-7f9b-4a23-b61a-5009901bb2c1.attachment","label":"2 - Attach DocuSign Document to ServiceNow Record➛Attachment","reference":"sys_attachment","reference_display":"Attachment","type":"reference","base_type":"reference","attributes":{"uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"reference","uiUniqueId":"eeba00c8-f07c-4148-83f7-7752955b9506"}},{"name":"91bc6dcf-7f9b-4a23-b61a-5009901bb2c1.__action_status__","label":"2 - Attach DocuSign Document to ServiceNow Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"91bc6dcf-7f9b-4a23-b61a-5009901bb2c1.__dont_treat_as_error__","label":"2 - Attach DocuSign Document to ServiceNow Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"Updated_1.current","label":"Trigger - Record Updated➛Agreements Record","reference":"x_epiu2_ncc_prot_0_agreements","reference_display":"Agreements","type":"reference","base_type":"reference","attributes":{}},{"name":"a4da6b30-b6ab-4b1a-ac17-3f35b3dc8df4.status","label":"3 - Wait for Signature from DocuSign➛Status","reference_display":"Status","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a4da6b30-b6ab-4b1a-ac17-3f35b3dc8df4.__action_status__","label":"3 - Wait for Signature from DocuSign➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a4da6b30-b6ab-4b1a-ac17-3f35b3dc8df4.__dont_treat_as_error__","label":"3 - Wait for Signature from DocuSign➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"53619ccc-205b-478a-9902-fb9a0208f88c.status","label":"4 - Attach DocuSign Certificate to ServiceNow Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Success","value":"Success","order":0.0},{"label":"Error","value":"Error","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"67935390-5892-4fca-98a8-ed8d6bea0054"}},{"name":"53619ccc-205b-478a-9902-fb9a0208f88c.error","label":"4 - Attach DocuSign Certificate to ServiceNow Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"a04b72c3-dbc4-4c20-9c9b-725f94a08223"}},{"name":"53619ccc-205b-478a-9902-fb9a0208f88c.__action_status__","label":"4 - Attach DocuSign Certificate to ServiceNow Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"53619ccc-205b-478a-9902-fb9a0208f88c.__dont_treat_as_error__","label":"4 - Attach DocuSign Certificate to ServiceNow Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0c23b13a-87ba-4a28-9cd0-4c510d6b88c9.Record","label":"5 - Create Task➛Agreement Task Record","reference":"x_epiu2_ncc_prot_0_agreement_task","reference_display":"Agreement Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0c23b13a-87ba-4a28-9cd0-4c510d6b88c9.Table","label":"5 - Create Task➛Agreement Task Table","reference":"x_epiu2_ncc_prot_0_agreement_task","reference_display":"Agreement Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0c23b13a-87ba-4a28-9cd0-4c510d6b88c9.__action_status__","label":"5 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0c23b13a-87ba-4a28-9cd0-4c510d6b88c9.__dont_treat_as_error__","label":"5 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"abc7daf5-9381-4269-91c7-65e2c0b7381d.Record","label":"7 - Create Task➛Agreement Task Record","reference":"x_epiu2_ncc_prot_0_agreement_task","reference_display":"Agreement Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"abc7daf5-9381-4269-91c7-65e2c0b7381d.Table","label":"7 - Create Task➛Agreement Task Table","reference":"x_epiu2_ncc_prot_0_agreement_task","reference_display":"Agreement Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"abc7daf5-9381-4269-91c7-65e2c0b7381d.__action_status__","label":"7 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"abc7daf5-9381-4269-91c7-65e2c0b7381d.__dont_treat_as_error__","label":"7 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9e506077-d60f-476c-b34a-5b6d36a28763.Record","label":"7 - Create Task➛Record","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9e506077-d60f-476c-b34a-5b6d36a28763.Table","label":"7 - Create Task➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9e506077-d60f-476c-b34a-5b6d36a28763.__action_status__","label":"7 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"9e506077-d60f-476c-b34a-5b6d36a28763.__dont_treat_as_error__","label":"7 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"Updated_1.current.paid","label":"Trigger - Record Updated➛Agreements Record➛Paid","reference":"","reference_display":"Paid","type":"boolean","base_type":"boolean","parent_table_name":"x_epiu2_ncc_prot_0_agreements","column_name":"paid"},{"name":"a92c8a23-4847-4fc7-a7a5-2723c6dd85fe.total_duration","label":"9 - Wait for a duration of time➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"a92c8a23-4847-4fc7-a7a5-2723c6dd85fe.scheduled_end_date_time","label":"9 - Wait for a duration of time➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"323823f4-55ef-436e-ab13-d28a433d60a8.total_duration","label":"10 - Wait for a duration of time➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"323823f4-55ef-436e-ab13-d28a433d60a8.scheduled_end_date_time","label":"10 - Wait for a duration of time➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"348af689-0cdf-4dd5-ba3d-18225befda58.record","label":"11 - Update Record➛Agreements Record","reference":"x_epiu2_ncc_prot_0_agreements","reference_display":"Agreements","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"348af689-0cdf-4dd5-ba3d-18225befda58.table_name","label":"11 - Update Record➛Agreements Table","reference":"x_epiu2_ncc_prot_0_agreements","reference_display":"Agreements","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"348af689-0cdf-4dd5-ba3d-18225befda58.__action_status__","label":"11 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"348af689-0cdf-4dd5-ba3d-18225befda58.__dont_treat_as_error__","label":"11 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6e61c722-32c5-4a09-accf-1a951e573c9d.record","label":"2 - Update Record➛Agreements Record","reference":"x_epiu2_ncc_prot_0_agreements","reference_display":"Agreements","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6e61c722-32c5-4a09-accf-1a951e573c9d.table_name","label":"2 - Update Record➛Agreements Table","reference":"x_epiu2_ncc_prot_0_agreements","reference_display":"Agreements","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6e61c722-32c5-4a09-accf-1a951e573c9d.__action_status__","label":"2 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6e61c722-32c5-4a09-accf-1a951e573c9d.__dont_treat_as_error__","label":"2 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master>true</master>
+        <name>Value Mid Flow &lt;$10k</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Value Mid Flow &lt;$10k">98488f181beca510bd2feac6624bcb9b</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-20 15:23:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e3e978091b64a910bd2feac6624bcb94</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>kelton.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:55:40</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=e3e978091b64a910bd2feac6624bcb94"/>
+    <sys_variable_value action="delete_multiple" query="document_key=e3e978091b64a910bd2feac6624bcb94"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=e3e978091b64a910bd2feac6624bcb94^sys_idNOT IN80f9b8091b64a910bd2feac6624bcb38"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment>for every unique change</comment>
+        <display_text/>
+        <flow display_value="Value Mid Flow &lt;$10k">e3e978091b64a910bd2feac6624bcb94</flow>
+        <name>Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-20 15:23:50</sys_created_on>
+        <sys_id>80f9b8091b64a910bd2feac6624bcb38</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>kelton.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:55:45</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=80f9b8091b64a910bd2feac6624bcb38"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>80f9b8091b64a910bd2feac6624bcb38</document_key>
+        <order>101</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-20 15:23:50</sys_created_on>
+        <sys_id>00f9b8091b64a910bd2feac6624bcb3a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-20 15:23:50</sys_updated_on>
+        <value>unique_changes</value>
+        <variable display_value="Run Trigger">c19523d8c31932002841b63b12d3aea1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>80f9b8091b64a910bd2feac6624bcb38</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-20 15:23:50</sys_created_on>
+        <sys_id>84f9b8091b64a910bd2feac6624bcb3a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-20 15:23:50</sys_updated_on>
+        <value>x_epiu2_ncc_prot_0_agreements</value>
+        <variable display_value="Table">1dda12e0c31322002841b63b12d3aea8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>80f9b8091b64a910bd2feac6624bcb38</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-20 15:23:50</sys_created_on>
+        <sys_id>c0f9b8091b64a910bd2feac6624bcb3a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>kelton.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:55:38</sys_updated_on>
+        <value>value&lt;USD,10000^state=in_progress^agreement_docVALCHANGES^payable=false^NQstateCHANGESFROMadd_legal_stamp^state=in_progress</value>
+        <variable display_value="Condition">bb9adea0c31322002841b63b12d3ae67</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_bb695e60c31322002841b63b12d3aea5^id=80f9b8091b64a910bd2feac6624bcb38"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=e3e978091b64a910bd2feac6624bcb94"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=e3e978091b64a910bd2feac6624bcb94^sys_idNOT IN67e978091b64a910bd2feac6624bcb95"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>e3e978091b64a910bd2feac6624bcb94</id>
+        <name>Value Mid Flow &lt;$10k</name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-20 15:23:48</sys_created_on>
+        <sys_id>67e978091b64a910bd2feac6624bcb95</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-20 15:23:48</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=67e978091b64a910bd2feac6624bcb95"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=e3e978091b64a910bd2feac6624bcb94^sys_idNOT IN7be978091b64a910bd2feac6624bcbce,ebe978091b64a910bd2feac6624bcb96,f3e978091b64a910bd2feac6624bcbd7"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Value Mid Flow &lt;$10k">e3e978091b64a910bd2feac6624bcb94</model>
+        <model_id>e3e978091b64a910bd2feac6624bcb94</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_e3e978091b64a910bd2feac6624bcb94</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-20 15:23:48</sys_created_on>
+        <sys_id>7be978091b64a910bd2feac6624bcbce</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-23 17:41:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Value Mid Flow &lt;$10k">e3e978091b64a910bd2feac6624bcb94</model>
+        <model_id>e3e978091b64a910bd2feac6624bcb94</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_e3e978091b64a910bd2feac6624bcb94</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-20 15:23:48</sys_created_on>
+        <sys_id>ebe978091b64a910bd2feac6624bcb96</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>kelton.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:55:39</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Value Mid Flow &lt;$10k">e3e978091b64a910bd2feac6624bcb94</model>
+        <model_id>e3e978091b64a910bd2feac6624bcb94</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_e3e978091b64a910bd2feac6624bcb94</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-20 15:23:49</sys_created_on>
+        <sys_id>f3e978091b64a910bd2feac6624bcbd7</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>kelton.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:55:39</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=e3e978091b64a910bd2feac6624bcb94"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e3e978091b64a910bd2feac6624bcb94"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=e3e978091b64a910bd2feac6624bcb94^sys_idNOT IN00f9b8091b64a910bd2feac6624bcb33,014638061beced10bd2feac6624bcbe8,0d4678061beced10bd2feac6624bcb1c,45aeff961b28a510c50c9712b24bcbbb,45aeff961b28a510c50c9712b24bcbc9,81aeff961b28a510c50c9712b24bcbd0,c1aeff961b28a510c50c9712b24bcbd6"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Adhoc Signature Request to User">03a9509cdb961300868f5404ce961954</action_type>
+        <action_type_parent display_value="Send Adhoc Signature Request to User">fa2698d8db961300868f5404ce96194c</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Value Mid Flow &lt;$10k">e3e978091b64a910bd2feac6624bcb94</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-20 15:23:50</sys_created_on>
+        <sys_id>00f9b8091b64a910bd2feac6624bcb33</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_updated_by>kelton.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:55:40</sys_updated_on>
+        <ui_id>df5816fd-dc81-41ff-a93b-f14bbc4dc644</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=00f9b8091b64a910bd2feac6624bcb33"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>00f9b8091b64a910bd2feac6624bcb33</document_key>
+        <order>11</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-20 15:23:50</sys_created_on>
+        <sys_id>08f9b8091b64a910bd2feac6624bcb37</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>kelton.keener</sys_updated_by>
+        <sys_updated_on>2023-01-24 22:59:50</sys_updated_on>
+        <value>{"version":"1.0","serializationFormat":"JSON","complexObjectSchema":{"FlowDesigner:FD0b3fefc4529630102b3d823166b17c0f":{"$COCollectionField":[{"CC_User":{"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Name\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"email":"String","email.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Email\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"recipient_id":"String","recipient_id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Recipient ID\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"CC Users\",\"mandatory\":\"false\",\"child_name\":\"CC_User\",\"uiUniqueId\":\"3cfdb944-93c9-47ff-b1a0-cb48f8693cc8\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD0b3fefc4529630102b3d823166b17c0f\",\"child_label\":\"CC User\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"11\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"7c9a441d-bde1-4069-8dc2-eadb306d7c89\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD0b3fefc4529630102b3d823166b17c0f.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"CC Users\",\"mandatory\":\"false\",\"child_name\":\"CC_User\",\"uiUniqueId\":\"3cfdb944-93c9-47ff-b1a0-cb48f8693cc8\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD0b3fefc4529630102b3d823166b17c0f\",\"child_label\":\"CC User\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"11\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"7c9a441d-bde1-4069-8dc2-eadb306d7c89\"}"}},"complexObject":{"name$":"FD0b3fefc4529630102b3d823166b17c0f","$COCollectionField":[{"name":{"$cv":{"$c":"java.lang.String","$v":""}},"email":{"$cv":{"$c":"java.lang.String","$v":""}},"recipient_id":{"$cv":{"$c":"java.lang.String","$v":""}}}]}}</value>
+        <variable display_value="CC Users">8f3fefc4779630104b68b0fabe5a9926</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>00f9b8091b64a910bd2feac6624bcb33</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-20 15:23:50</sys_created_on>
+        <sys_id>44f9b8091b64a910bd2feac6624bcb37</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-20 15:23:50</sys_updated_on>
+        <value>668283d41be46510fa441f83b24bcb69</value>
+        <variable display_value="Document">6ba3ce5fdb8bd700a9c7594e5e9619f5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>00f9b8091b64a910bd2feac6624bcb33</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-20 15:23:50</sys_created_on>
+        <sys_id>80f9b8091b64a910bd2feac6624bcb37</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-20 15:23:50</sys_updated_on>
+        <value>your doc to sign</value>
+        <variable display_value="Email Body">dfa9509cdb961300868f5404ce9619a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>00f9b8091b64a910bd2feac6624bcb33</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-20 15:23:50</sys_created_on>
+        <sys_id>8cf9b8091b64a910bd2feac6624bcb37</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-20 15:23:50</sys_updated_on>
+        <value>bf1930891b20e550c50c9712b24bcb3a</value>
+        <variable display_value="Account">b0e51c3adb4b9700dd14596e5e961936</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>00f9b8091b64a910bd2feac6624bcb33</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-20 15:23:50</sys_created_on>
+        <sys_id>c8f9b8091b64a910bd2feac6624bcb37</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-20 15:23:50</sys_updated_on>
+        <value>sign this</value>
+        <variable display_value="Email Subject">dba9509cdb961300868f5404ce961999</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>00f9b8091b64a910bd2feac6624bcb33</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-20 15:23:50</sys_created_on>
+        <sys_id>ccf9b8091b64a910bd2feac6624bcb36</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-20 15:23:50</sys_updated_on>
+        <value>sign your life away</value>
+        <variable display_value="Document Name">dfa9509cdb961300868f5404ce961983</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=00f9b8091b64a910bd2feac6624bcb33"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>account</field>
+        <id>00f9b8091b64a910bd2feac6624bcb33</id>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-20 15:23:50</sys_created_on>
+        <sys_id>4cf9b8091b64a910bd2feac6624bcb36</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-20 15:23:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_03a9509cdb961300868f5404ce961954</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>cc_users</field>
+        <id>00f9b8091b64a910bd2feac6624bcb33</id>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-20 15:23:50</sys_created_on>
+        <sys_id>04f9b8091b64a910bd2feac6624bcb36</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-20 15:23:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_03a9509cdb961300868f5404ce961954</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>document</field>
+        <id>00f9b8091b64a910bd2feac6624bcb33</id>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-20 15:23:50</sys_created_on>
+        <sys_id>8cf9b8091b64a910bd2feac6624bcb35</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-20 15:23:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_03a9509cdb961300868f5404ce961954</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>document_name</field>
+        <id>00f9b8091b64a910bd2feac6624bcb33</id>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-20 15:23:50</sys_created_on>
+        <sys_id>08f9b8091b64a910bd2feac6624bcb35</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-20 15:23:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_03a9509cdb961300868f5404ce961954</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>email_body</field>
+        <id>00f9b8091b64a910bd2feac6624bcb33</id>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-20 15:23:50</sys_created_on>
+        <sys_id>c8f9b8091b64a910bd2feac6624bcb35</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-20 15:23:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_03a9509cdb961300868f5404ce961954</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>email_subject</field>
+        <id>00f9b8091b64a910bd2feac6624bcb33</id>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-20 15:23:50</sys_created_on>
+        <sys_id>88f9b8091b64a910bd2feac6624bcb36</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-20 15:23:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_03a9509cdb961300868f5404ce961954</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>recipient_email</field>
+        <id>00f9b8091b64a910bd2feac6624bcb33</id>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-20 15:23:50</sys_created_on>
+        <sys_id>40f9b8091b64a910bd2feac6624bcb36</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>kelton.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:55:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_03a9509cdb961300868f5404ce961954</table>
+        <value>{{Updated_1.current.client.email}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>recipient_name</field>
+        <id>00f9b8091b64a910bd2feac6624bcb33</id>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-20 15:23:50</sys_created_on>
+        <sys_id>c4f9b8091b64a910bd2feac6624bcb36</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>kelton.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:55:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_03a9509cdb961300868f5404ce961954</table>
+        <value>{{Updated_1.current.client.name}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=00f9b8091b64a910bd2feac6624bcb33"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=00f9b8091b64a910bd2feac6624bcb33"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Wait for Signature from DocuSign">47fbdb76db7ce340bea7ff561d9619de</action_type>
+        <action_type_parent display_value="Wait for Signature from DocuSign">212b1376db7ce340bea7ff561d961923</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Value Mid Flow &lt;$10k">e3e978091b64a910bd2feac6624bcb94</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-23 17:41:42</sys_created_on>
+        <sys_id>014638061beced10bd2feac6624bcbe8</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_updated_by>kelton.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:55:40</sys_updated_on>
+        <ui_id>a4da6b30-b6ab-4b1a-ac17-3f35b3dc8df4</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=014638061beced10bd2feac6624bcbe8"/>
+    <sys_element_mapping action="delete_multiple" query="id=014638061beced10bd2feac6624bcbe8"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>envelope1</field>
+        <id>014638061beced10bd2feac6624bcbe8</id>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-23 17:41:42</sys_created_on>
+        <sys_id>4d4638061beced10bd2feac6624bcbe9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-23 17:41:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_47fbdb76db7ce340bea7ff561d9619de</table>
+        <value>{{df5816fd-dc81-41ff-a93b-f14bbc4dc644.envelope_id12}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=014638061beced10bd2feac6624bcbe8^sys_idNOT IN414638061beced10bd2feac6624bcbe9"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>envelope1</input_name>
+        <instance>014638061beced10bd2feac6624bcbe8</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"envelope1":{"scriptActive":false}}</script>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-23 17:41:42</sys_created_on>
+        <sys_id>414638061beced10bd2feac6624bcbe9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-23 17:41:42</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=014638061beced10bd2feac6624bcbe8"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Attach DocuSign Certificate to ServiceNow Record">445d5f115b73101056b6534be281c720</action_type>
+        <action_type_parent display_value="Attach DocuSign Certificate to ServiceNow Record">2f6bd3dd5b33101056b6534be281c79b</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Value Mid Flow &lt;$10k">e3e978091b64a910bd2feac6624bcb94</flow>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-23 17:41:43</sys_created_on>
+        <sys_id>0d4678061beced10bd2feac6624bcb1c</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_updated_by>kelton.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:55:40</sys_updated_on>
+        <ui_id>53619ccc-205b-478a-9902-fb9a0208f88c</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=0d4678061beced10bd2feac6624bcb1c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0d4678061beced10bd2feac6624bcb1c</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-23 17:41:43</sys_created_on>
+        <sys_id>494678061beced10bd2feac6624bcb1e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-23 17:41:43</sys_updated_on>
+        <value>signeddocument.jpg</value>
+        <variable display_value="File Name">d05d5f115b73101056b6534be281c732</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=0d4678061beced10bd2feac6624bcb1c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>envelope</field>
+        <id>0d4678061beced10bd2feac6624bcb1c</id>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-23 17:41:43</sys_created_on>
+        <sys_id>414678061beced10bd2feac6624bcb1e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-23 17:41:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_445d5f115b73101056b6534be281c720</table>
+        <value>{{df5816fd-dc81-41ff-a93b-f14bbc4dc644.envelope_id12}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>file_name</field>
+        <id>0d4678061beced10bd2feac6624bcb1c</id>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-23 17:41:43</sys_created_on>
+        <sys_id>054678061beced10bd2feac6624bcb1e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-23 17:41:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_445d5f115b73101056b6534be281c720</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_record</field>
+        <id>0d4678061beced10bd2feac6624bcb1c</id>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-23 17:41:43</sys_created_on>
+        <sys_id>c54678061beced10bd2feac6624bcb1e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-23 17:41:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_445d5f115b73101056b6534be281c720</table>
+        <value>{{Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=0d4678061beced10bd2feac6624bcb1c"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=0d4678061beced10bd2feac6624bcb1c"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Value Mid Flow &lt;$10k">e3e978091b64a910bd2feac6624bcb94</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>kelton.keener</sys_created_by>
+        <sys_created_on>2023-01-25 02:55:38</sys_created_on>
+        <sys_id>45aeff961b28a510c50c9712b24bcbbb</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_updated_by>kelton.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:55:40</sys_updated_on>
+        <ui_id>6e61c722-32c5-4a09-accf-1a951e573c9d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=45aeff961b28a510c50c9712b24bcbbb"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>45aeff961b28a510c50c9712b24bcbbb</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kelton.keener</sys_created_by>
+        <sys_created_on>2023-01-25 02:55:38</sys_created_on>
+        <sys_id>c1aeff961b28a510c50c9712b24bcbbe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kelton.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:55:38</sys_updated_on>
+        <value>x_epiu2_ncc_prot_0_agreements</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>45aeff961b28a510c50c9712b24bcbbb</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kelton.keener</sys_created_by>
+        <sys_created_on>2023-01-25 02:55:38</sys_created_on>
+        <sys_id>c9aeff961b28a510c50c9712b24bcbbd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kelton.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:55:38</sys_updated_on>
+        <value>state=on_hold</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=45aeff961b28a510c50c9712b24bcbbb"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>45aeff961b28a510c50c9712b24bcbbb</id>
+        <sys_created_by>kelton.keener</sys_created_by>
+        <sys_created_on>2023-01-25 02:55:38</sys_created_on>
+        <sys_id>49aeff961b28a510c50c9712b24bcbbd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kelton.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:55:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>45aeff961b28a510c50c9712b24bcbbb</id>
+        <sys_created_by>kelton.keener</sys_created_by>
+        <sys_created_on>2023-01-25 02:55:38</sys_created_on>
+        <sys_id>cdaeff961b28a510c50c9712b24bcbbc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kelton.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:55:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>45aeff961b28a510c50c9712b24bcbbb</id>
+        <sys_created_by>kelton.keener</sys_created_by>
+        <sys_created_on>2023-01-25 02:55:38</sys_created_on>
+        <sys_id>85aeff961b28a510c50c9712b24bcbbd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kelton.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:55:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=45aeff961b28a510c50c9712b24bcbbb"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=45aeff961b28a510c50c9712b24bcbbb"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Value Mid Flow &lt;$10k">e3e978091b64a910bd2feac6624bcb94</flow>
+        <order>5</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>kelton.keener</sys_created_by>
+        <sys_created_on>2023-01-25 02:55:38</sys_created_on>
+        <sys_id>45aeff961b28a510c50c9712b24bcbc9</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_updated_by>kelton.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:55:40</sys_updated_on>
+        <ui_id>0c23b13a-87ba-4a28-9cd0-4c510d6b88c9</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=45aeff961b28a510c50c9712b24bcbc9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>45aeff961b28a510c50c9712b24bcbc9</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kelton.keener</sys_created_by>
+        <sys_created_on>2023-01-25 02:55:38</sys_created_on>
+        <sys_id>09aeff961b28a510c50c9712b24bcbcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kelton.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:55:38</sys_updated_on>
+        <value>short_description=Mark if Receivable or not</value>
+        <variable display_value="Field Values">273a6335531003003bf1d9109ec5876b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>45aeff961b28a510c50c9712b24bcbc9</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kelton.keener</sys_created_by>
+        <sys_created_on>2023-01-25 02:55:38</sys_created_on>
+        <sys_id>45aeff961b28a510c50c9712b24bcbcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kelton.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:55:38</sys_updated_on>
+        <value>x_epiu2_ncc_prot_0_agreement_task</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>45aeff961b28a510c50c9712b24bcbc9</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kelton.keener</sys_created_by>
+        <sys_created_on>2023-01-25 02:55:38</sys_created_on>
+        <sys_id>81aeff961b28a510c50c9712b24bcbcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kelton.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:55:38</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Wait">ff3a6335531003003bf1d9109ec58777</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759^id=45aeff961b28a510c50c9712b24bcbc9"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=45aeff961b28a510c50c9712b24bcbc9"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=45aeff961b28a510c50c9712b24bcbc9"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Value Mid Flow &lt;$10k">e3e978091b64a910bd2feac6624bcb94</flow>
+        <order>7</order>
+        <parent_ui_id>ac585066-262a-44c1-9615-6b99291f9e44</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>kelton.keener</sys_created_by>
+        <sys_created_on>2023-01-25 02:55:39</sys_created_on>
+        <sys_id>81aeff961b28a510c50c9712b24bcbd0</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_updated_by>kelton.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:55:40</sys_updated_on>
+        <ui_id>abc7daf5-9381-4269-91c7-65e2c0b7381d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=81aeff961b28a510c50c9712b24bcbd0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>81aeff961b28a510c50c9712b24bcbd0</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kelton.keener</sys_created_by>
+        <sys_created_on>2023-01-25 02:55:39</sys_created_on>
+        <sys_id>41aeff961b28a510c50c9712b24bcbd2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kelton.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:55:39</sys_updated_on>
+        <value>short_description=Create Invoice and Forward to Proponent</value>
+        <variable display_value="Field Values">273a6335531003003bf1d9109ec5876b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>81aeff961b28a510c50c9712b24bcbd0</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kelton.keener</sys_created_by>
+        <sys_created_on>2023-01-25 02:55:39</sys_created_on>
+        <sys_id>8daeff961b28a510c50c9712b24bcbd1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kelton.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:55:39</sys_updated_on>
+        <value>x_epiu2_ncc_prot_0_agreement_task</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>81aeff961b28a510c50c9712b24bcbd0</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kelton.keener</sys_created_by>
+        <sys_created_on>2023-01-25 02:55:39</sys_created_on>
+        <sys_id>c9aeff961b28a510c50c9712b24bcbd1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kelton.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:55:39</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Wait">ff3a6335531003003bf1d9109ec58777</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759^id=81aeff961b28a510c50c9712b24bcbd0"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=81aeff961b28a510c50c9712b24bcbd0"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=81aeff961b28a510c50c9712b24bcbd0"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Value Mid Flow &lt;$10k">e3e978091b64a910bd2feac6624bcb94</flow>
+        <order>11</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>kelton.keener</sys_created_by>
+        <sys_created_on>2023-01-25 02:55:39</sys_created_on>
+        <sys_id>c1aeff961b28a510c50c9712b24bcbd6</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_updated_by>kelton.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:55:40</sys_updated_on>
+        <ui_id>348af689-0cdf-4dd5-ba3d-18225befda58</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c1aeff961b28a510c50c9712b24bcbd6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c1aeff961b28a510c50c9712b24bcbd6</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kelton.keener</sys_created_by>
+        <sys_created_on>2023-01-25 02:55:39</sys_created_on>
+        <sys_id>0daeff961b28a510c50c9712b24bcbd7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kelton.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:55:39</sys_updated_on>
+        <value>state=closed</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c1aeff961b28a510c50c9712b24bcbd6</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kelton.keener</sys_created_by>
+        <sys_created_on>2023-01-25 02:55:39</sys_created_on>
+        <sys_id>cdaeff961b28a510c50c9712b24bcbd7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kelton.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:55:39</sys_updated_on>
+        <value>x_epiu2_ncc_prot_0_agreements</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=c1aeff961b28a510c50c9712b24bcbd6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>c1aeff961b28a510c50c9712b24bcbd6</id>
+        <sys_created_by>kelton.keener</sys_created_by>
+        <sys_created_on>2023-01-25 02:55:39</sys_created_on>
+        <sys_id>89aeff961b28a510c50c9712b24bcbd7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kelton.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:55:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>c1aeff961b28a510c50c9712b24bcbd6</id>
+        <sys_created_by>kelton.keener</sys_created_by>
+        <sys_created_on>2023-01-25 02:55:39</sys_created_on>
+        <sys_id>05aeff961b28a510c50c9712b24bcbd7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kelton.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:55:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>c1aeff961b28a510c50c9712b24bcbd6</id>
+        <sys_created_by>kelton.keener</sys_created_by>
+        <sys_created_on>2023-01-25 02:55:39</sys_created_on>
+        <sys_id>c5aeff961b28a510c50c9712b24bcbd7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kelton.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:55:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c1aeff961b28a510c50c9712b24bcbd6"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=c1aeff961b28a510c50c9712b24bcbd6"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=e3e978091b64a910bd2feac6624bcb94"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=e3e978091b64a910bd2feac6624bcb94^sys_idNOT IN51ae33d61b28a510c50c9712b24bcb12,c9aeff961b28a510c50c9712b24bcbd8,d5ae33d61b28a510c50c9712b24bcb16"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">f10ef7de1ba8a150bd2feac6624bcb0a</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Value Mid Flow &lt;$10k">e3e978091b64a910bd2feac6624bcb94</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="Do the following until">eaeb040687210300e6c2c88fc0e3ec89</logic_definition>
+        <order>8</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>ac585066-262a-44c1-9615-6b99291f9e44</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>kelton.keener</sys_created_by>
+        <sys_created_on>2023-01-25 02:55:39</sys_created_on>
+        <sys_id>51ae33d61b28a510c50c9712b24bcb12</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_updated_by>kelton.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:55:40</sys_updated_on>
+        <ui_id>2f3fcd17-43ae-4797-bd40-fd78009e4e15</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=51ae33d61b28a510c50c9712b24bcb12"/>
+    <sys_element_mapping action="delete_multiple" query="id=51ae33d61b28a510c50c9712b24bcb12"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>51ae33d61b28a510c50c9712b24bcb12</id>
+        <sys_created_by>kelton.keener</sys_created_by>
+        <sys_created_on>2023-01-25 02:55:39</sys_created_on>
+        <sys_id>99ae33d61b28a510c50c9712b24bcb15</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kelton.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:55:39</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_eaeb040687210300e6c2c88fc0e3ec89</table>
+        <value>{{Updated_1.current.paid}}=true</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=51ae33d61b28a510c50c9712b24bcb12"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=51ae33d61b28a510c50c9712b24bcb12"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">10993f1a1ba8a150bd2feac6624bcb39</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Value Mid Flow &lt;$10k">e3e978091b64a910bd2feac6624bcb94</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>kelton.keener</sys_created_by>
+        <sys_created_on>2023-01-25 02:55:39</sys_created_on>
+        <sys_id>c9aeff961b28a510c50c9712b24bcbd8</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_updated_by>kelton.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:55:40</sys_updated_on>
+        <ui_id>ac585066-262a-44c1-9615-6b99291f9e44</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=c9aeff961b28a510c50c9712b24bcbd8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>c9aeff961b28a510c50c9712b24bcbd8</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kelton.keener</sys_created_by>
+        <sys_created_on>2023-01-25 02:55:39</sys_created_on>
+        <sys_id>d1ae33d61b28a510c50c9712b24bcb11</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kelton.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:55:39</sys_updated_on>
+        <value>If Receivable</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=c9aeff961b28a510c50c9712b24bcbd8"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>c9aeff961b28a510c50c9712b24bcbd8</id>
+        <sys_created_by>kelton.keener</sys_created_by>
+        <sys_created_on>2023-01-25 02:55:39</sys_created_on>
+        <sys_id>51ae33d61b28a510c50c9712b24bcb11</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kelton.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:55:39</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{Updated_1.current.receivable}}=true</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>c9aeff961b28a510c50c9712b24bcbd8</id>
+        <sys_created_by>kelton.keener</sys_created_by>
+        <sys_created_on>2023-01-25 02:55:39</sys_created_on>
+        <sys_id>9dae33d61b28a510c50c9712b24bcb10</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kelton.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:55:39</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=c9aeff961b28a510c50c9712b24bcbd8"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c9aeff961b28a510c50c9712b24bcbd8"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">b50ef7de1ba8a150bd2feac6624bcb0e</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Value Mid Flow &lt;$10k">e3e978091b64a910bd2feac6624bcb94</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>9</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>2f3fcd17-43ae-4797-bd40-fd78009e4e15</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>kelton.keener</sys_created_by>
+        <sys_created_on>2023-01-25 02:55:39</sys_created_on>
+        <sys_id>d5ae33d61b28a510c50c9712b24bcb16</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_updated_by>kelton.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:55:40</sys_updated_on>
+        <ui_id>a92c8a23-4847-4fc7-a7a5-2723c6dd85fe</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=d5ae33d61b28a510c50c9712b24bcb16"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>d5ae33d61b28a510c50c9712b24bcb16</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kelton.keener</sys_created_by>
+        <sys_created_on>2023-01-25 02:55:39</sys_created_on>
+        <sys_id>1dae33d61b28a510c50c9712b24bcb1d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kelton.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:55:39</sys_updated_on>
+        <value/>
+        <variable display_value="Timer relative duration operator">dca4105473031300b61e66476bf6a726</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>d5ae33d61b28a510c50c9712b24bcb16</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kelton.keener</sys_created_by>
+        <sys_created_on>2023-01-25 02:55:39</sys_created_on>
+        <sys_id>91ae33d61b28a510c50c9712b24bcb1e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kelton.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:55:39</sys_updated_on>
+        <value>38fa64edc0a8016400f4a5724b0434b8</value>
+        <variable display_value="During the following schedule">fb55145473031300b61e66476bf6a762</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>d5ae33d61b28a510c50c9712b24bcb16</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kelton.keener</sys_created_by>
+        <sys_created_on>2023-01-25 02:55:39</sys_created_on>
+        <sys_id>ddae33d61b28a510c50c9712b24bcb1d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kelton.keener</sys_updated_by>
+        <sys_updated_on>2023-01-25 02:55:39</sys_updated_on>
+        <value>1970-01-01 00:01:00</value>
+        <variable display_value="Duration">ef145c1473031300b61e66476bf6a7be</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_logic_input_fdb2541473031300b61e66476bf6a70e^id=d5ae33d61b28a510c50c9712b24bcb16"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=d5ae33d61b28a510c50c9712b24bcb16"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d5ae33d61b28a510c50c9712b24bcb16"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=e3e978091b64a910bd2feac6624bcb94"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=e3e978091b64a910bd2feac6624bcb94"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_e3e978091b64a910bd2feac6624bcb94^sys_idNOT IN33e978091b64a910bd2feac6624bcbdc,7be978091b64a910bd2feac6624bcbd3,ffe978091b64a910bd2feac6624bcbca"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_e3e978091b64a910bd2feac6624bcb94</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-20 15:23:49</sys_created_on>
+        <sys_id>33e978091b64a910bd2feac6624bcbdc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NCC Prototype Test" source="x_epiu2_ncc_prot_0">0a318c101bd02114fa441f83b24bcb0d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-20 15:23:49</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_e3e978091b64a910bd2feac6624bcb94</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-20 15:23:49</sys_created_on>
+        <sys_id>7be978091b64a910bd2feac6624bcbd3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NCC Prototype Test" source="x_epiu2_ncc_prot_0">0a318c101bd02114fa441f83b24bcb0d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-20 15:23:49</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_e3e978091b64a910bd2feac6624bcb94</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-20 15:23:48</sys_created_on>
+        <sys_id>ffe978091b64a910bd2feac6624bcbca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NCC Prototype Test" source="x_epiu2_ncc_prot_0">0a318c101bd02114fa441f83b24bcb0d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-20 15:23:48</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_e3e978091b64a910bd2feac6624bcb94"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_e3e978091b64a910bd2feac6624bcb94"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_e3e978091b64a910bd2feac6624bcb94"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>98488f181beca510bd2feac6624bcb9b</sys_id>
+        <latest_snapshot>e3e978091b64a910bd2feac6624bcb94</latest_snapshot>
+        <compiler_build/>
+    </sys_hub_flow>
+</record_update>

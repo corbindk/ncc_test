@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="province" label="Province" language="en" table="x_epiu2_ncc_prot_0_federal_land_use_agreements">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>province</element>
+            <help/>
+            <hint/>
+            <label>Province</label>
+            <language>en</language>
+            <name>x_epiu2_ncc_prot_0_federal_land_use_agreements</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>fouad.chehime</sys_created_by>
+            <sys_created_on>2023-01-12 20:43:32</sys_created_on>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Province</sys_name>
+            <sys_package display_value="NCC Prototype Test" source="x_epiu2_ncc_prot_0">0a318c101bd02114fa441f83b24bcb0d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+            <sys_update_name>sys_documentation_x_epiu2_ncc_prot_0_federal_land_use_agreements_province_en</sys_update_name>
+            <sys_updated_by>fouad.chehime</sys_updated_by>
+            <sys_updated_on>2023-01-12 20:43:34</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-01-10 17:44:53</sys_created_on>
+        <sys_id>095afd711b50e510fa441f83b24bcb34</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>e34a79718250e510df990cebd50d10a7.snc_internal</sys_name>
+        <sys_package display_value="NCC Prototype Test" source="x_epiu2_ncc_prot_0">0a318c101bd02114fa441f83b24bcb0d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_security_acl display_value="e34a79718250e510df990cebd50d10a7">ef4a7971ff50e510d0fa70ac278084a6</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_095afd711b50e510fa441f83b24bcb34</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-01-10 17:44:53</sys_updated_on>
+        <sys_user_role display_value="snc_internal" name="snc_internal">7fcaa702933002009c8579b4f47ffbde</sys_user_role>
+        <transaction_id>8e4af5711b50e510fa441f83b24bcb03</transaction_id>
+    </sys_security_acl_role>
+</record_update>

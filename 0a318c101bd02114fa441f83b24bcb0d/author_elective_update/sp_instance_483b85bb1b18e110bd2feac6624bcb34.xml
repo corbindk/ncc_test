@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id>ea5a20221b946910bd2feac6624bcb4b</id>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">90330d731b18e110bd2feac6624bcbba</sp_column>
+        <sp_widget display_value="SC Catalog Item">3c29786e87133200e0ef0cf888cb0bdf</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-16 19:26:47</sys_created_on>
+        <sys_id>483b85bb1b18e110bd2feac6624bcb34</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Federal Land Use</sys_name>
+        <sys_package display_value="NCC Prototype Test" source="x_epiu2_ncc_prot_0">0a318c101bd02114fa441f83b24bcb0d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_update_name>sp_instance_483b85bb1b18e110bd2feac6624bcb34</sys_update_name>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-16 19:32:33</sys_updated_on>
+        <title>Federal Land Use</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"show_add_cart_button": {
+		"value": "",
+		"displayValue": ""
+	},
+	"show_field_validation_messages": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"show_add_to_wishlist_button": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"display_cart_on_right": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"show_less_description": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"hide_delivery_time": {
+		"value": "false",
+		"displayValue": "false"
+	},
+	"is_preview": {
+		"value": "false",
+		"displayValue": "false"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=483b85bb1b18e110bd2feac6624bcb34"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</application>
+        <file_path/>
+        <instance_id>b11511a6dbae9458d5c911f8489619dc</instance_id>
+        <instance_name>epiusesystemsltddemo5</instance_name>
+        <name>sp_instance_483b85bb1b18e110bd2feac6624bcb34</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id&gt;ea5a20221b946910bd2feac6624bcb4b&lt;/id&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="2"&gt;90330d731b18e110bd2feac6624bcbba&lt;/sp_column&gt;&lt;sp_widget display_value="SC Catalog Item"&gt;3c29786e87133200e0ef0cf888cb0bdf&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;corbin.keener&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-01-16 19:26:47&lt;/sys_created_on&gt;&lt;sys_id&gt;483b85bb1b18e110bd2feac6624bcb34&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;Federal Land Use&lt;/sys_name&gt;&lt;sys_package display_value="NCC Prototype Test" source="x_epiu2_ncc_prot_0"&gt;0a318c101bd02114fa441f83b24bcb0d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NCC Prototype Test"&gt;0a318c101bd02114fa441f83b24bcb0d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_483b85bb1b18e110bd2feac6624bcb34&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;corbin.keener&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-01-16 19:32:33&lt;/sys_updated_on&gt;&lt;title&gt;Federal Land Use&lt;/title&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"show_add_cart_button": {
+		"value": "",
+		"displayValue": ""
+	},
+	"show_field_validation_messages": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"show_add_to_wishlist_button": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"display_cart_on_right": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"show_less_description": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"hide_delivery_time": {
+		"value": "false",
+		"displayValue": "false"
+	},
+	"is_preview": {
+		"value": "false",
+		"displayValue": "false"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=483b85bb1b18e110bd2feac6624bcb34"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1143864679</payload_hash>
+        <record_name>Federal Land Use</record_name>
+        <reverted_from/>
+        <source>86318c101bd02114fa441f83b24bcb0f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-16 19:32:33</sys_created_on>
+        <sys_id>6c8c057f1b18e110bd2feac6624bcbd3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>185bc11b0480000001</sys_recorded_at>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-16 19:32:33</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>248c057fde18e11006162f5febc717d3</update_guid>
+        <update_guid_history>248c057fde18e11006162f5febc717d3:-1143864679,306c8d3f9118e1104be83adb222f3ce0:909032286,b55c8d3fef18e110adea1f36eda32c2d:-1143864679,0e7b4dfb6418e110dc719f2b1593af20:909032286,f96bc9fbd418e1104070b0cec7eb2a72:-1746867745,cc3b85bbc018e1100782c2af0271ce36:938089042</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Federal Land Use">b67d0d7f1b18e110bd2feac6624bcbf6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>corbin.keener</sys_created_by>
+        <sys_created_on>2023-01-16 19:36:48</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>3bf34c3815b644d08aa362d43c165840</sys_id>
+        <sys_metadata>483b85bb1b18e110bd2feac6624bcb34</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Federal Land Use</sys_name>
+        <sys_package display_value="NCC Prototype Test" source="x_epiu2_ncc_prot_0">0a318c101bd02114fa441f83b24bcb0d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_scope_delete display_value="">6631e1eea7c748a8800af1afbbaa7c40</sys_scope_delete>
+        <sys_update_name>sp_instance_483b85bb1b18e110bd2feac6624bcb34</sys_update_name>
+        <sys_update_version display_value="sp_instance_483b85bb1b18e110bd2feac6624bcb34">6c8c057f1b18e110bd2feac6624bcbd3</sys_update_version>
+        <sys_updated_by>corbin.keener</sys_updated_by>
+        <sys_updated_on>2023-01-16 19:36:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="FLUDTA Application Form">53479dd71b2ce550bd2feac6624bcb48</catalog_item>
+        <catalog_variable>IO:9d775d1b1b2ce550bd2feac6624bcb53</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>fouad.chehime</sys_created_by>
+        <sys_created_on>2023-01-27 17:19:21</sys_created_on>
+        <sys_id>2087915b1b2ce550bd2feac6624bcb43</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>section_1_4_lead_consultant_if_applicable_lc_extra</sys_name>
+        <sys_package display_value="NCC Prototype Test" source="x_epiu2_ncc_prot_0">0a318c101bd02114fa441f83b24bcb0d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NCC Prototype Test">0a318c101bd02114fa441f83b24bcb0d</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_2087915b1b2ce550bd2feac6624bcb43</sys_update_name>
+        <sys_updated_by>fouad.chehime</sys_updated_by>
+        <sys_updated_on>2023-01-27 17:19:21</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Make 'section_1_4_lead_consultant_if_applicable_lc_extra' visible depending on 'do_you_have_a_lead_consultant'">6087915b1b2ce550bd2feac6624bcb40</ui_policy>
+        <variable>section_1_4_lead_consultant_if_applicable_lc_extra</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

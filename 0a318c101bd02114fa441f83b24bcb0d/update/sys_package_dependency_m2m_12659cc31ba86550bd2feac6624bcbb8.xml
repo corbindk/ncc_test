@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="System (apps/system_user)" source="apps/system_user">4366f9331b031110fa441f83b24bcb81</dependency>
+        <min_version/>
+        <sys_created_by>fouad.chehime</sys_created_by>
+        <sys_created_on>2023-01-26 17:52:05</sys_created_on>
+        <sys_id>12659cc31ba86550bd2feac6624bcbb8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="NCC Prototype Test" source="x_epiu2_ncc_prot_0">0a318c101bd02114fa441f83b24bcb0d</sys_package>
+        <sys_updated_by>fouad.chehime</sys_updated_by>
+        <sys_updated_on>2023-01-26 17:52:05</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>
